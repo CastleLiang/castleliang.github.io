@@ -1,6 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"TKDE":
+  # url: https://www.cikm2022.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TBD":
+  # url: https://www.cikm2022.org/
+  color: "#00369f"
+
+"Access":
+  # url: https://www.cikm2022.org/
+  color: "#00369f"
+
+"TVCG":
+  # url: https://www.cikm2022.org/
+  color: "#00369f"
+
+"Arxiv":
+  color: "#8B4726"

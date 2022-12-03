@@ -28,7 +28,11 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title">{%- if entry.ps %}
+            <!-- <a href="{{ entry.website }}" class="btn btn-sm btn-danger z-depth-0" role="button">#Citations: {{entry.citation}}</a> -->
+            <b style="color:red;">[{{entry.ps}}]</b>
+          {%- endif %}
+          {{entry.title}}</div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
@@ -110,7 +114,7 @@
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif proceedings contains entry.type -%}
-            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em>, {%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
@@ -145,6 +149,7 @@
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
             <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <!-- <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn-info" role="button">PDF</a> -->
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
@@ -179,6 +184,13 @@
           {%- endif %}
           {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
+          {%- endif %}
+          {%- if entry.altmetric %}
+            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
+          {%- endif %}
+          {%- if entry.citation %}
+            <!-- <a href="{{ entry.website }}" class="btn btn-sm btn-danger z-depth-0" role="button">#Citations: {{entry.citation}}</a> -->
+            <a href="https://scholar.google.co.jp/citations?user=n9cODgcAAAAJ&hl=en" class="btn btn-sm z-depth-0" role="button"><b>Cited by {{entry.citation}}</b></a>
           {%- endif %}
           </div>
 
