@@ -1,50 +1,50 @@
-"Zheng":
-  - firstname: ["Y.", "Yu"]
-    url: http://urban-computing.com/yuzheng
+# "Zheng":
+#   - firstname: ["Y.", "Yu"]
+#     url: http://urban-computing.com/yuzheng
 
-"Zhang":
-  - firstname: ["J.", "Junbo"]
-    url: https://zhangjunbo.org
+# "Zhang":
+#   - firstname: ["J.", "Junbo"]
+#     url: https://zhangjunbo.org
 
-"Zimmermann":
-  - firstname: ["R.", "Roger"]
-    url: https://www.comp.nus.edu.sg/cs/people/rogerz
+# "Zimmermann":
+#   - firstname: ["R.", "Roger"]
+#     url: https://www.comp.nus.edu.sg/cs/people/rogerz
 
-"Wang":
-  - firstname: ["Y.", "Yiwei"]
-    url: https://wangywust.github.io
+# "Wang":
+#   - firstname: ["Y.", "Yiwei"]
+#     url: https://wangywust.github.io
 
-"Huang":
-  - firstname: ["C.", "Chao"]
-    url: https://sites.google.com/view/chaoh/home
+# "Huang":
+#   - firstname: ["C.", "Chao"]
+#     url: https://sites.google.com/view/chaoh/home
 
 # "Wen":
 #   - firstname: ["Q.", "Qingsong"]
 #     url: https://sites.google.com/site/qingsongwen8
 
-"Rosenblum":
-  - firstname: ["David S.", "D. S."]
-    url: https://cs.gmu.edu/~dsr
+# "Rosenblum":
+#   - firstname: ["David S.", "D. S."]
+#     url: https://cs.gmu.edu/~dsr
 
 # "Tong":
 #   - firstname: ["Zekun", "Z."]
 #     url: https://zekuntong.com/
 
-"Ruan":
-  - firstname: ["Sijie", "S."]
-    url: https://www.sjruan.me/
+# "Ruan":
+#   - firstname: ["Sijie", "S."]
+#     url: https://www.sjruan.me/
 
 # "Yin":
 #   - firstname: ["Yifang", "Y."]
 #     url: https://yifangyin.github.io/
 
-"Yan":
-  - firstname: ["Shuicheng", "S."]
-    url: https://yanshuicheng.ai/
+# "Yan":
+#   - firstname: ["Shuicheng", "S."]
+#     url: https://yanshuicheng.ai/
 
-"Zhou":
-  - firstname: ["Pan", "P."]
-    url: https://panzhous.github.io/
+# "Zhou":
+#   - firstname: ["Pan", "P."]
+#     url: https://panzhous.github.io/
 
 # "Xia":
 #   - firstname: ["Yutong", "Y."]

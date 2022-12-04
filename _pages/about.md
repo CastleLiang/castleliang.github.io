@@ -8,7 +8,7 @@ subtitle: PhD candidate @ <a href='https://www.comp.nus.edu.sg/'>National Univer
 profile:
   align: right
   image: profile.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: 
     # <p>11 Computing Dr</p>
     # <p>Singapore 117416</p>
