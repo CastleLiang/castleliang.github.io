@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='https://www.comp.nus.edu.sg/'>National Univerisity of Singapore</a>. 11 Computing Dr, Singapore 117416.
 subtitle: PhD candidate @ <a href='https://www.comp.nus.edu.sg/'>National Univerisity of Singapore</a>
