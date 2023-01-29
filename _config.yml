@@ -229,7 +229,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Liang, Liang*]
+  last_name: [Liang, Liang*, Liang+]
   first_name: [Yuxuan]
 
   style: apa

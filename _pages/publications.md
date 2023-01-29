@@ -2,14 +2,14 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Listed by categories in reversed chronological order, where * indicates equal contribution and ^ denotes corresponding author. 
+description: Listed by categories in reversed chronological order, where + indicates equal contribution and * denotes corresponding author. 
 years: [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-I have published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*5, WWW\*4, TKDE\*4), AI venues (e.g., NeurIPS\*3, IJCAI\*4, AAAI\*2), and CV venues (e.g., ECCV\*1, MM\*2). Here are some representative papers:
+I have published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*5, WWW\*4, TKDE\*4), AI venues (e.g., NeurIPS\*3, IJCAI\*4, AAAI\*2, ICLR\*1), and CV venues (e.g., ECCV\*1, MM\*2). Here are some representative papers:
 
 - **Spatio-Temporal Data Mining**: 
 [[AAAI'23]](https://arxiv.org/pdf/2211.15979.pdf), 
@@ -38,6 +38,7 @@ I have published some papers in refereed journals and conferences, including DM 
 
 
 - **Graph Mining**:
+[ICLR'23]
 [[KDD'22]](https://arxiv.org/pdf/2207.05584.pdf), 
 [[WWW'21]](https://dl.acm.org/doi/abs/10.1145/3442381.3449796?casa_token=ld3tJXow02AAAAAA:k6qS_Tsxym4YyANwQn8a-0Xf98Y0jD_gfTpPt8wocORTvaGRThRLseXYuvLbO8RU_EC0k6gAX6T7dg), 
 [[WWW'21]](https://bhooi.github.io/papers/curgraph_web21.pdf), 
