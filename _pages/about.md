@@ -26,8 +26,6 @@ He was recognized as 1 out of 10 most innovative and impactful PhD students focu
 - **Graph mining**: learning graph representations (e.g., directed graphs, temporal graphs), GNN pruning.
 - **Computer vision**: video understanding, image recognition, image/video super-resolution, geo-localization.
 
-I am currently seeking for job opportunities in both academia and industry. If you are interested in my research or hiring me, please feel free to contact me. Thank you!
-
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
