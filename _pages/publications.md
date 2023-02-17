@@ -12,6 +12,7 @@ nav_order: 1
 I have published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*5, WWW\*4, TKDE\*4), AI venues (e.g., NeurIPS\*3, IJCAI\*4, AAAI\*2, ICLR\*1), and CV venues (e.g., ECCV\*1, MM\*2). Here are some representative papers:
 
 - **Spatio-Temporal Data Mining**: 
+[[ICDE'23]](https://arxiv.org/abs/2210.05155),
 [[AAAI'23]](https://arxiv.org/pdf/2211.15979.pdf), 
 [[TKDE'22]](https://ieeexplore.ieee.org/document/9956738/), 
 [[SIGSPATIAL'22]](https://arxiv.org/pdf/2108.11873.pdf), 
@@ -38,7 +39,7 @@ I have published some papers in refereed journals and conferences, including DM 
 
 
 - **Graph Mining**:
-[ICLR'23]
+[[ICLR'23]](https://openreview.net/pdf?id=Dvs-a3aymPe)
 [[KDD'22]](https://arxiv.org/pdf/2207.05584.pdf), 
 [[WWW'21]](https://dl.acm.org/doi/abs/10.1145/3442381.3449796?casa_token=ld3tJXow02AAAAAA:k6qS_Tsxym4YyANwQn8a-0Xf98Y0jD_gfTpPt8wocORTvaGRThRLseXYuvLbO8RU_EC0k6gAX6T7dg), 
 [[WWW'21]](https://bhooi.github.io/papers/curgraph_web21.pdf), 
