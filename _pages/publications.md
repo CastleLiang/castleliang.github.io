@@ -9,7 +9,7 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-I have published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*5, WWW\*4, TKDE\*4), AI venues (e.g., NeurIPS\*3, IJCAI\*4, AAAI\*2, ICLR\*1), and CV venues (e.g., ECCV\*1, MM\*2). Here are some representative papers:
+I have published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*5, WWW\*4, TKDE\*4, ICDE\*1), AI venues (e.g., NeurIPS\*3, IJCAI\*4, AAAI\*2, ICLR\*1), and CV venues (e.g., ECCV\*1, MM\*2). Here are some representative papers:
 
 - **Spatio-Temporal Data Mining**: 
 [[ICDE'23]](https://arxiv.org/abs/2210.05155),
