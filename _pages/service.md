@@ -10,7 +10,7 @@ nav_order: 3
 <div>
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2023: KDD, ICML, ICLR, CVPR, WWW, IJCAI, AAAI, ICASSP</p>
+  <li><p>2023: KDD, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, ICASSP</p>
   </li>
   <li><p>2022: KDD, NeurIPS, ICML, ICLR, ECCV, IJCAI, AAAI, SDM</p>
   </li>
