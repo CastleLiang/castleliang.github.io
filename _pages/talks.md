@@ -7,6 +7,8 @@ nav: true
 nav_order: 8
 ---
 
+- When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, City University of Hong Kong, Online, Feb 2023
+
 - AirFormer: Predicting Nationwide Air Quality in China with Transformers, AAAI, Washington, D.C., Feb 2023
 
 - [When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications](https://calendar.hkust.edu.hk/events/computer-science-and-engineering-Online-seminar-when-ai-meets-spatio-temporal-data-concepts), HKUST & HKUST-GZ, Online, Feb 2023

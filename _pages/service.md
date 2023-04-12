@@ -10,7 +10,7 @@ nav_order: 3
 <div>
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, ICASSP</p>
+  <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, ECML-PKDD, ICASSP</p>
   </li>
   <li><p>2022: KDD, NeurIPS, ICML, ICLR, ECCV, IJCAI, AAAI, SDM</p>
   </li>
@@ -20,7 +20,7 @@ nav_order: 3
   </li>
   </ul>
 
-  <p><strong>Conference session chair</strong></p>
+  <p><strong>Session chair</strong></p>
   <ul>
   <li><p>AAAI'23, KDD'21</p>
   </li>

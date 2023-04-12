@@ -25,6 +25,8 @@ I am very lucky to mentor the following talented students (in alphabetical order
 
 - [Haomin Wen](https://wenhaomin.github.io/) (PhD student, BJTU), co-supervised with Prof. [Youfang Lin](https://scholar.google.com/citations?user=e8xT-e0AAAAJ&hl=en), 2022-Present.
 
+- [Junfeng Hu](https://scholar.google.com/citations?user=kLMHzqEAAAAJ&hl=en) (PhD student, NUS), co-supervised with Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/cs/people/rogerz/), 2021-Present.
+
 - [Kun Wang](https://openreview.net/profile?id=~Kun_Wang15) (PhD student, USTC), co-supervised with Prof. [Yang Wang](http://staff.ustc.edu.cn/~angyan/), 2022-Present.
 
 - [Xu Liu](https://scholar.google.co.jp/citations?hl=en&amp;user=JTzLTycAAAAJ) (PhD student, NUS), co-supervised with Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/cs/people/rogerz/), 2021-Present.
