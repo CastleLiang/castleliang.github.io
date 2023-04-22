@@ -8,6 +8,15 @@ nav_order: 3
 ---
 
 <div>
+  <p><strong>Organizer</strong></p>
+  <ul>
+  <li><p>Publicity Chair, Urbcomp 2023</p>
+  </li>
+  <li><p>Publicity Chair, AIoTSys 2023</p>
+  </li>
+  </ul>
+
+
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
   <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, ECML-PKDD, ICASSP</p>
