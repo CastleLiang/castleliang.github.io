@@ -19,9 +19,9 @@ nav_order: 3
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, ECML-PKDD, ICASSP</p>
+  <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, ECML-PKDD, ICASSP, MLSP, AI4TS</p>
   </li>
-  <li><p>2022: KDD, NeurIPS, ICML, ICLR, ECCV, IJCAI, AAAI, SDM</p>
+  <li><p>2022: KDD, NeurIPS, ICML, ICLR, ECCV, IJCAI, AAAI, SDM, AMLTS</p>
   </li>
   <li><p>2021: KDD, NeurIPS, ICML, ICLR, AAAI</p>
   </li>
