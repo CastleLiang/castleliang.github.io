@@ -6,6 +6,7 @@ description: The invited talks during the past three years.
 nav: true
 nav_order: 8
 ---
+- When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, Dongguk University, Online, Apr 2023
 
 - When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, City University of Hong Kong, Online, Feb 2023
 
