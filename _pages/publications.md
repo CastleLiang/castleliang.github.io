@@ -9,7 +9,7 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-I have published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*5, WWW\*4, ICDE\*1, TKDE\*4), AI venues (e.g., NeurIPS\*3, IJCAI\*4, AAAI\*2, ICLR\*1, AI\*1), and CV venues (e.g., ECCV\*1, MM\*2). Here are some representative papers:
+I have published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*7, WWW\*4, ICDE\*1, TKDE\*4), AI venues (e.g., NeurIPS\*3, IJCAI\*4, AAAI\*2, ICLR\*1, AI\*1), and CV venues (e.g., ECCV\*1, MM\*2). Here are some representative papers:
 
 - **Spatio-Temporal (ST) Data Mining**: 
   - ST graph forecasting: [[TKDE'22]](https://ieeexplore.ieee.org/document/9956738/), [[SIGSPATIAL'22]](https://arxiv.org/pdf/2108.11873.pdf), [[TKDE'20]](http://urban-computing.com/pdf/MetaLearning_tkde_2020.pdf), [[KDD'19]](http://urban-computing.com/pdf/kdd_2019_camera_ready_ST_MetaNet.pdf)
