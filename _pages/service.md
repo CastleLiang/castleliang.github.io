@@ -39,6 +39,6 @@ nav_order: 3
   <ul>
   <li><p>Data mining: TKDE, TMC, IMWUT, TIST</p></li>
   <li><p>Artificial intelligence: TNNLS, TASLP, Neurocomputing, TMLR</p></li>
-  <li><p>Interdiscipline: T-ITS, Transportation Research Part C, Sensor Journal</p></li>
+  <li><p>Interdiscipline: T-ITS, Transportation Research Part C, Sensor Journal, Sustainable Cities and Society</p></li>
   </ul>
 </div>
