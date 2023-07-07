@@ -4,7 +4,7 @@ title: About
 permalink: /
 # subtitle: <a href='https://www.comp.nus.edu.sg/'>National Univerisity of Singapore</a>. 11 Computing Dr, Singapore 117416.
 # subtitle: Research Fellow @ <a href='https://hkust-gz.edu.cn'>National University of Singapore</a>
-subtitle: Assistant Professor, INTR & DSA Thrust, HKUST(GZ)
+subtitle: Assistant Professor, INTR & DSA Thrust, HKUST(GZ) <br></br> Director of <a href='https://citymind.top'>CityMind Lab</a>
 
 profile:
   align: right
@@ -26,6 +26,8 @@ He was recognized as 1 out of 10 most innovative and impactful PhD students focu
 - **Spatio-temporal (ST) data mining**: ST representation learning, time series, ST imputation, AI for social good (e.g., transportation, human mobility, environment, climate), physics-informed learning.
 - **Graph mining**: learning graph representations (e.g., directed graphs, temporal graphs), GNN pruning.
 - **Computer vision**: video understanding, image recognition, image/video super-resolution.
+
+Useful links: [CityMind Lab](citymind.top), [Google Scholar](https://scholar.google.com/citations?user=n9cODgcAAAAJ), [DBLP](https://dblp.org/pid/183/0977.html), [Linkedin](https://www.linkedin.com/in/yoshall/)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
