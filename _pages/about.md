@@ -27,7 +27,7 @@ He was recognized as 1 out of 10 most innovative and impactful PhD students focu
 - **Graph mining**: learning graph representations (e.g., directed graphs, temporal graphs), GNN pruning.
 - **Computer vision**: video understanding, image recognition, image/video super-resolution.
 
-Useful links: [CityMind Lab](citymind.top), [Google Scholar](https://scholar.google.com/citations?user=n9cODgcAAAAJ), [DBLP](https://dblp.org/pid/183/0977.html), [Linkedin](https://www.linkedin.com/in/yoshall/)
+Useful links: [CityMind Lab](https://citymind.top), [Google Scholar](https://scholar.google.com/citations?user=n9cODgcAAAAJ), [DBLP](https://dblp.org/pid/183/0977.html), [Linkedin](https://www.linkedin.com/in/yoshall/)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
