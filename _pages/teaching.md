@@ -6,6 +6,9 @@ description:
 nav: true
 nav_order: 5
 ---
+
+In Fall 2023/2024, I was the lectuer of INTR6000J: Spatio-Temporal Data Mining and Analytics.
+
 During my PhD candidacy at National University of Singapore (NUS), I spent **250+** hours on teaching (as a Teaching Assistant) for several CS courses. Specifically, I worked with several senior teaching staffs in the following courses:
 
 - **Deep learning** (CS5242), graduate level, working with Dr. [Wei Wang](https://scholar.google.com/citations?user=46Dd4v4AAAAJ&hl=en)
@@ -20,8 +23,10 @@ During my PhD candidacy at National University of Singapore (NUS), I spent **250
 
 # Mentoring
 
+For my current students, please refer to [CityMind Team](http://citymind.top/about-us/).
+
 <br>
-I am very lucky to mentor the following talented students (in alphabetical order):
+I am very lucky to mentor the following talented students outside HKUST(GZ) (in alphabetical order):
 
 - [Haomin Wen](https://wenhaomin.github.io/) (PhD student, BJTU), co-supervised with Prof. [Youfang Lin](https://scholar.google.com/citations?user=e8xT-e0AAAAJ&hl=en), 2022-Present.
 

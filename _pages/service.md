@@ -10,7 +10,7 @@ nav_order: 3
 <div>
   <p><strong>Organizer</strong></p>
   <ul>
-  <li><p>Publicity Chair, Urbcomp 2023</p>
+  <li><p>Publicity Chair, Urbcomp@KDD 2023</p>
   </li>
   <li><p>Publicity Chair, AIoTSys 2023</p>
   </li>
@@ -19,6 +19,8 @@ nav_order: 3
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
+  <li><p>2024: ICLR, WWW, AAAI</p>
+  </li>
   <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL, ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS</p>
   </li>
   <li><p>2022: KDD, NeurIPS, ICML, ICLR, ECCV, IJCAI, AAAI, SDM, AMLTS</p>
@@ -31,7 +33,7 @@ nav_order: 3
 
   <p><strong>Session chair</strong></p>
   <ul>
-  <li><p>AAAI'23, KDD'21</p>
+  <li><p>KDD'23, AAAI'23, KDD'21</p>
   </li>
   </ul>
 
