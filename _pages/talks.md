@@ -8,6 +8,8 @@ nav_order: 8
 ---
 - When AI meets Ubiquitous Spatio-Temporal Data: Concepts, Methodologies, and Applications, HHME Conference, Harbin, China, August 2023
 
+- 时空人工智能和城市大模型, Guangzhou Jiadu Electronic Technology, Guangzhou, China, August 2023
+
 - When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, Chongqing University, Online, May 2023
 
 - When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, Dongguk University, Online, Apr 2023
