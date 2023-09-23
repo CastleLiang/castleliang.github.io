@@ -25,7 +25,7 @@ During my PhD candidacy at National University of Singapore (NUS), I spent **250
 
 For my current students, please refer to [CityMind Team](http://citymind.top/about-us/).
 
-<br>
+<!-- <br> -->
 I am very lucky to mentor the following talented students outside HKUST(GZ) (in alphabetical order):
 
 - [Haomin Wen](https://wenhaomin.github.io/) (PhD student, BJTU), co-supervised with Prof. [Youfang Lin](https://scholar.google.com/citations?user=e8xT-e0AAAAJ&hl=en), 2022-Present.
