@@ -9,6 +9,8 @@ nav_order: 2
 
 <div>
   <ul>
+  <li><p>Outstanding Program Committee at SIGSPATIAL 2023</p>
+  </li>
   <li><p><strong>Dean's Graduate Research Excellence Award Award</strong>, NUS, 2022.</p>
   </li>
   <li><p>The 23rd China Patent Excellence Award, 2022.</p>
