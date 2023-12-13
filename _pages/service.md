@@ -19,7 +19,7 @@ nav_order: 3
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2024: CVPR, ICLR, WWW, AAAI, SDM, ICASSP</p>
+  <li><p>2024: ICML, CVPR, ICLR, WWW, AAAI, SDM, ICASSP</p>
   </li>
   <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (selected as outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS</p>
   </li>
