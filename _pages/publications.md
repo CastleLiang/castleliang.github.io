@@ -21,7 +21,7 @@ I have published some papers in refereed journals and conferences, including DM 
  
 
 - **Graph Mining**:
-  - Graph learning: [[ICLR'24]](https://openreview.net/pdf?id=nmBjBZoySX), [[ICLR'23]](https://openreview.net/pdf?id=Dvs-a3aymPe), [[WWW'21]](https://bhooi.github.io/papers/curgraph_web21.pdf), [[NeurIPS'21]](https://proceedings.neurips.cc/paper/2021/file/a3048e47310d6efaa4b1eaf55227bc92-Paper.pdf), [[NeurIPS'20]](https://proceedings.neurips.cc/paper/2020/file/cffb6e2288a630c2a787a64ccc67097c-Paper.pdf)
+  - Graph learning: [[TPAMI'24]](), [[ICLR'24]](https://openreview.net/pdf?id=nmBjBZoySX), [[ICLR'23]](https://openreview.net/pdf?id=Dvs-a3aymPe), [[WWW'21]](https://bhooi.github.io/papers/curgraph_web21.pdf), [[NeurIPS'21]](https://proceedings.neurips.cc/paper/2021/file/a3048e47310d6efaa4b1eaf55227bc92-Paper.pdf), [[NeurIPS'20]](https://proceedings.neurips.cc/paper/2020/file/cffb6e2288a630c2a787a64ccc67097c-Paper.pdf)
   - Graph augmentation: [[WWW'21]](https://dl.acm.org/doi/abs/10.1145/3442381.3449796?casa_token=ld3tJXow02AAAAAA:k6qS_Tsxym4YyANwQn8a-0Xf98Y0jD_gfTpPt8wocORTvaGRThRLseXYuvLbO8RU_EC0k6gAX6T7dg), [[NeurIPS'21]](https://proceedings.neurips.cc/paper/2021/file/0b0b0994d12ad343511adfbfc364256e-Paper.pdf), [[KDD'20]](https://bitbucket.org/ghentdatascience/ecmlpkdd20-papers/raw/master/RT/sub_221.pdf)
   - Applications: [[KDD'22]](https://arxiv.org/pdf/2207.05584.pdf)
 
