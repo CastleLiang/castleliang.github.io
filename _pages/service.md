@@ -19,7 +19,7 @@ nav_order: 3
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2024: ICML, CVPR, ICLR, WWW, IJCAI, AAAI, SDM, ICASSP</p>
+  <li><p>2024: KDD, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, SDM, ICASSP</p>
   </li>
   <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (selected as outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS</p>
   </li>
@@ -39,7 +39,7 @@ nav_order: 3
 
   <p><strong>Journal reviewer</strong></p>
   <ul>
-  <li><p>Data mining: TKDE, TMC, IMWUT, TIST</p></li>
+  <li><p>Data mining: TKDE, Information Fusion, TMC, IMWUT, TIST</p></li>
   <li><p>Artificial intelligence: TNNLS, TASLP, Neurocomputing, TMLR</p></li>
   <li><p>Interdiscipline: T-ITS, Transportation Research Part C, Sensor Journal, Sustainable Cities and Society</p></li>
   </ul>
