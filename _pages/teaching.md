@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-In Fall 2023/2024, I was the lectuer of INTR6000J: Spatio-Temporal Data Mining and Analytics.
+In Fall 2023 and Spring 2024, I was the lecturer of INTR6000J: Spatio-Temporal Data Mining and Analytics.
 
 During my PhD candidacy at National University of Singapore (NUS), I spent **250+** hours on teaching (as a Teaching Assistant) for several CS courses. Specifically, I worked with several senior teaching staffs in the following courses:
 

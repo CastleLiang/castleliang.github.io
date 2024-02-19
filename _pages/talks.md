@@ -6,6 +6,16 @@ description: The invited talks during the past three years.
 nav: true
 nav_order: 8
 ---
+- Leveraging Large Language Models for Spatio-Temporal Data Mining, Huawei-HKUST(GZ) LLM Workshop, Guangzhou, China, January 2024
+
+- When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, ASU, Online, January 2024
+
+- 当人工智能遇到时空数据：概念、方法和应用, IDEAL, Sanya, China, December 2024
+
+- When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, THU & BJTU & BIT, Beijing, China, December 2023
+
+- When AI meets Spatio-Temporal Data: Concepts, Methodologies, and Applications, **Keynote Speech**@ICDM, AI4TS Workshop, Shanghai, China, December 2023
+
 - When AI meets Ubiquitous Spatio-Temporal Data: Concepts, Methodologies, and Applications, HHME Conference, Harbin, China, August 2023
 
 - 时空人工智能和城市大模型, Guangzhou Jiadu Electronic Technology, Guangzhou, China, August 2023
