@@ -25,7 +25,7 @@ Dr. Yuxuan Liang has published some papers in refereed journals and conferences,
   - Graph augmentation: [[WWW'21]](https://dl.acm.org/doi/abs/10.1145/3442381.3449796?casa_token=ld3tJXow02AAAAAA:k6qS_Tsxym4YyANwQn8a-0Xf98Y0jD_gfTpPt8wocORTvaGRThRLseXYuvLbO8RU_EC0k6gAX6T7dg), [[NeurIPS'21]](https://proceedings.neurips.cc/paper/2021/file/0b0b0994d12ad343511adfbfc364256e-Paper.pdf), [[KDD'20]](https://bitbucket.org/ghentdatascience/ecmlpkdd20-papers/raw/master/RT/sub_221.pdf)
   - Applications: [[KDD'22]](https://arxiv.org/pdf/2207.05584.pdf)
 
-- **Multimedia**:
+- **Multimodal Learning**:
 [[MM'23]](https://dl.acm.org/doi/pdf/10.1145/3503161.3548102), 
 [[ECCV'22]](https://dl.acm.org/doi/abs/10.1007/978-3-031-19830-4_33), 
 [[MM'22]](https://dl.acm.org/doi/pdf/10.1145/3503161.3548102), 
