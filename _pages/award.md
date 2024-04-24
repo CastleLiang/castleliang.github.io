@@ -9,6 +9,8 @@ nav_order: 2
 
 <div>
   <ul>
+  <li><p>Silver Medal at International Exhibition of Inventions Geneva, 2024</p>
+  </li>
   <li><p>Outstanding Program Committee at SIGSPATIAL 2023</p>
   </li>
   <li><p><strong>Dean's Graduate Research Excellence Award Award</strong>, NUS, 2022.</p>
