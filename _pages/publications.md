@@ -26,6 +26,8 @@ Dr. Yuxuan Liang has published some papers in refereed journals and conferences,
   - Applications: [[KDD'22]](https://arxiv.org/pdf/2207.05584.pdf)
 
 - **Multimodal Learning**:
+[[WWW'24a]](https://arxiv.org/pdf/2310.18340.pdf),
+[[WWW'24b]](https://arxiv.org/pdf/2310.09751.pdf),
 [[MM'23]](https://dl.acm.org/doi/pdf/10.1145/3503161.3548102), 
 [[ECCV'22]](https://dl.acm.org/doi/abs/10.1007/978-3-031-19830-4_33), 
 [[MM'22]](https://dl.acm.org/doi/pdf/10.1145/3503161.3548102), 
@@ -38,9 +40,10 @@ Dr. Yuxuan Liang has published some papers in refereed journals and conferences,
   - [[arXiv]](https://arxiv.org/pdf/2403.14735.pdf) **Foundation Models -> Time Series Analysis**
   - [[arXiv]](https://arxiv.org/pdf/2403.14151) Deep Learning -> Trajectory Data Management and Mining
   - [[arXiv]](https://arxiv.org/pdf/2402.19348) Deep Learning -> Cross-Domain Data Fusion in Urban Computing
-  - [[arXiv]](https://arxiv.org/pdf/2402.04059v1) Deep Learning -> Multivariate Time Series Imputation
   - [[arXiv]](https://arxiv.org/pdf/2310.10196) **Large Models -> Time Series and Spatio-Temporal Data**
+  - [[arXiv]](https://arxiv.org/pdf/2404.18886) Diffusion Models -> Time Series and Spatio-Temporal Data
   - [[arXiv]](https://arxiv.org/pdf/2309.01194) Service Route and Time Prediction in Instant Delivery
+    - [[arXiv]](https://arxiv.org/pdf/2402.04059v1) Deep Learning -> Multivariate Time Series Imputation
 
 
 
