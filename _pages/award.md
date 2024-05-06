@@ -13,13 +13,13 @@ nav_order: 2
   </li>
   <li><p>Outstanding Program Committee at SIGSPATIAL 2023</p>
   </li>
-  <li><p><strong>Dean's Graduate Research Excellence Award Award</strong>, NUS, 2022.</p>
+  <li><p>Dean's Graduate Research Excellence Award Award, NUS, 2022.</p>
   </li>
-  <li><p>The 23rd China Patent Excellence Award, 2022.</p>
+  <li><p><strong>The 23rd China Patent Excellence Award</strong>, 2022.</p>
   </li>
   <li><p><strong>SDSC Dissertation Research Fellowship, 2020</strong> (1 out of 10 most innovative and impactful PhD students focusing on Data Science in Singapore by the Singapore Data Science Consortium.)</p>
   </li>
-  <li><p><strong>Outstanding Winners of The Interdisciplinary Contest in Modeling (ICM)</strong>, top 0.2% (19 outstanding winners in 9773 groups), 2015</p>
+  <li><p>Outstanding Winners of The Interdisciplinary Contest in Modeling (ICM), top 0.2% (19 outstanding winners in 9773 groups), 2015</p>
   </li>
   <li><p>CCF(China Computer Federation) Elite Collegiate Award</p>
   </li>
