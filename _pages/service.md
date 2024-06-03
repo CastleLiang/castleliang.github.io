@@ -10,18 +10,16 @@ nav_order: 3
 <div>
   <p><strong>Organizer</strong></p>
   <ul>
-  <li><p>Program Chair, AI4TS@IJCAI 2024</p>
+  <li><p>Program Chair: Urbcomp@KDD 2024, AI4TS@IJCAI 2024</p>
   </li>
-  <li><p>Publicity Chair, Urbcomp@KDD 2023</p>
-  </li>
-  <li><p>Publicity Chair, AIoTSys 2023</p>
+  <li><p>Publicity Chair: Urbcomp@KDD 2023, AIoTSys 2023</p>
   </li>
   </ul>
 
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2024: KDD, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, ECML-PKDD, SDM, ICASSP</p>
+  <li><p>2024: KDD, NeurIPS, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, ECML-PKDD, SDM, ICASSP</p>
   </li>
   <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (selected as outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS</p>
   </li>
