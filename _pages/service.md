@@ -8,18 +8,29 @@ nav_order: 3
 ---
 
 <div>
+  <p><strong>Editor</strong></p>
+  <ul>
+  <li><p>Associate Editor: Neurocomputing (IF=6.0)</p>
+  </li>
+  </ul>
+
+
   <p><strong>Organizer</strong></p>
   <ul>
-  <li><p>Program Chair: Urbcomp@KDD 2024, AI4TS@IJCAI 2024</p>
+  <li><p>Program Chair: Urbcomp@KDD'24, AI4TS@IJCAI'24</p>
   </li>
-  <li><p>Publicity Chair: Urbcomp@KDD 2023, AIoTSys 2023</p>
+  <li><p>Publicity Chair: Urbcomp@KDD'23, AIoTSys'23</p>
+  </li>
+  <li><p>Session chair: ICDM'23, KDD'23, AAAI'23, KDD'21</p>
   </li>
   </ul>
 
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2024: KDD, NeurIPS, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, ECML-PKDD, SDM, ICASSP</p>
+  <li><p>2025: AAAI</p>
+  </li>
+  <li><p>2024: KDD, NeurIPS, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, SIGSPATIAL, ECML-PKDD, SDM, ICASSP</p>
   </li>
   <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (selected as outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS</p>
   </li>
@@ -28,12 +39,6 @@ nav_order: 3
   <li><p>2021: KDD, NeurIPS, ICML, ICLR, AAAI</p>
   </li>
   <li><p>2020: NeurIPS, AAAI, ECML-PKDD, SPATIALDI</p>
-  </li>
-  </ul>
-
-  <p><strong>Session chair</strong></p>
-  <ul>
-  <li><p>ICDM'23, KDD'23, AAAI'23, KDD'21</p>
   </li>
   </ul>
 
