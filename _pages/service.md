@@ -21,14 +21,14 @@ nav_order: 3
   </li>
   <li><p>Publicity Chair: Urbcomp@KDD'23, AIoTSys'23</p>
   </li>
-  <li><p>Session chair: ICDM'23, KDD'23, AAAI'23, KDD'21</p>
+  <li><p>Session chair: KDD'24, IJCAI'24, ICDM'23, KDD'23, AAAI'23, KDD'21</p>
   </li>
   </ul>
 
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2025: AAAI</p>
+  <li><p>2025: KDD, ICLR, AAAI</p>
   </li>
   <li><p>2024: KDD, NeurIPS, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, SIGSPATIAL, ECML-PKDD, SDM, ICASSP</p>
   </li>
