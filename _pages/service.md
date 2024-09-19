@@ -45,7 +45,7 @@ nav_order: 3
   <p><strong>Journal reviewer</strong></p>
   <ul>
   <li><p>Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST</p></li>
-  <li><p>Artificial intelligence: TNNLS, TASLP, Neurocomputing, TMLR</p></li>
+  <li><p>Artificial intelligence: TPAMI, TNNLS, TASLP, Neurocomputing, TMLR</p></li>
   <li><p>Interdiscipline: T-ITS, Transportation Research Part C, Sensor Journal, Sustainable Cities and Society</p></li>
   </ul>
 
