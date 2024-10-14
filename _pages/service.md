@@ -15,7 +15,7 @@ nav_order: 3
   </ul>
 
 
-  <p><strong>Organizer</strong></p>
+  <p><strong>Organizer (Conferences or Sessions)</strong></p>
   <ul>
   <li><p>Program Chair: Urbcomp@KDD'24, AI4TS@IJCAI'24</p>
   </li>
@@ -26,9 +26,10 @@ nav_order: 3
   </ul>
 
 
+
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2025: KDD, ICLR, AAAI</p>
+  <li><p>2025: KDD, ICLR, WWW, CVPR, AAAI, ICASSP (Area Chair)</p>
   </li>
   <li><p>2024: KDD, NeurIPS, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, SIGSPATIAL, ECML-PKDD, SDM, ICASSP</p>
   </li>
