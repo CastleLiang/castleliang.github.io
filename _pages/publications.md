@@ -9,7 +9,7 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-Dr. Yuxuan Liang has published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*12, WWW\*7, ICDE\*3, TKDE\*7, TMC\*1), AI venues (e.g., TPAMI\*2, AI Journal\*2, NeurIPS\*10, ICML\*3, IJCAI\*7, AAAI\*5, ICLR\*4), and CV venues (e.g., ECCV\*1, MM\*4). Here are some representative papers:
+Dr. Yuxuan Liang has published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*14, WWW\*7, ICDE\*3, TKDE\*7, TMC\*1), AI venues (e.g., TPAMI\*2, AI Journal\*2, NeurIPS\*10, ICML\*3, IJCAI\*7, AAAI\*5, ICLR\*4), and CV venues (e.g., ECCV\*1, MM\*4). Here are some representative papers:
 
 - **Spatio-Temporal (ST) Data Mining**: 
   - ST/Urban + LLM: [[KDD'24]](https://arxiv.org/pdf/2403.14735.pdf), [[ICML'24a]](https://arxiv.org/pdf/2402.02713), [[Survey'24]](https://arxiv.org/pdf/2310.10196), [[WWW'24a]](https://arxiv.org/pdf/2310.18340.pdf), [[WWW'24b]](https://arxiv.org/pdf/2310.09751.pdf), [[ICLR'24]](https://openreview.net/pdf?id=Unb5CVPtae)

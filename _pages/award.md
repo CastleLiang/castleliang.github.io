@@ -9,6 +9,8 @@ nav_order: 2
 
 <div>
   <ul>
+  <li><p><strong>ACM SIGSPATIAL China Rising Star Nomination Award, 2024</strong></p>
+  </li>
   <li><p>Silver Medal at International Exhibition of Inventions Geneva, 2024</p>
   </li>
   <li><p>Outstanding Program Committee at SIGSPATIAL 2023</p>
