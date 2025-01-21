@@ -27,7 +27,7 @@ nav_order: 3
   </li>
   </ul>
 
-   <p><strong>Area Chair & Senior PC & Outstanding PC</strong></p>
+  <p><strong>Area Chair & Senior PC & Outstanding PC</strong></p>
   <ul>
   <li><p>KDD, IJCAI, ICASSP, SIGSPATIAL</p>
   </li>
