@@ -27,9 +27,9 @@ nav_order: 3
   </li>
   </ul>
 
-   <p><strong>Area Chair & Senior PC</strong></p>
+   <p><strong>Area Chair & Senior PC & Outstanding PC</strong></p>
   <ul>
-  <li><p>KDD, IJCAI, ICASSP</p>
+  <li><p>KDD, IJCAI, ICASSP, SIGSPATIAL</p>
   </li>
   </ul>
 
@@ -39,7 +39,7 @@ nav_order: 3
   </li>
   <li><p>2024: KDD, NeurIPS, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, SIGSPATIAL, ECML-PKDD, SDM, ICASSP</p>
   </li>
-  <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (selected as outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS</p>
+  <li><p>2023: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL, ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS</p>
   </li>
   <li><p>2022: KDD, NeurIPS, ICML, ICLR, ECCV, IJCAI, AAAI, SDM, AMLTS</p>
   </li>
