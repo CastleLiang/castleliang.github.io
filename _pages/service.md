@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 <div>
-  <p><strong>Editor</strong></p>
+  <p><strong>Editor Board</strong></p>
   <ul>
   <li><p>Associate Editor: Neurocomputing (IF=6.0)</p>
   </li>
