@@ -15,27 +15,21 @@ nav_order: 3
   </ul>
 
 
-  <p><strong>Organizer (Conference/Worshop/Tutorial)</strong></p>
+  <p><strong>Organizer (Conferences or Sessions)</strong></p>
   <ul>
-  <li><p>Program Chair: WebST@WWW'24, AI4TS@WWW'24, Urbcomp@KDD'24, AI4TS@IJCAI'24</p>
+  <li><p>Program Chair: Urbcomp@KDD'24, AI4TS@IJCAI'24</p>
   </li>
   <li><p>Publicity Chair: Urbcomp@KDD'23, AIoTSys'23</p>
-  </li>
-  <li><p>Tutorial Organizer: FM4TS@WWW'25, MobiWeb@WWW'25, FM4TS@ICDE'25, FM4TS@KDD'24</p>
   </li>
   <li><p>Session chair: KDD'24, IJCAI'24, ICDM'23, KDD'23, AAAI'23, KDD'21</p>
   </li>
   </ul>
 
-   <p><strong>Area Chair & Senior PC</strong></p>
-  <ul>
-  <li><p>KDD, IJCAI, ICASSP</p>
-  </li>
-  </ul>
+
 
   <p><strong>PC member &amp; Reviewer</strong></p>
   <ul>
-  <li><p>2025: ICML, ICLR, WWW, CVPR, AAAI</p>
+  <li><p>2025: KDD, ICLR, WWW, CVPR, AAAI, ICASSP (Area Chair)</p>
   </li>
   <li><p>2024: KDD, NeurIPS, ICML, ICLR, WWW, CVPR, ECCV, IJCAI, AAAI, MM, SIGSPATIAL, ECML-PKDD, SDM, ICASSP</p>
   </li>
@@ -52,7 +46,7 @@ nav_order: 3
   <p><strong>Journal reviewer</strong></p>
   <ul>
   <li><p>Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST</p></li>
-  <li><p>Artificial intelligence: ACM Computing Surveys, TPAMI, TNNLS, TASLP, Neurocomputing, TMLR</p></li>
+  <li><p>Artificial intelligence: TPAMI, TNNLS, TASLP, Neurocomputing, TMLR</p></li>
   <li><p>Interdiscipline: T-ITS, Transportation Research Part C, Sensor Journal, Sustainable Cities and Society</p></li>
   </ul>
 
