@@ -8,17 +8,24 @@ nav_order: 5
 ---
 
 # Teaching Experience
+
+I teach the following courses at HKUST (Guangzhou):
+
 - Fall 2023: Spatio-Temporal Data Mining and Analytics (INTR6000J)
+
 - Spring 2024: Spatio-Temporal Data Mining and Analytics (INTR6000J)
+
 - Fall 2024: Deep Learning for Human Mobility Analytics (INTR6000M)
+
 - Spring 2025: Data-Driven Methods in Transportation (INTR5230)
+
 - Spring 2025: Seminar in Intelligent Transportation (INTR6800I)
 
 
 
 # Mentoring Experience
 
-For my current students, please refer to [CityMind Team](http://citymind.top/about-us/).
+For my current supervised students, please refer to [CityMind Team](http://citymind.top/about-us/).
 
 <!-- <br> -->
 I am very lucky to mentor the following talented students outside HKUST(GZ) (in alphabetical order):
