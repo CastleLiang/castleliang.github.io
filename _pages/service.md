@@ -12,11 +12,8 @@ nav_order: 3
 
 - **Associate Editor**: Neurocomputing (IF=6.0)
 - **Reviewer**:
-
   - Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST, etc.
-
   - AI and Machine Learning: TPAMI, ACM Computing Surveys, TNNLS, TASLP, Neurocomputing, TMLR, etc.
-
   - Interdiscipline: T-ITS, Transportation Research Part C, Sensor Journal, Sustainable Cities and Society, etc.
 
 
