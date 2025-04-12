@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /awards/
 title: Awards
@@ -10,6 +10,8 @@ nav_order: 2
 <div>
   <ul>
   <li><p><strong>ACM SIGSPATIAL China Rising Star Nomination Award, 2024</strong></p>
+  </li>
+  <li><p><strong>Stanford/Elsevier Top 2% Scientists, 2024</strong></p>
   </li>
   <li><p>Silver Medal at International Exhibition of Inventions Geneva, 2024</p>
   </li>
@@ -40,4 +42,4 @@ nav_order: 2
   <li><p>Conference travel grants for AAAI'23, SIGSPATIAL'22, CIKM'22, AAAI'20, KDD'19, SIGSPATIAL'17</p>
   </li>
   </ul>
-</div>
+</div> -->

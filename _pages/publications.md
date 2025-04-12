@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
+permalink: /research/
+title: Research
 description: Listed by categories in reversed chronological order, where + indicates equal contribution and * denotes corresponding author. 
 years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
@@ -9,7 +9,7 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-Dr. Yuxuan Liang has published some papers in refereed journals and conferences, including DM venues (e.g., KDD\*16, WWW\*7, ICDE\*3, TKDE\*7, TMC\*1), AI venues (e.g., TPAMI\*2, AI Journal\*2, NeurIPS\*10, ICML\*3, IJCAI\*7, AAAI\*11, ICLR\*4), and CV venues (e.g., ECCV\*1, MM\*4). Here are some representative papers:
+He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC, IJGIS) and conferences (e.g., KDD, NeurIPS, ICML, ICLR, WWW, ECCV, IJCAI, AAAI, and MM) with over 7K citations on Google Scholar. Here are some representative papers:
 
 - **Spatio-Temporal (ST) Data Mining**: 
   - **LLM/FMs for Time Series and ST Data**: 
@@ -91,7 +91,10 @@ Dr. Yuxuan Liang has published some papers in refereed journals and conferences,
     - [[arXiv]](https://arxiv.org/pdf/2402.04059v1) Deep Learning -> Multivariate Time Series Imputation
 
 
+The full list of publication can be found [here](https://citymind.top/publications/).
 
+
+<!-- 
 
 
 <div class="publications">
@@ -100,4 +103,4 @@ Dr. Yuxuan Liang has published some papers in refereed journals and conferences,
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div> -->

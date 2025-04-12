@@ -7,21 +7,16 @@ nav: true
 nav_order: 5
 ---
 
-In Fall 2023 and Spring 2024, I was the lecturer of INTR6000J: Spatio-Temporal Data Mining and Analytics.
+# Teaching Experience
+- Fall 2023: Spatio-Temporal Data Mining and Analytics (INTR6000J)
+- Spring 2024: Spatio-Temporal Data Mining and Analytics (INTR6000J)
+- Fall 2024: Deep Learning for Human Mobility Analytics (INTR6000M)
+- Spring 2025: Data-Driven Methods in Transportation (INTR5230)
+- Spring 2025: Seminar in Intelligent Transportation (INTR6800I)
 
-During my PhD candidacy at National University of Singapore (NUS), I spent **250+** hours on teaching (as a Teaching Assistant) for several CS courses. Specifically, I worked with several senior teaching staffs in the following courses:
 
-- **Deep learning** (CS5242), graduate level, working with Dr. [Wei Wang](https://scholar.google.com/citations?user=46Dd4v4AAAAJ&hl=en)
 
-- **Machine learning** (CS3244), undergraduate level, working with Prof. [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/)
-
-- **Introduction in Computer Networks** (CS2105), undergraduate level, working with Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/cs/people/rogerz/)
-
-- Programming Methodology (CS1010S), undergraduate level, working with Prof. [Ben Leong](https://www.comp.nus.edu.sg/cs/people/bleong/)
-
-<br>
-
-# Mentoring
+# Mentoring Experience
 
 For my current students, please refer to [CityMind Team](http://citymind.top/about-us/).
 
