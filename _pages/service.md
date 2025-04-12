@@ -54,6 +54,7 @@ nav_order: 3
     - Data Driven Decision Making with Time Series and Spatio-temporal Data @ ICDE'25
 
     - Web-Centric Human Mobility Analytics @ WWW'25
+    
 
 - **Program Committee**
 
@@ -62,5 +63,5 @@ nav_order: 3
   - **Senior PC Member**: IJCAI 
 
   - **PC (reviewer)**: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS, SPATIALDI, etc.
-  
+
   - **Session chair**: KDD'24, IJCAI'24, ICDM'23, KDD'23, AAAI'23, KDD'21
