@@ -92,15 +92,3 @@ He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
 
 
 The full list of publication can be found [here](https://citymind.top/publications/).
-
-
-<!-- 
-
-
-<div class="publications">
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div> -->
