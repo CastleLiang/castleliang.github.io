@@ -35,6 +35,7 @@ He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
   UrbanFM [[KDD'19](http://urban-computing.com/pdf/yuxuanUrbanFMKDD2019.pdf), [TKDE'20](http://urban-computing.com/pdf/TKDE_UrbanFlowInfer.pdf)],
   [GeoMAN [IJCAI'18]](https://www.ijcai.org/Proceedings/2018/0476.pdf), 
   - Multimodal/Foundation Models for ST Data: 
+  [SatCLE [WWW'25]](https://openreview.net/pdf?id=395kTBrUZi), 
   [UrbanVLP [AAAI'25]](https://arxiv.org/pdf/2403.16831), 
   [GeoHG [arXiv]](https://www.arxiv.org/pdf/2405.14135),
   [UrbanCross [MM'24]](https://arxiv.org/pdf/2404.14241), 
@@ -43,6 +44,7 @@ He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
   [[MM'22]](https://dl.acm.org/doi/pdf/10.1145/3503161.3548102), 
   [[MM'21]](https://dl.acm.org/doi/pdf/10.1145/3474085.3475268)
   - **Trajectory Data Mining**: 
+  [UniTraj [arXiv]](https://arxiv.org/pdf/2411.03859), 
   [Diffusion Model [KDD'24]](https://arxiv.org/pdf/2404.15380), 
   [Causal Learning [IJCAI'24]](https://arxiv.org/pdf/2404.14073.pdf), 
   [COLA [WWW'24]](https://arxiv.org/pdf/2403.01801), 
@@ -78,6 +80,7 @@ He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
 
 - **Survey Paper**:
   - LLMs/FMs + ST data:
+    - [[arXiv]](https://arxiv.org/pdf/2503.13502) **Foundation Models -> Spatio-Temporal Data Mining**
     - [[KDD'24]](https://arxiv.org/pdf/2403.14735.pdf) **Foundation Models -> Time Series Analysis**
     - [[arXiv]](https://arxiv.org/pdf/2310.10196) Large Models -> Time Series and Spatio-Temporal Data
   - ST Data Mining & Urban Computing:
