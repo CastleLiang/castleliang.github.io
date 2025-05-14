@@ -13,13 +13,15 @@ nav_order: 3
 - **Reviewer**:
   - Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST, etc.
   - AI and Machine Learning: TPAMI, ACM Computing Surveys, TNNLS, TASLP, Neurocomputing, TMLR, etc.
-  - Interdiscipline: T-ITS, Transportation Research Part C, Sensor Journal, Sustainable Cities and Society, etc.
+  - Interdiscipline: T-ITS, Transportation Research Part C, Applied Energy, Sensor Journal, Sustainable Cities and Society, etc.
 
 
 **Conference Services**
 - **Organizers**
   - **Tutorial Chair**:
-    - 19th International Symposium on Spatial and Temporal Data (SSTD'25)
+    - The 19th International Symposium on Spatial and Temporal Data (SSTD'25)
+  <!-- - **Workshop Chair**:
+    - The 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD'26) -->
   - **Program Chair**:
     - The International Workshop on Urban Computing (Urbcomp) @ KDD'25, KDD'24 
     - AI for Time Series Analysis (AI4TS) @ WWW'25, IJCAI'25, IJCAI'24
