@@ -80,7 +80,7 @@ He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
 
 - **Survey Paper**:
   - LLMs/FMs + ST data:
-    - [[arXiv]](https://arxiv.org/pdf/2503.13502) **Foundation Models -> Spatio-Temporal Data Mining**
+    - [[KDD'25]](https://arxiv.org/pdf/2503.13502) **Foundation Models -> Spatio-Temporal Data Mining**
     - [[KDD'24]](https://arxiv.org/pdf/2403.14735.pdf) **Foundation Models -> Time Series Analysis**
     - [[arXiv]](https://arxiv.org/pdf/2310.10196) Large Models -> Time Series and Spatio-Temporal Data
   - ST Data Mining & Urban Computing:

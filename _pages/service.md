@@ -20,8 +20,6 @@ nav_order: 3
 - **Organizers**
   - **Tutorial Chair**:
     - The 19th International Symposium on Spatial and Temporal Data (SSTD'25)
-  <!-- - **Workshop Chair**:
-    - The 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD'26) -->
   - **Program Chair**:
     - The International Workshop on Urban Computing (Urbcomp) @ KDD'25, KDD'24 
     - AI for Time Series Analysis (AI4TS) @ WWW'25, IJCAI'25, IJCAI'24
