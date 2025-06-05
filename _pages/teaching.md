@@ -38,8 +38,6 @@ I am very lucky to mentor the following talented students outside HKUST(GZ) (in 
 
 - [Yoojin An](https://www.linkedin.com/in/yoojin-an-254075218/?originalSubdomain=kr) (Master, Dongguk University), co-supervised with Prof. [Jihie Kim](https://sites.google.com/view/jihiekim), 2021-2022.
 
-- [Yutong Xia](https://yutong-xia.github.io/) (PhD student, NUS), co-supervised with Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/cs/people/rogerz/), 2022-2024.
-
 
 
 

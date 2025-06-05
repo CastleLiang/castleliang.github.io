@@ -11,9 +11,10 @@ nav_order: 3
 **Journal Services**
 - **Associate Editor**: Neurocomputing (IF=6.0)
 - **Reviewer**:
+  - PNAS, ACM Computing Surveys
   - Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST, etc.
-  - AI and Machine Learning: TPAMI, ACM Computing Surveys, TNNLS, TASLP, Neurocomputing, TMLR, etc.
-  - Interdiscipline: T-ITS, Transportation Research Part C, Applied Energy, Sensor Journal, Sustainable Cities and Society, etc.
+  - AI and Machine Learning: TPAMI, TNNLS, TASLP, Neurocomputing, TMLR, etc.
+  - Interdiscipline: T-ITS, Transportation Research Part C, Applied Energy, Sensor Journal, Urban Informatics, Sustainable Cities and Society, etc.
 
 
 **Conference Services**

@@ -88,10 +88,10 @@ He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
     - [[arXiv]](https://arxiv.org/pdf/2403.14151) Deep Learning -> Trajectory Data Management and Mining
     - [[arXiv]](https://arxiv.org/pdf/2402.19348) Deep Learning -> Cross-Domain Data Fusion in Urban Computing
     - [[arXiv]](https://arxiv.org/pdf/2404.18886) Diffusion Models -> Time Series and Spatio-Temporal Data
-    - [[arXiv]](https://arxiv.org/pdf/2309.01194) Service Route and Time Prediction in Instant Delivery
+    - [[TKDE'24]](https://arxiv.org/pdf/2309.01194) Service Route and Time Prediction in Instant Delivery
   - Time Series Analysis:
     - [[TPAMI'24]](https://arxiv.org/pdf/2306.10125.pdf) Self-Supervised Learning -> Time Series Analysis
-    - [[arXiv]](https://arxiv.org/pdf/2402.04059v1) Deep Learning -> Multivariate Time Series Imputation
+    - [[IJCAI'25]](https://arxiv.org/pdf/2402.04059v1) Deep Learning -> Multivariate Time Series Imputation
 
 
 The full list of publication can be found [here](https://citymind.top/publications/).
