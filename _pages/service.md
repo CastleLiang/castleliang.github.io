@@ -16,9 +16,10 @@ nav_order: 3
   - AI and Machine Learning: TPAMI, TNNLS, TASLP, Neurocomputing, TMLR, etc.
   - Interdiscipline: T-ITS, Transportation Research Part C, Applied Energy, Sensor Journal, Urban Informatics, Sustainable Cities and Society, etc.
 
-
 **Conference Services**
 - **Organizers**
+  - **Workshop Chair**:
+    - The 19th International Symposium on Spatial and Temporal Data (SSTD'25)
   - **Tutorial Chair**:
     - The 19th International Symposium on Spatial and Temporal Data (SSTD'25)
   - **Program Chair**:
@@ -26,18 +27,19 @@ nav_order: 3
     - AI for Time Series Analysis (AI4TS) @ WWW'25, IJCAI'25, IJCAI'24
     - The Mining and Learning from Time Series Workshop (MiLeTS) @ KDD'25
     - The International Workshop on Spatio-Temporal Data Mining from the Web (WebST) @ WWW'24
+    - The International Workshop on Spatio-Temporal Data Intelligence and Foundation Models @ CIKM'25
   - **Publicity Chair**
     - The International Workshop on Urban Computing (Urbcomp) @ KDD'23
     - 2023 International Conference on Artificial Intelligence of Things and Systems (AIoTSys'23)
   - **Tutorial Organizer**
-    - Foundation Models for Time Series Analysis (FM4TS) @ WWW'25, AAAI'25, KDD'24
+    - Foundation Models for Time Series Analysis (FM4TS) @ AAAI'26, WWW'25, AAAI'25, KDD'24
+    - Multi-modal Time Series Analysis: Methods, Datasets, and Applications @ AAAI'26
     - Multimodal Learning for Spatio-Temporal Data Mining (MMST) @ MM'25
     - Data Driven Decision Making with Time Series and Spatio-temporal Data @ ICDE'25
     - Web-Centric Human Mobility Analytics @ WWW'25
 
-
 - **Program Committee**
-  - **Area Chair**: KDD, NeurIPS, MM, ICASSP
-  - **Senior PC Member**: IJCAI 
+  - **Area Chair**: KDD, NeurIPS, ICLR, MM, ICASSP
+  - **Senior PC Member**: AAAI (main track and AISI track), IJCAI
   - **PC (reviewer)**: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS, SPATIALDI, etc.
-  - **Session chair**: KDD'24, IJCAI'24, ICDM'23, KDD'23, AAAI'23, KDD'21
+  - **Session chair**: IJCAI'25, KDD'25, KDD'24, IJCAI'24, ICDM'23, KDD'23, AAAI'23, KDD'21
