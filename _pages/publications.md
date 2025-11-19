@@ -86,8 +86,8 @@ He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
   - ST Data Mining & Urban Computing:
     - [[TKDE'23]](https://arxiv.org/pdf/2303.14483.pdf) **Spatio-Temporal Graph Neural Networks -> Urban Computing**
     - [[arXiv]](https://arxiv.org/pdf/2403.14151) Deep Learning -> Trajectory Data Management and Mining
-    - [[arXiv]](https://arxiv.org/pdf/2402.19348) Deep Learning -> Cross-Domain Data Fusion in Urban Computing
-    - [[arXiv]](https://arxiv.org/pdf/2404.18886) Diffusion Models -> Time Series and Spatio-Temporal Data
+    - [[Information Fusion'24]](https://arxiv.org/pdf/2402.19348) Deep Learning -> Cross-Domain Data Fusion in Urban Computing
+    - [[CSUR'25]](https://arxiv.org/pdf/2404.18886) Diffusion Models -> Time Series and Spatio-Temporal Data
     - [[TKDE'24]](https://arxiv.org/pdf/2309.01194) Service Route and Time Prediction in Instant Delivery
   - Time Series Analysis:
     - [[TPAMI'24]](https://arxiv.org/pdf/2306.10125.pdf) Self-Supervised Learning -> Time Series Analysis

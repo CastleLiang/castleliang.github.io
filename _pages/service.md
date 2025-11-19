@@ -39,7 +39,7 @@ nav_order: 3
     - Web-Centric Human Mobility Analytics @ WWW'25
 
 - **Program Committee**
-  - **Area Chair**: KDD, NeurIPS, ICLR, MM (outstanding AC!), ICASSP
+  - **Area Chair**: KDD'25/26, NeurIPS'25, ICLR'26, ACL'26, MM'25 (outstanding AC!), ICASSP'25/26
   - **Senior PC Member**: AAAI (main track and AISI track), IJCAI, PAKDD
   - **PC (reviewer)**: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS, SPATIALDI, etc.
   - **Session chair**: IJCAI'25, KDD'25, KDD'24, IJCAI'24, ICDM'23, KDD'23, AAAI'23, KDD'21
