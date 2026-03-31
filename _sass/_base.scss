@@ -106,15 +106,15 @@ blockquote {
   }
 }
 .profile.float-right{
-  margin-left: 1rem;
+  margin-left: calc(1rem + 1em);
 }
 .profile.float-left{
-  margin-right: 1rem;
+  margin-right: calc(1rem + 1em);
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 31.2%;
     .address {
       p { display: block; }
     }

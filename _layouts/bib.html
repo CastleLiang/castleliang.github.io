@@ -188,9 +188,9 @@
           {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
           {%- endif %}
-          {%- if entry.citation %}
-            <!-- <a href="{{ entry.website }}" class="btn btn-sm btn-danger z-depth-0" role="button">#Citations: {{entry.citation}}</a> -->
-            <a href="https://scholar.google.co.jp/citations?user=n9cODgcAAAAJ&hl=en" class="btn btn-sm z-depth-0" role="button"><b>Cited by {{entry.citation}}</b></a>
+          {%- assign citation_count = entry.citation -%}
+          {%- if citation_count %}
+            <a href="https://scholar.google.co.jp/citations?user=n9cODgcAAAAJ&hl=en" class="btn btn-sm z-depth-0" role="button"><b>Cited by {{ citation_count }}</b></a>
           {%- endif %}
           </div>
 

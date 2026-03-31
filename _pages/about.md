@@ -10,27 +10,71 @@ profile:
   align: right
   image: profile2.jpg
   image_circular: false # crops the image to make it circular
-  address: 
+  address:
     # <p>11 Computing Dr</p>
     # <p>Singapore 117416</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+# selected_papers: true # includes a list of papers marked as "selected={true}"
 # social: true  # includes social icons at the bottom of the page
 experience: true
 ---
+  <p>Dr. Yuxuan Liang is an Assistant Professor at <a href="https://hkust-gz.edu.cn/">Hong Kong University of Science and Technology (Guangzhou)</a>. Prior to that, he obtained his PhD degree from the School of Computing at <a href="https://www.nus.edu.sg/">National University of Singapore</a>. He has published 120+ papers in leading journals and conferences, including TPAMI, AI Journal, TKDE, TMC, IJGIS, KDD, NeurIPS, ICML, ICLR, and WWW. His publications have received 13,000+ citations on <a href="https://scholar.google.com/citations?user=n9cODgcAAAAJ">Google Scholar</a>, with an h-index of 56. Based on his contributions to spatio-temporal data mining and urban computing, he was recognized as Stanford/Elsevier Top 2% Scientists, and has received multiple <a href="/awards/">awards</a> both domestically and internationally.</p>
 
-Dr. Yuxuan Liang is currently an Assistant Professor at [Intelligent Transportation Thrust](https://hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/), also affiliated with [Data Science and Analytics Thrust](https://hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/data-science-and-analytics/), [Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). He is working on the research, development, and innovation of spatio-temporal data mining and AI, with a broad range of applications in smart cities. Prior to that, he obtained his PhD degree at School of Computing, National University of Singapore, supervised by Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/cs/people/rogerz) and Prof. [David S. Rosenblum](https://cs.gmu.edu/~dsr/). He also worked closely with Dr. [Yu Zheng](http://urban-computing.com/yuzheng) and Dr. [Junbo Zhang](https://zhangjunbo.org/) from JD Technology. He published 100+ papers in refereed journals (e.g., TPAMI, AI, TKDE, TMC, IJGIS) and conferences (such as KDD, NeurIPS, ICML, ICLR, WWW, ECCV, IJCAI, AAAI, and MM). His publications collectively gathered 10,000+ citations on Google Scholar, with h-index of 52. Among them, six papers ([UrbanCLIP](https://arxiv.org/pdf/2310.18340), [UniTime](https://arxiv.org/pdf/2310.09751), [MixupGNN](https://bhooi.github.io/papers/mixup_web21.pdf), [GeoMAN](https://www.ijcai.org/Proceedings/2018/0476.pdf), [ST-MetaNet](http://urban-computing.com/pdf/kdd_2019_camera_ready_ST_MetaNet.pdf) and [STMTMVL](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/ijcai16-Zheng-water-quality.pdf)) were selected as the most influential papers according to PaperDigest, which indicates their significant impacts on both industry and academia. He has served as the Assosiate Editor of Neurocomputing (IF=6.0), and Area Chair for prestigious conferences, including KDD, NeurIPS, ICML, ICLR, ACL and MM. 
+  <p>Our team centers on the innovation of machine learning and data mining for spatio-temporal data and time series data, connecting methodological advances with high-impact applications, such as transportation, climate, energy, and environment.</p>
 
-Based on his contributions to spatio-temporal data mining and urban computing, he was recognized as [Stanford/Elsevier Top 2% Scientists](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7) in 2024. He was recognized as 1 out of 10 most innovative and impactful PhD students focusing on Data Science in Singapore by Singapore Data Science Consortium (SDSC) in 2020. He has received several awards both domestically and internationally, including SDSC Dissertation Research Fellowship, the 23rd China Patent Excellence Award, and the ACM SIGSPATIAL China Chapter Rising Star Nomination Award. He is currently leading projects funded by the National Natural Science Foundation of China (NSFC), Guangdong Province General Projects, CCF Tencent Rhino-Bird Fund, and CCF Didi Gaia Fund, among others.
+<!-- ## Research Interests -->
 
-His research interests mainly lie in
-- **Spatio-temporal (ST) data mining**: ST foundation models, Urban/ST + LLMs, AI for social good (e.g., urban, transportation, human mobility, environment, climate), physics-informed learning.
-- **Urban computing**: urban data sensing, urban data management, urban data analytics, urban decision-making.
-- **Time series analysis**: foundation models, forecasting, imputation, decomposition, anomaly detection.
-- **Multimodal learning**: urban multimodal fusion, vision-language pre-training, geo-localization.
+<div class="research-showcase">
+  <div class="row research-icon-grid">
+    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+      <a class="research-icon-card" href="/research/">
+        <h4>Spatio-Temporal (ST) Data Mining</h4>
+        <ul class="research-points">
+          <li>ST Graph Learning</li>
+          <li>Trajectory Learning</li>
+          <li>Location Embedding</li>
+        </ul>
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+      <a class="research-icon-card" href="/research/">
+        <h4>Urban Computing</h4>
+        <ul class="research-points">
+          <li>Urban Sensing</li>
+          <li>Data Management</li>
+          <li>Urban Data Analytics</li>
+          <li>Decision-Making</li>
+        </ul>
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+      <a class="research-icon-card" href="/research/">
+        <h4>Time Series Analysis</h4>
+        <ul class="research-points">
+          <li>Forecasting</li>
+          <li>Imputation</li>
+          <li>Anomaly Detection</li>
+          <li>Classification</li>
+        </ul>
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+      <a class="research-icon-card" href="/research/">
+        <h4>Foundation Models</h4>
+        <ul class="research-points">
+          <li>ST Foundation Models</li>
+          <li>Time Series Foundation Models (TSFM)</li>
+          <li>Multi-Agent System</li>
+        </ul>
+      </a>
+    </div>
+  </div>
+</div>
 
-Other Useful links: [CityMind Lab](https://citymind.top), [Google Scholar](https://scholar.google.com/citations?user=n9cODgcAAAAJ), [DBLP](https://dblp.org/pid/183/0977.html), [Linkedin](https://www.linkedin.com/in/yoshall/), [Official Page](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang)
+<!-- Among them, six papers ([UrbanCLIP](https://arxiv.org/pdf/2310.18340), [UniTime](https://arxiv.org/pdf/2310.09751), [MixupGNN](https://bhooi.github.io/papers/mixup_web21.pdf), [GeoMAN](https://www.ijcai.org/Proceedings/2018/0476.pdf), [ST-MetaNet](http://urban-computing.com/pdf/kdd_2019_camera_ready_ST_MetaNet.pdf) and [STMTMVL](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/ijcai16-Zheng-water-quality.pdf)) were selected as the most influential papers according to PaperDigest, which indicates their significant impacts on both industry and academia. He has served as the Assosiate Editor of Neurocomputing (IF=6.0), and Area Chair for prestigious conferences, including KDD, NeurIPS, ICML, ICLR, ACL and MM.  -->
+
+<!-- Other Useful links: [CityMind Lab](https://citymind.top), [Google Scholar](https://scholar.google.com/citations?user=n9cODgcAAAAJ), [DBLP](https://dblp.org/pid/183/0977.html), [Linkedin](https://www.linkedin.com/in/yoshall/), [Official Page](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang) -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

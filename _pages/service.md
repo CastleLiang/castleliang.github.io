@@ -19,7 +19,7 @@ nav_order: 3
 **Conference Services**
 - **Organizers**
   - **Workshop Chair**:
-    - The 19th International Symposium on Spatial and Temporal Data (SSTD'25)
+    - The 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD'26)
   - **Tutorial Chair**:
     - The 19th International Symposium on Spatial and Temporal Data (SSTD'25)
   - **Program Chair**:
@@ -31,12 +31,6 @@ nav_order: 3
   - **Publicity Chair**
     - The International Workshop on Urban Computing (Urbcomp) @ KDD'23
     - 2023 International Conference on Artificial Intelligence of Things and Systems (AIoTSys'23)
-  - **Tutorial Organizer**
-    - Foundation Models for Time Series Analysis (FM4TS) @ AAAI'26, WWW'25, AAAI'25, KDD'24
-    - Multi-modal Time Series Analysis: Methods, Datasets, and Applications @ AAAI'26, ICME'26
-    - Multimodal Learning for Spatio-Temporal Data Mining (MMST) @ MM'25
-    - Data Driven Decision Making with Time Series and Spatio-temporal Data @ ICDE'25
-    - Web-Centric Human Mobility Analytics @ WWW'25, WWW'26
 
 - **Program Committee**
   - **Area Chair**: KDD'25/26, NeurIPS'25, ICML'26, ICLR'26, ACL'26, MM'25 (outstanding AC!), ICASSP'25/26

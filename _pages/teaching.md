@@ -3,8 +3,8 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: 
-nav: true
-nav_order: 5
+nav: false
+nav_order: 7
 ---
 
 I have been the lecturer of the following courses at The Hong Kong University of Science and Technology (Guangzhou):
@@ -37,7 +37,4 @@ I am very lucky to mentor the following talented students outside HKUST(GZ) (in 
 - [Xu Liu](https://scholar.google.co.jp/citations?hl=en&amp;user=JTzLTycAAAAJ) (PhD student, NUS), co-supervised with Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/cs/people/rogerz/), 2021-2024.
 
 - [Yoojin An](https://www.linkedin.com/in/yoojin-an-254075218/?originalSubdomain=kr) (Master, Dongguk University), co-supervised with Prof. [Jihie Kim](https://sites.google.com/view/jihiekim), 2021-2022.
-
-
-
 

@@ -125,9 +125,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -144,7 +144,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit:  # leave blank to include all the news in the `_news` folder
+news_limit: 5 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -181,7 +181,7 @@ plugins:
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-imagemagick
+#  - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
@@ -276,21 +276,21 @@ external_links:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-  output_formats:
-    webp: "-resize 800x"
+# imagemagick:
+#   enabled: false # disabled on Windows to avoid invalid UTF-8 errors
+#   widths:
+#     - 480
+#     - 800
+#     - 1400
+#   input_directories:
+#     - assets/img/
+#   input_formats:
+#     - ".jpg"
+#     - ".jpeg"
+#     - ".png"
+#     - ".tiff"
+#   output_formats:
+#     webp: "-resize 800x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -318,7 +318,7 @@ enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_medium_zoom:         false   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
