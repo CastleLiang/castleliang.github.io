@@ -5,10 +5,7 @@ title: Talks
 description: Selected keynote talks and tutorials.
 nav: true
 nav_order: 8
-enable_talk_gallery: true
 ---
-
-<div id="talks-activity-gallery-root" class="mb-5"></div>
 
 <div class="talks-page">
   <section class="talks-section">
