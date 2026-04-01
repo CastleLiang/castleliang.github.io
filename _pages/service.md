@@ -4,9 +4,10 @@ permalink: /services/
 title: Services
 description: 
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
+{% include cfp_timeline.html %}
 
 **Journal Services**
 - **Associate Editor**: Neurocomputing (IF=6.0)

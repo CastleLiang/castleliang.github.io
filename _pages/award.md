@@ -3,7 +3,7 @@ layout: page
 permalink: /awards/
 title: Awards
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <div class="awards-page">
