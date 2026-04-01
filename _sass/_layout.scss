@@ -671,6 +671,7 @@ body.sticky-bottom-footer {
   margin-top: 0.4rem;
 }
 
+
 .talks-page {
   margin-top: 0.4rem;
 }
@@ -777,6 +778,46 @@ body.sticky-bottom-footer {
   margin-top: 0.28rem;
   font-size: 0.92rem;
   font-weight: 600;
+}
+
+.talk-gallery {
+  margin-top: 0.85rem;
+}
+
+.talk-gallery-frame {
+  overflow: hidden;
+  border-radius: 0.95rem;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: linear-gradient(180deg, rgba(247, 249, 252, 0.98), rgba(240, 245, 251, 0.98));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.talk-gallery-placeholder {
+  min-height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  text-align: center;
+  background:
+    radial-gradient(circle at top right, rgba(200, 164, 93, 0.16), rgba(200, 164, 93, 0) 34%),
+    radial-gradient(circle at bottom left, rgba(0, 91, 172, 0.12), rgba(0, 91, 172, 0) 38%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(243, 247, 252, 0.92));
+}
+
+.talk-gallery-placeholder-title {
+  color: rgba(15, 23, 42, 0.94);
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.talk-gallery-placeholder-meta {
+  margin-top: 0.28rem;
+  color: rgba(100, 116, 139, 0.92);
+  font-size: 0.88rem;
+  line-height: 1.55;
 }
 
 .services-section {
@@ -888,6 +929,7 @@ body.sticky-bottom-footer {
   padding-top: 0.85rem;
   border-top: 1px solid rgba(15, 23, 42, 0.07);
 }
+
 
 .services-section > .service-role-block:first-of-type {
   padding-top: 0;
