@@ -286,13 +286,26 @@ body.sticky-bottom-footer {
 .cfp-timeline-shell {
   position: relative;
   margin-top: 1.35rem;
-  padding: 3rem 1.25rem 3.25rem;
+  padding: 2.4rem 2.7rem 3.35rem 1.25rem;
 }
 
 .cfp-timeline-track {
+  position: relative;
   height: 2px;
   border-radius: 999px;
   background: linear-gradient(90deg, rgba(0, 91, 172, 0.25), rgba(200, 164, 93, 0.55), rgba(0, 91, 172, 0.25));
+}
+
+.cfp-timeline-track::after {
+  content: "";
+  position: absolute;
+  right: -0.35rem;
+  top: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-top: 2px solid rgba(0, 91, 172, 0.48);
+  border-right: 2px solid rgba(0, 91, 172, 0.48);
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .cfp-timeline-event {
@@ -357,13 +370,6 @@ body.sticky-bottom-footer {
   border: 1px solid rgba(15, 23, 42, 0.08);
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
   z-index: 4;
-}
-
-.cfp-pos-top .cfp-popover {
-  bottom: 4.4rem;
-}
-
-.cfp-pos-bottom .cfp-popover {
   top: 4.4rem;
 }
 
