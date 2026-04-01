@@ -50,13 +50,20 @@ body.sticky-bottom-footer {
 }
 
 .activity-flyout-item {
+  display: block;
   padding: 0.38rem 0;
   border-top: 1px solid rgba(15, 23, 42, 0.06);
+  text-decoration: none !important;
+  transition: transform 0.18s ease;
 }
 
 .activity-flyout-item:first-of-type {
   padding-top: 0;
   border-top: 0;
+}
+
+.activity-flyout-item:hover {
+  transform: translateX(2px);
 }
 
 .activity-flyout-title {
