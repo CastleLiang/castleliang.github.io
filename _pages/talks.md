@@ -26,7 +26,7 @@ nav_order: 8
         <div class="talk-main">
           <h4 class="talk-title">When Spatio-Temporal Data Meet Large Language Models</h4>
           <p class="talk-authors"><span class="talk-self-name">Yuxuan Liang</span></p>
-          <p class="talk-meta">Workshop on Dependability Modeling and Digitalization at The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, Naples, Italy, Jun. 2025.</p>
+          <p class="talk-meta">Workshop on Dependability Modeling and Digitalization at The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2025), Naples, Italy, Jun. 2025.</p>
           <p class="talk-links"><a href="https://wdmd-main.github.io/#/program">[Website]</a></p>
         </div>
       </article>

@@ -282,6 +282,7 @@ footer.fixed-bottom {
     color: rgba(255, 255, 255, 0.92);
     padding-top: 10px;
     padding-bottom: 9px;
+    text-align: center;
   }
   a {
     color: rgba(255, 232, 184, 0.96);
@@ -301,6 +302,7 @@ footer.sticky-bottom {
   font-size: 0.9rem;
   .container {
     color: rgba(24, 43, 68, 0.9);
+    text-align: center;
   }
   a {
     color: var(--hkust-blue-dark);
