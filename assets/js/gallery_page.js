@@ -30,58 +30,161 @@
         });
     }
 
+    function parseSortDate(value) {
+      if (!value) {
+        return 0;
+      }
+
+      var normalized = String(value).toLowerCase().replace(/\./g, "");
+      var monthMap = {
+        january: 0,
+        jan: 0,
+        february: 1,
+        feb: 1,
+        march: 2,
+        mar: 2,
+        april: 3,
+        apr: 3,
+        may: 4,
+        june: 5,
+        jun: 5,
+        july: 6,
+        jul: 6,
+        august: 7,
+        aug: 7,
+        september: 8,
+        sep: 8,
+        october: 9,
+        oct: 9,
+        november: 10,
+        nov: 10,
+        december: 11,
+        dec: 11
+      };
+
+      var yearMatch = normalized.match(/20\d{2}/);
+      if (!yearMatch) {
+        return 0;
+      }
+
+      var year = parseInt(yearMatch[0], 10);
+      var month = 0;
+
+      Object.keys(monthMap).some(function (monthName) {
+        if (normalized.indexOf(monthName) !== -1) {
+          month = monthMap[monthName];
+          return true;
+        }
+        return false;
+      });
+
+      return new Date(year, month, 1).getTime();
+    }
+
+    function buildGeneratedDescription(stem, title, tag, date) {
+      var normalizedStem = String(stem || "").toLowerCase();
+
+      if (normalizedStem.indexOf("travel") !== -1) {
+        return "A candid travel moment around " + tag + ", documenting the broader academic journey surrounding tutorials, workshops, and in-person community exchange.";
+      }
+
+      if (normalizedStem.indexOf("meeting") !== -1) {
+        return "A research meeting snapshot highlighting academic discussion, collaboration, and idea exchange with peers working on closely related data science problems.";
+      }
+
+      if (normalizedStem.indexOf("ai4ts") !== -1) {
+        return "An activity photo from the AI4TS community, capturing exchange around time series learning, foundation models, and data-driven research collaboration.";
+      }
+
+      if (normalizedStem.indexOf("urbcomp") !== -1) {
+        return "A workshop moment from " + tag + ", reflecting research exchange on urban computing, city intelligence, and spatio-temporal data science.";
+      }
+
+      if (normalizedStem.indexOf("webst") !== -1) {
+        return "A workshop photo connected to " + title + ", capturing academic discussion on web-centric spatio-temporal intelligence and interdisciplinary applications.";
+      }
+
+      if (normalizedStem.indexOf("fm4ts") !== -1 || normalizedStem.indexOf("fm4st") !== -1) {
+        return "A tutorial snapshot from " + tag + ", highlighting recent work on foundation models, data-centric AI, and the broader research community around temporal intelligence.";
+      }
+
+      return "An academic activity photo associated with " + title + ", recorded during " + date + " and reflecting recent tutorials, workshops, or collaborative research exchange.";
+    }
+
     var metadataMap = {
       aaai26_fm4ts: {
-        tag: "AAAI 2026",
+        tag: "AAAI-26 Tutorial",
         title: "Foundation Models for Time Series Analysis",
         date: "January 2026, Singapore",
-        description: "Tutorial session on foundation models for time series analysis, highlighting model design, evaluation, and emerging application scenarios."
+        description: "Organizer: Yuxuan Liang, Qingxiang Liu, Ming Jin, Xu Liu, Yushan Jiang, Dongjin Song, Shirui Pan, Qingsong Wen"
       },
       kdd25_fm4st: {
-        tag: "KDD 2025",
+        tag: "KDD-25 Tutorial",
         title: "Foundation Models for Spatio-Temporal Data Science",
         date: "August 2025, Toronto",
-        description: "Tutorial and survey activity centered on foundation models for spatio-temporal data science and their impact across data-driven research domains."
+        description: "Organizer: Yuxuan Liang, Haomin Wen, Yutong Xia, Ming Jin, Bin Yang, Flora Salim, Qingsong Wen, Shirui Pan, Gao Cong"
       },
       kdd25_urbcomp: {
-        tag: "UrbComp @ KDD 2025",
-        title: "Urban Computing Community Activity",
+        tag: "KDD-25 Workshop",
+        title: "The 14th Workshop on Urban Computing",
         date: "August 2025, Toronto",
-        description: "Workshop organization and community exchange around urban computing, city intelligence, and AI for real-world societal systems."
+        description: "Special thanks to our keynote speakers Prof. Chang-Tien Lu, Prof. Yanjie Fu and Prof. Liang Zhao!"
       },
       www25_webst: {
-        tag: "WWW 2025",
-        title: "Spatio-Temporal Data Mining from the Web",
+        tag: "WWW-25 Workshop",
+        title: "The 1st Workshop on Spatio-Temporal Data Mining from the Web",
         date: "May 2025, Sydney",
-        description: "Workshop activity focused on web-centric spatio-temporal intelligence, mining methodologies, and interdisciplinary applications."
+        description: "Special thanks to our keynote speakers Prof. Lexing Xie, Dr. Chang Xu, Prof. Mingyue Cheng and Prof. Zhengyang Zhou!"
       },
       kdd24_fm4ts: {
-        tag: "KDD 2024",
+        tag: "KDD-24 Tutorial",
         title: "Foundation Models for Time Series Analysis",
         date: "August 2024, Barcelona",
-        description: "Tutorial presentation on the foundations, opportunities, and open directions of time series foundation models in modern AI systems."
+        description: "Organizer: Yuxuan Liang, Haomin Wen, Yuqi Nie, Yushan Jiang, Ming Jin, Dongjin Song, Shirui Pan, Qingsong Wen"
       },
       kdd24_urbcomp: {
-        tag: "UrbComp @ KDD 2024",
-        title: "Urban Computing Workshop Activity",
+        tag: "KDD-24 Workshop",
+        title: "The 13th Workshop on Urban Computing",
         date: "August 2024, Barcelona",
-        description: "Academic activity showcasing research exchange on urban analytics, spatio-temporal learning, and AI for city-scale systems."
+        description: "Special thanks to our keynote speakers Prof. Jessie Li and Prof. Yu Zheng!"
+      },
+      kdd25_travel: {
+        tag: "KDD-25 Travel",
+        title: "Travel Moment",
+        date: "August 2025, Toronto",
+        description: "A nice travel snapshot with so many senior researchers and professors taken around KDD 2025!"
+      },
+      "shonan meeting": {
+        tag: "Shonan Meeting",
+        title: "Advancing Mobility Data Science and Mobility AI",
+        date: "Feburary 2024, Shonan Village, Japan",
+        description: "Many thanks to the organizers, including Flora Salim, Andreas Zufle, Mahmoud Sakr, Kyoung-Sook Kim and Peer kroger"
+      },
+      www25_ai4ts: {
+        tag: "WWW-25 Workshop",
+        title: "AI for Time Series Analysis",
+        date: "May 2025, Sydney",
+        description: "Special thanks to our keynote speakers Prof. Longbing Cao, Prof. Ben Fulcher, Dr. Chang Xu, Prof. Bin Yang and Prof. Geoff Webb"
       }
     };
 
     var slides = rawImages.map(function (item, index) {
       var metadata = metadataMap[item.stem] || {};
+      var title = metadata.title || titleize(item.stem || item.filename);
+      var tag = metadata.tag || "Academic Activity";
+      var date = metadata.date || "Recent activity";
       return {
         key: item.stem || "gallery-" + index,
         src: item.src,
         filename: item.filename,
-        tag: metadata.tag || "Academic Activity",
-        title: metadata.title || titleize(item.stem || item.filename),
-        date: metadata.date || "Recent activity",
-        description:
-          metadata.description ||
-          "Photo record from recent academic activities, including tutorials, workshops, conference service, and collaborative research exchanges."
+        tag: tag,
+        title: title,
+        date: date,
+        sortDate: parseSortDate(date),
+        description: metadata.description || buildGeneratedDescription(item.stem, title, tag, date)
       };
+    }).sort(function (a, b) {
+      return b.sortDate - a.sortDate;
     });
 
     if (!slides.length) {
@@ -89,22 +192,17 @@
     }
 
     function GalleryArrow(props) {
-      var direction = props.direction;
-      var iconClass = direction === "left" ? "fas fa-chevron-left" : "fas fa-chevron-right";
-      var edgeClass = direction === "left" ? "left-3" : "right-3";
+      var iconClass = props.direction === "left" ? "fas fa-chevron-left" : "fas fa-chevron-right";
 
       return h(
         "button",
         {
           type: "button",
           onClick: props.onClick,
-          className:
-            "absolute " +
-            edgeClass +
-            " top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/70 bg-slate-900/55 text-white shadow-lg shadow-slate-900/20 backdrop-blur transition-all duration-300 hover:scale-105 hover:bg-slate-900/70 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:ring-offset-2",
+          className: "gallery-arrow gallery-arrow-" + props.direction,
           "aria-label": props.label
         },
-        h("i", { className: iconClass + " text-sm" })
+        h("i", { className: iconClass })
       );
     }
 
@@ -149,165 +247,91 @@
 
       return h(
         "section",
-        {
-          className:
-            "not-prose overflow-hidden rounded-[1.75rem] border border-slate-200/80 bg-white shadow-[0_20px_60px_-40px_rgba(15,23,42,0.45)]"
-        },
+        null,
         h(
           "div",
-          {
-            className:
-              "border-b border-slate-200/80 bg-[linear-gradient(135deg,rgba(15,23,42,0.03),rgba(41,75,146,0.08),rgba(255,255,255,0.88))] px-5 py-4 sm:px-7 sm:py-5"
-          },
+          { className: "academic-gallery-feature" },
           h(
-            "div",
-            { className: "flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between" },
+            "aside",
+            { className: "academic-gallery-aside" },
             h(
               "div",
-              null,
+              { className: "academic-gallery-aside-top" },
+              h("h4", { className: "academic-gallery-aside-title" }, currentSlide.title),
               h(
                 "div",
-                { className: "mb-2 inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-indigo-800" },
-                "Academic Activity Gallery"
-              ),
-              h(
-                "h3",
-                { className: "m-0 text-2xl font-semibold tracking-tight text-slate-900 sm:text-[1.9rem]" },
-                "Selected Academic Moments"
-              ),
-              h(
-                "p",
-                { className: "mt-2 max-w-3xl text-sm leading-6 text-slate-600 sm:text-[0.96rem]" },
-                "Images are loaded automatically from the local gallery directory. The scrolling filmstrip and keyboard navigation keep browsing smooth even as the collection grows."
+                { className: "academic-gallery-meta" },
+                h("span", { className: "academic-gallery-pill academic-gallery-pill-primary" }, currentSlide.tag),
+                h("span", { className: "academic-gallery-pill" }, currentSlide.date)
               )
+            ),
+            h("p", { className: "academic-gallery-description" }, currentSlide.description)
+          ),
+          h(
+            "div",
+            { className: "academic-gallery-stage" },
+            h("div", { className: "academic-gallery-frame" }, h("img", {
+              src: currentSlide.src,
+              alt: currentSlide.title + " photo",
+              className: "academic-gallery-image"
+            })),
+            h(GalleryArrow, { direction: "left", onClick: function () { goToSlide(currentSlideIndex - 1); }, label: "Previous activity photo" }),
+            h(GalleryArrow, { direction: "right", onClick: function () { goToSlide(currentSlideIndex + 1); }, label: "Next activity photo" }),
+            h(
+              "div",
+              { className: "academic-gallery-stage-tag" },
+              currentSlide.tag
             ),
             h(
               "div",
-              { className: "grid w-full max-w-xs grid-cols-2 gap-3 self-start sm:self-auto" },
-              h(
-                "div",
-                { className: "rounded-2xl border border-slate-200 bg-white/85 px-4 py-3 text-center shadow-sm backdrop-blur" },
-                h("div", { className: "text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500" }, "Photos"),
-                h("div", { className: "mt-1 text-xl font-semibold text-slate-900" }, String(slides.length))
-              ),
-              h(
-                "div",
-                { className: "rounded-2xl border border-slate-200 bg-white/85 px-4 py-3 text-center shadow-sm backdrop-blur" },
-                h("div", { className: "text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500" }, "Current"),
-                h("div", { className: "mt-1 text-sm font-semibold text-slate-900" }, String(currentSlideIndex + 1) + " / " + String(slides.length))
-              )
+              { className: "academic-gallery-stage-counter" },
+              String(currentSlideIndex + 1) + " / " + String(slides.length)
             )
           )
         ),
         h(
           "div",
-          { className: "grid gap-6 px-5 py-5 sm:px-7 sm:py-7 lg:grid-cols-[minmax(0,1.7fr)_minmax(280px,0.9fr)] lg:items-start" },
+          { className: "academic-gallery-layout" },
           h(
             "div",
-            { className: "space-y-4" },
+            { className: "academic-gallery-strip-shell" },
             h(
               "div",
-              { className: "relative overflow-hidden rounded-[1.5rem] border border-slate-200 bg-slate-100 shadow-[0_18px_50px_-35px_rgba(15,23,42,0.55)]" },
-              h("div", { className: "aspect-video bg-slate-200" }, h("img", {
-                src: currentSlide.src,
-                alt: currentSlide.title + " photo",
-                className: "h-full w-full object-cover transition-all duration-300"
-              })),
-              h(GalleryArrow, { direction: "left", onClick: function () { goToSlide(currentSlideIndex - 1); }, label: "Previous activity photo" }),
-              h(GalleryArrow, { direction: "right", onClick: function () { goToSlide(currentSlideIndex + 1); }, label: "Next activity photo" }),
-              h(
-                "div",
-                { className: "absolute left-4 top-4 rounded-full bg-white/88 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-700 shadow-sm backdrop-blur" },
-                currentSlide.tag
-              ),
-              h(
-                "div",
-                { className: "absolute bottom-4 right-4 rounded-full bg-slate-950/60 px-3 py-1 text-xs font-medium text-white shadow-sm backdrop-blur" },
-                String(currentSlideIndex + 1) + " / " + String(slides.length)
-              )
+              { className: "academic-gallery-strip-head" },
+              h("div", { className: "academic-gallery-strip-title" }, "Quick Browse"),
+              h("div", { className: "academic-gallery-strip-note" }, "Use arrows or keyboard")
             ),
             h(
               "div",
-              { className: "rounded-[1.35rem] border border-slate-200 bg-slate-50/70 p-3" },
-              h(
-                "div",
-                { className: "mb-3 flex items-center justify-between gap-3" },
-                h("div", { className: "text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500" }, "Quick Browse"),
-                h("div", { className: "text-xs text-slate-500" }, "Use arrows or keyboard")
-              ),
-              h(
-                "div",
-                { className: "flex gap-3 overflow-x-auto pb-1" },
-                slides.map(function (slide, slideIndex) {
-                  var isActive = slideIndex === currentSlideIndex;
-                  return h(
-                    "button",
-                    {
-                      key: slide.key,
-                      type: "button",
-                      ref: function (node) {
-                        thumbRefs.current[slideIndex] = node;
-                      },
-                      onClick: function () {
-                        goToSlide(slideIndex);
-                      },
-                      className:
-                        "group w-36 shrink-0 overflow-hidden rounded-2xl border bg-white text-left transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:ring-offset-2 " +
-                        (isActive
-                          ? "border-indigo-300 shadow-[0_10px_26px_-16px_rgba(41,75,146,0.7)] ring-1 ring-indigo-100"
-                          : "border-slate-200 hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-[0_10px_24px_-18px_rgba(15,23,42,0.5)]")
+              { className: "academic-gallery-strip" },
+              slides.map(function (slide, slideIndex) {
+                var isActive = slideIndex === currentSlideIndex;
+                return h(
+                  "button",
+                  {
+                    key: slide.key,
+                    type: "button",
+                    ref: function (node) {
+                      thumbRefs.current[slideIndex] = node;
                     },
-                    h("div", { className: "aspect-[4/3] overflow-hidden bg-slate-100" }, h("img", {
-                      src: slide.src,
-                      alt: slide.title + " thumbnail",
-                      className:
-                        "h-full w-full object-cover transition-transform duration-300 " +
-                        (isActive ? "scale-[1.03]" : "group-hover:scale-[1.03]")
-                    })),
-                    h(
-                      "div",
-                      { className: "border-t border-slate-100 px-3 py-2" },
-                      h("div", { className: "truncate text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500" }, slide.tag),
-                      h("div", { className: "mt-1 line-clamp-2 text-sm font-medium leading-5 text-slate-800" }, slide.title)
-                    )
-                  );
-                })
-              )
-            )
-          ),
-          h(
-            "aside",
-            { className: "rounded-[1.5rem] border border-slate-200 bg-[linear-gradient(180deg,rgba(248,250,252,0.92),rgba(255,255,255,1))] p-5 shadow-[0_16px_40px_-34px_rgba(15,23,42,0.45)]" },
-            h("div", { className: "text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500" }, "Activity Basics"),
-            h("h4", { className: "mt-3 text-xl font-semibold leading-8 tracking-tight text-slate-900" }, currentSlide.title),
-            h(
-              "div",
-              { className: "mt-3 flex flex-wrap gap-2" },
-              h("span", { className: "inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-800" }, currentSlide.tag),
-              h("span", { className: "inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-600" }, currentSlide.date)
-            ),
-            h("p", { className: "mt-4 text-sm leading-7 text-slate-600" }, currentSlide.description),
-            h(
-              "div",
-              { className: "mt-5 grid gap-3 sm:grid-cols-3 lg:grid-cols-1" },
-              h(
-                "div",
-                { className: "rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm" },
-                h("div", { className: "text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500" }, "Display"),
-                h("div", { className: "mt-1 text-sm font-medium text-slate-800" }, "Hero image with aspect-safe layout")
-              ),
-              h(
-                "div",
-                { className: "rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm" },
-                h("div", { className: "text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500" }, "Navigation"),
-                h("div", { className: "mt-1 text-sm font-medium text-slate-800" }, "Arrow keys, click, and scrollable filmstrip")
-              ),
-              h(
-                "div",
-                { className: "rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm" },
-                h("div", { className: "text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500" }, "Source"),
-                h("div", { className: "mt-1 text-sm font-medium text-slate-800" }, "Auto-loaded from assets/img/gallery")
-              )
+                    onClick: function () {
+                      goToSlide(slideIndex);
+                    },
+                    className: "academic-gallery-thumb" + (isActive ? " is-active" : "")
+                  },
+                  h("div", { className: "academic-gallery-thumb-media" }, h("img", {
+                    src: slide.src,
+                    alt: slide.title + " thumbnail",
+                    className: "academic-gallery-thumb-image"
+                  })),
+                  h(
+                    "div",
+                    { className: "academic-gallery-thumb-body" },
+                    h("div", { className: "academic-gallery-thumb-tag" }, slide.tag),
+                    h("div", { className: "academic-gallery-thumb-title" }, slide.title)
+                  )
+                );
+              })
             )
           )
         )
