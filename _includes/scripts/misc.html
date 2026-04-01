@@ -13,3 +13,6 @@
   <!-- Load Common JS -->
   <script defer src="{{ '/assets/js/common.js' | relative_url }}"></script>
   <script defer src="{{ '/assets/js/cfp_timeline.js' | relative_url }}"></script>
+  {% if page.enable_talk_gallery %}
+  <script defer src="{{ '/assets/js/talks_gallery.js' | relative_url }}"></script>
+  {% endif %}
