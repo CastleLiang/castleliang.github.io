@@ -279,6 +279,92 @@ body.sticky-bottom-footer {
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
 }
 
+.cfp-section {
+  margin-top: 0.15rem;
+  padding: 1.35rem 0 1rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.cfp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.cfp-card {
+  padding: 1rem 1.05rem 1rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.cfp-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  border-color: rgba(15, 23, 42, 0.08);
+}
+
+.cfp-card-highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 249, 252, 0.98));
+  border-color: rgba(0, 91, 172, 0.14);
+}
+
+.cfp-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.cfp-tag,
+.cfp-status {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.24rem 0.62rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.cfp-tag {
+  color: var(--hkust-blue-dark);
+  background: rgba(0, 91, 172, 0.1);
+  border: 1px solid rgba(0, 91, 172, 0.18);
+}
+
+.cfp-status {
+  color: #7a4f00;
+  background: rgba(200, 164, 93, 0.16);
+  border: 1px solid rgba(200, 164, 93, 0.28);
+}
+
+.cfp-title {
+  margin-bottom: 0.35rem;
+  font-size: 1.02rem;
+  line-height: 1.42;
+  font-weight: 700;
+}
+
+.cfp-meta {
+  margin-bottom: 0.45rem;
+  color: rgba(100, 116, 139, 0.92);
+  font-size: 0.84rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.cfp-text {
+  margin-bottom: 0;
+  color: rgba(51, 65, 85, 0.94);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
 .post article > .clearfix > p,
 .research-intro {
   text-align: justify;
@@ -658,6 +744,10 @@ body.sticky-bottom-footer {
 }
 
 @media (max-width: 800px) {
+  .cfp-grid {
+    grid-template-columns: 1fr;
+  }
+
   .services-section {
     margin-bottom: 2rem;
     padding-bottom: 1rem;

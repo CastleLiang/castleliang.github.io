@@ -39,6 +39,11 @@ layout: default
             {{ content }}
           </div>
 
+          {% if page.call_for_papers -%}
+          <!-- Call for Papers -->
+          {%- include call_for_papers.html %}
+          {%- endif %}
+
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}

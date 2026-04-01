@@ -18,6 +18,7 @@ news: true  # includes a list of news items
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 # social: true  # includes social icons at the bottom of the page
 experience: true
+call_for_papers: true
 ---
   <p>Dr. Yuxuan Liang is an Assistant Professor at <a href="https://hkust-gz.edu.cn/">Hong Kong University of Science and Technology (Guangzhou)</a>. Prior to that, he obtained his PhD degree from the School of Computing at <a href="https://www.nus.edu.sg/">National University of Singapore</a>. He has published 120+ papers in leading journals and conferences, including TPAMI, AI Journal, TKDE, TMC, IJGIS, KDD, NeurIPS, ICML, ICLR, and WWW. His publications have received 13,000+ citations on <a href="https://scholar.google.com/citations?user=n9cODgcAAAAJ">Google Scholar</a>, with an h-index of 56. Based on his contributions to spatio-temporal data mining and urban computing, he was recognized as Stanford/Elsevier Top 2% Scientists, and has received multiple <a href="/awards/">awards</a> both domestically and internationally.</p>
 
