@@ -9,7 +9,7 @@ nav_order: 3
 ---
 <!-- _pages/publications.md -->
 
-He has published 100+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC, IJGIS) and conferences (e.g., KDD, NeurIPS, ICML, ICLR, WWW, ECCV, IJCAI, AAAI, and MM) with over 9K citations on Google Scholar. Here are some representative papers:
+He has published 120+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC, IJGIS) and conferences (e.g., KDD, NeurIPS, ICML, ICLR, WWW, ECCV, IJCAI, AAAI, and MM) with over 13K citations on Google Scholar. Here are some representative papers:
 
 - **Spatio-Temporal (ST) Data Mining**: 
   - **LLM/FMs for Time Series and ST Data**: 

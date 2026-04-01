@@ -30,16 +30,6 @@
     <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
     {% endif %}
     {% if page.enable_gallery_page %}
-    <script>
-      window.tailwind = window.tailwind || {};
-      window.tailwind.config = {
-        important: "#academic-gallery-root",
-        corePlugins: {
-          preflight: false
-        }
-      };
-    </script>
-    <script src="https://cdn.tailwindcss.com"></script>
     <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     {% endif %}

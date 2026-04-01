@@ -138,16 +138,15 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid rgba(41, 75, 146, 0.34);
-  background: linear-gradient(180deg, rgba(41, 75, 146, 0.98), rgba(32, 60, 118, 0.97));
-  backdrop-filter: blur(10px);
-  opacity: 0.98;
+  border-bottom: 1px solid var(--global-divider-color);
+  background-color: var(--global-bg-color);
+  opacity: 0.95;
 }
 .navbar .dropdown-menu {
-  background: rgba(255, 255, 255, 0.99);
-  border: 1px solid rgba(0, 91, 172, 0.14);
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
   a:not(.active) {
-    color: rgba(24, 43, 68, 0.92);
+    color: var(--global-text-color);
   }
   a:hover {
     color: var(--global-hover-color);
@@ -157,10 +156,10 @@ blockquote {
   }
 }
 .dropdown-item {
-  color: rgba(24, 43, 68, 0.92);
+  color: var(--global-text-color);
     &:hover {
-      color: var(--hkust-blue-dark);
-      background-color: rgba(0, 91, 172, 0.06);
+      color: var(--global-hover-color);
+      background-color: var(--global-bg-color);
     }
 }
 .navbar.navbar-light {
@@ -170,20 +169,20 @@ blockquote {
     }
   }
   .navbar-brand {
-    color: rgba(255, 255, 255, 0.96);
+    color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--global-text-color);
     &:hover {
-      color: rgba(255, 255, 255, 1);
+      color: var(--global-hover-color);
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: rgba(255, 232, 184, 0.96);
+      color: var(--global-theme-color);
       &:hover {
-        color: rgba(255, 255, 255, 1);
+        color: var(--global-hover-color);
       }
   }
   .navbar-brand.social {
@@ -192,12 +191,12 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: rgba(255, 255, 255, 0.95);
+        color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: rgba(255, 232, 184, 0.96);
+          color: var(--global-theme-color);
         }
       }
     }
@@ -209,7 +208,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -275,27 +274,41 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background: linear-gradient(90deg, rgba(0, 64, 128, 0.98), rgba(0, 91, 172, 0.96), rgba(0, 64, 128, 0.98));
+  border-top: 1px solid rgba(200, 164, 93, 0.32);
+  box-shadow: 0 -8px 24px rgba(15, 23, 42, 0.08);
   font-size: 0.75rem;
   .container {
-    color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    color: rgba(255, 255, 255, 0.92);
+    padding-top: 10px;
+    padding-bottom: 9px;
   }
   a {
-    color: var(--global-footer-link-color);
+    color: rgba(255, 232, 184, 0.96);
     &:hover {
-      color: var(--global-theme-color);
+      color: rgba(255, 255, 255, 1);
       text-decoration: none;
     }
   }
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 3rem;
+  border-top: 1px solid rgba(200, 164, 93, 0.22);
+  background: linear-gradient(180deg, rgba(244, 248, 253, 0.82), rgba(232, 240, 249, 0.9));
+  padding-top: 34px;
+  padding-bottom: 34px;
   font-size: 0.9rem;
+  .container {
+    color: rgba(24, 43, 68, 0.9);
+  }
+  a {
+    color: var(--hkust-blue-dark);
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: none;
+    }
+  }
 }
 
 // CV

@@ -126,7 +126,7 @@
       },
       kdd25_urbcomp: {
         tag: "KDD-25 Workshop",
-        title: "The 14th Workshop on Urban Computing",
+        title: "The 14th International Workshop on Urban Computing",
         date: "August 2025, Toronto",
         description: "Special thanks to our keynote speakers Prof. Chang-Tien Lu, Prof. Yanjie Fu and Prof. Liang Zhao!"
       },
@@ -144,7 +144,7 @@
       },
       kdd24_urbcomp: {
         tag: "KDD-24 Workshop",
-        title: "The 13th Workshop on Urban Computing",
+        title: "The 13th International Workshop on Urban Computing",
         date: "August 2024, Barcelona",
         description: "Special thanks to our keynote speakers Prof. Jessie Li and Prof. Yu Zheng!"
       },
@@ -154,11 +154,29 @@
         date: "August 2025, Toronto",
         description: "A nice travel snapshot with so many senior researchers and professors taken around KDD 2025!"
       },
+      icde25_stdata: {
+        tag: "ICDE-25 Tutorial",
+        title: "Data-Driven Decision Making with Time Series and Spatio-Temporal Data",
+        date: "May 2025, Hong Kong",
+        description: "Organizer: Bin Yang, Yuxuan Liang, Chenjuan Guo and Christian S. Jensen"
+      },
+      mcsct25_panel: {
+        tag: "MCSCT 2025",
+        title: "Panel Discussion",
+        date: "August 2025, Macau",
+        description: "Special thanks to Prof. Dingqi Yang and Prof. Pengyang Wang for the invitation!"
+      },
       "shonan meeting": {
         tag: "Shonan Meeting",
         title: "Advancing Mobility Data Science and Mobility AI",
-        date: "Feburary 2024, Shonan Village, Japan",
+        date: "Feburary 2024, Shonan Village",
         description: "Many thanks to the organizers, including Flora Salim, Andreas Zufle, Mahmoud Sakr, Kyoung-Sook Kim and Peer kroger"
+      },
+      sstd25_travel: {
+        tag: "SSTD-25 Travel",
+        title: "Dinner Moment",
+        date: "August 2025, Osaka",
+        description: "A photo with SSTD workshop organizers taken around SSTD 2025."
       },
       www25_ai4ts: {
         tag: "WWW-25 Workshop",
@@ -258,12 +276,11 @@
               "div",
               { className: "academic-gallery-aside-top" },
               h("h4", { className: "academic-gallery-aside-title" }, currentSlide.title),
-              h(
-                "div",
-                { className: "academic-gallery-meta" },
-                h("span", { className: "academic-gallery-pill academic-gallery-pill-primary" }, currentSlide.tag),
-                h("span", { className: "academic-gallery-pill" }, currentSlide.date)
-              )
+            h(
+              "div",
+              { className: "academic-gallery-meta" },
+              h("span", { className: "academic-gallery-pill" }, currentSlide.date)
+            )
             ),
             h("p", { className: "academic-gallery-description" }, currentSlide.description)
           ),

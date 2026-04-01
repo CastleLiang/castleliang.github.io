@@ -1,0 +1,702 @@
+﻿diff --git a/_layouts/about.html b/_layouts/about.html
+index ca09845..f0477eb 100644
+--- a/_layouts/about.html
++++ b/_layouts/about.html
+@@ -1,40 +1,46 @@
+----
++锘?--
+ layout: default
+ ---
+ 
+ <!-- about.html -->
+       <div class="post">
+-        <header class="post-header">
+-          <h1 class="post-title">
+-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+-          </h1>
+-          <p class="desc">{{ page.subtitle }}</p>
+-        </header>
+-
+-        <article>
++        <div class="about-header">
+           {% if page.profile -%}
+-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+-            {%- if page.profile.image %}
+-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
++          <div class="about-profile">
++            <div class="profile">
++              {%- if page.profile.image %}
++                {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+ 
+-              {% if page.profile.image_circular %}
+-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+-              {% else %}
+-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+-              {% endif %}
++                {% if page.profile.image_circular %}
++                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
++                {% else %}
++                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
++                {% endif %}
+ 
+-              {% include figure.html 
+-              path=profile_image_path 
+-              class=profile_image_class
+-              alt=page.profile.image -%}
+-            {% endif -%}
+-            {%- if page.profile.address %}
+-            <div class="address">
+-              {{ page.profile.address }}
++                {% include figure.html 
++                path=profile_image_path 
++                class=profile_image_class
++                alt=page.profile.image -%}
++              {% endif -%}
++              {%- if page.profile.address %}
++              <div class="address">
++                {{ page.profile.address }}
++              </div>
++              {%- endif %}
+             </div>
+-            {%- endif %}
+           </div>
+           {%- endif %}
++          <div class="about-header-text">
++            <header class="post-header">
++              <h1 class="post-title">
++               {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
++              </h1>
++              <p class="desc">{{ page.subtitle }}</p>
++            </header>
++          </div>
++        </div>
++
++        <article>
+           <div class="clearfix">
+             {{ content }}
+           </div>
+@@ -53,7 +59,7 @@ layout: default
+           {% if page.selected_papers -%}
+             <!-- Selected papers -->
+             {%- include selected_papers.html %}
+-          {%- endif %}
++          {% endif %}
+           {%- if page.social %}
+           <!-- Social -->
+           <div class="social">
+diff --git a/_sass/_layout.scss b/_sass/_layout.scss
+index 5d476a9..016277e 100644
+--- a/_sass/_layout.scss
++++ b/_sass/_layout.scss
+@@ -28,11 +28,611 @@ body.sticky-bottom-footer {
+ 
+ // Profile
+ .profile {
++  max-width: 320px;
++  margin: 0;
++
+   img {
+     width: 100%;
+   }
+ }
+ 
++.about-header {
++  display: flex;
++  justify-content: space-between;
++  align-items: stretch;
++  gap: 1.5rem;
++  margin-bottom: 2rem;
++}
++
++.about-header-text {
++  flex: 1;
++  min-width: 0;
++}
++
++.about-profile {
++  flex: 0 0 auto;
++  display: flex;
++  align-items: stretch;
++}
++
++.about-profile .profile {
++  min-height: 100%;
++  max-width: none;
++  display: flex;
++  align-items: center;
++  justify-content: center;
++}
++
++.about-profile .profile img {
++  height: 100%;
++  width: auto;
++  object-fit: cover;
++  display: block;
++}
++
++@media (max-width: 900px) {
++  .about-header {
++    display: block;
++  }
++  .about-profile {
++    width: 100%;
++  }
++  .about-profile .profile img {
++    width: 100%;
++    height: auto;
++    object-fit: cover;
++  }
++}
++
++.profile.float-right {
++  margin-left: 1.5rem;
++}
++
++.profile .address {
++  margin-top: 1rem;
++  color: rgba(100, 116, 139, 0.9);
++  font-size: 0.95rem;
++}
++
++.about-body {
++  min-width: 0;
++}
++
++.about-content {
++  line-height: 1.78;
++}
++
++.post .post-header {
++  margin-bottom: 2rem;
++  padding-bottom: 1rem;
++  border-bottom: 1px solid rgba(111, 66, 193, 0.12);
++}
++
++.post-title {
++  font-size: 2.6rem;
++  letter-spacing: -0.04em;
++}
++
++.desc {
++  font-size: 1.05rem;
++  color: rgba(55, 65, 81, 0.85);
++}
++
++.about-body .social {
++  margin-top: 2rem;
++}
++
++.about-body .contact-note {
++  margin-top: 1rem;
++  color: rgba(55, 65, 81, 0.85);
++}
++
++.about-body .about-content h2,
++.about-body .about-content h3 {
++  margin-top: 2rem;
++}
++
++.about-body .about-content ul,
++.about-body .about-content ol {
++  padding-left: 1.35rem;
++}
++
++.about-body .about-content a {
++  color: var(--global-theme-color, #6f42c1);
++  text-decoration: underline;
++}
++
++.news {
++  margin-top: 2rem;
++}
++
++.news h2 {
++  margin-bottom: 1rem;
++}
++
++.news .table {
++  margin-bottom: 0;
++}
++
++.news .news-title {
++  color: var(--global-theme-color, #6f42c1);
++  text-decoration: none;
++}
++
++.news .news-title:hover {
++  text-decoration: underline;
++}
++
++.experience {
++  margin-top: 2rem;
++}
++
++.experience h2 {
++  margin-bottom: 1.2rem;
++}
++
++.experience .experience-list {
++  position: relative;
++  padding-left: 52px;
++  display: grid;
++  gap: 1.6rem;
++}
++
++.experience .experience-list::before {
++  content: "";
++  position: absolute;
++  left: 27px;
++  top: 1rem;
++  bottom: 0;
++  width: 5px;
++  background: rgba(111, 66, 193, 0.25);
++  border-radius: 999px;
++  box-shadow: inset 0 0 0 1px rgba(111, 66, 193, 0.12);
++}
++
++.experience .experience-entry {
++  display: grid;
++  grid-template-columns: min-content 1fr;
++  gap: 1.4rem;
++  align-items: start;
++  position: relative;
++}
++
++.experience .experience-bullet {
++  width: 14px;
++  height: 14px;
++  border-radius: 50%;
++  background: var(--global-theme-color, #6f42c1);
++  justify-self: center;
++  margin-top: 1rem;
++  box-shadow: 0 0 0 0 rgba(111, 66, 193, 0.25);
++  position: relative;
++  animation: experience-pulse 2.4s ease-in-out infinite;
++}
++
++.experience .experience-bullet::after {
++  content: "";
++  position: absolute;
++  inset: -8px;
++  border-radius: 50%;
++  background: rgba(111, 66, 193, 0.08);
++}
++
++@keyframes experience-pulse {
++  0%, 100% {
++    transform: scale(1);
++    box-shadow: 0 0 0 0 rgba(111, 66, 193, 0.15);
++  }
++  50% {
++    transform: scale(1.1);
++    box-shadow: 0 0 0 6px rgba(111, 66, 193, 0.08);
++  }
++}
++
++.experience .experience-card {
++  display: flex;
++  gap: 1rem;
++  align-items: stretch;
++  padding: 1rem 1.2rem;
++  background: var(--card-bg-color, #ffffff);
++  border: 1px solid rgba(15, 23, 42, 0.08);
++  border-radius: 1rem;
++  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
++}
++
++.experience .experience-logo {
++  flex: 0 0 auto;
++  aspect-ratio: 1 / 1;
++  min-width: 72px;
++  max-width: 120px;
++  border-radius: 22px;
++  background: var(--global-bg-color, #fff);
++  display: grid;
++  place-items: center;
++  padding: 0.8rem;
++  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.06);
++  align-self: stretch;
++}
++
++.experience .experience-logo img {
++  display: block;
++  width: 100%;
++  height: 100%;
++  object-fit: contain;
++}
++
++.experience .experience-info {
++  min-width: 0;
++}
++
++.experience .experience-title {
++  font-size: 1rem;
++  font-weight: 700;
++  margin-bottom: 0.25rem;
++}
++
++.experience .experience-meta {
++  font-size: 0.9rem;
++  color: rgba(100, 116, 139, 0.9);
++  margin-bottom: 0.55rem;
++}
++
++.experience .experience-company {
++  font-size: 0.95rem;
++  color: rgba(55, 65, 81, 0.88);
++  margin-bottom: 0.35rem;
++}
++
++.experience .experience-company a {
++  color: inherit;
++  text-decoration: none;
++}
++
++.experience .experience-company a:hover {
++  color: var(--global-theme-color, #6f42c1);
++}
++
++.experience .experience-location {
++  font-size: 0.9rem;
++  color: rgba(100, 116, 139, 0.9);
++}
++
++@media (max-width: 900px) {
++  .experience .experience-card {
++    flex-direction: column;
++    align-items: start;
++  }
++
++  .experience .experience-entry {
++    grid-template-columns: min-content 1fr;
++  }
++}
++
++.timeline-section {
++  margin: 2.5rem 0;
++}
++
++.timeline-title {
++  margin-bottom: 1.5rem;
++}
++
++.timeline-title h2 {
++  margin-bottom: 0.4rem;
++}
++
++.timeline {
++  position: relative;
++  padding: 2rem 0;
++  overflow: hidden;
++}
++
++.timeline::before {
++  content: "";
++  position: absolute;
++  left: 50%;
++  top: 0;
++  bottom: 0;
++  width: 4px;
++  background: var(--global-theme-color, #6f42c1);
++  transform: translateX(-50%);
++}
++
++.timeline-item {
++  position: relative;
++  width: calc(50% - 3rem);
++  padding: 1rem 1rem;
++  margin-bottom: 2.5rem;
++}
++
++.timeline-item.timeline-item-left {
++  float: left;
++  text-align: right;
++}
++
++.timeline-item.timeline-item-right {
++  float: right;
++  text-align: left;
++}
++
++.timeline-item::before {
++  content: "";
++  position: absolute;
++  top: 1.5rem;
++  left: 50%;
++  width: 0.75rem;
++  height: 0.75rem;
++  background: var(--global-theme-color, #6f42c1);
++  border-radius: 50%;
++  transform: translateX(-50%);
++}
++
++.timeline-item.timeline-item-left::before {
++  left: 100%;
++}
++
++.timeline-item.timeline-item-right::before {
++  left: 0;
++}
++
++.timeline-card {
++  border: 1px solid rgba(111, 66, 193, 0.15);
++  background: rgba(255, 255, 255, 0.98);
++  border-radius: 0.75rem;
++  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
++  padding: 1.2rem 1.4rem;
++  position: relative;
++  overflow: hidden;
++}
++
++.timeline-card::before {
++  content: "";
++  position: absolute;
++  top: 0;
++  left: 0;
++  height: 100%;
++  width: 4px;
++  background: var(--global-theme-color, #6f42c1);
++  border-radius: 0.75rem 0 0 0.75rem;
++}
++
++.timeline-card h3 {
++  margin-top: 0;
++  margin-bottom: 0.5rem;
++  font-size: 1.05rem;
++  letter-spacing: 0.02em;
++}
++
++.mindmap-section {
++  margin: 2.5rem 0;
++}
++
++.mindmap-title {
++  margin-bottom: 1.5rem;
++}
++
++.mindmap-title h2 {
++  margin-bottom: 0.4rem;
++}
++
++.mindmap {
++  position: relative;
++  min-height: 700px;
++}
++
++.mindmap-center {
++  position: absolute;
++  top: 50%;
++  left: 50%;
++  transform: translate(-50%, -50%);
++  z-index: 2;
++}
++
++.mindmap-node {
++  position: absolute;
++  width: 280px;
++}
++
++.mindmap-root {
++  width: 260px;
++  text-align: center;
++  padding: 1rem 1.1rem;
++  background: rgba(111, 66, 193, 0.12);
++  border: 1px solid rgba(111, 66, 193, 0.22);
++  border-radius: 1.25rem;
++  box-shadow: 0 20px 60px rgba(111, 66, 193, 0.08);
++}
++
++.mindmap-root h3 {
++  margin: 0;
++  font-size: 1.1rem;
++  line-height: 1.4;
++}
++
++.mindmap-card {
++  border: 1px solid rgba(111, 66, 193, 0.15);
++  background: rgba(255, 255, 255, 0.98);
++  border-radius: 1rem;
++  padding: 1rem 1.1rem;
++  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
++  position: relative;
++}
++
++.mindmap-card h4 {
++  margin-top: 0;
++  margin-bottom: 0.65rem;
++  font-size: 1rem;
++}
++
++.mindmap-card p {
++  margin: 0 0 0.85rem;
++  color: rgba(55, 65, 81, 0.88);
++}
++
++.mindmap-card ul {
++  margin: 0 0 1rem;
++  padding-left: 1.15rem;
++  color: rgba(55, 65, 81, 0.88);
++}
++
++.mindmap-card ul li {
++  margin-bottom: 0.35rem;
++}
++
++.mindmap .mindmap-node::before {
++  content: "";
++  position: absolute;
++  width: 2px;
++  height: calc(100% + 40px);
++  background: rgba(111, 66, 193, 0.18);
++  top: -20px;
++  left: 50%;
++  transform: translateX(-50%);
++  z-index: -1;
++}
++
++.mindmap .node-urbanclip {
++  top: 12%;
++  left: 9%;
++}
++
++.mindmap .node-unitime {
++  top: 12%;
++  right: 9%;
++}
++
++.mindmap .node-fm4ts {
++  bottom: 12%;
++  left: 9%;
++}
++
++.mindmap .node-timellm {
++  bottom: 12%;
++  right: 9%;
++}
++
++.mindmap .node-urbanclip::after,
++.mindmap .node-unitime::after,
++.mindmap .node-fm4ts::after,
++.mindmap .node-timellm::after {
++  content: "";
++  position: absolute;
++  top: 50%;
++  left: 100%;
++  width: 120px;
++  height: 2px;
++  background: rgba(111, 66, 193, 0.18);
++  transform: translateY(-50%);
++  z-index: -1;
++}
++
++.mindmap .node-unitime::after {
++  left: auto;
++  right: 100%;
++}
++
++.mindmap .node-fm4ts::after {
++  top: auto;
++  bottom: 50%;
++  left: 100%;
++  transform: translateY(50%);
++}
++
++.mindmap .node-timellm::after {
++  top: auto;
++  bottom: 50%;
++  left: auto;
++  right: 100%;
++  transform: translateY(50%);
++}
++
++@media (max-width: 1024px) {
++  .mindmap {
++    min-height: 900px;
++  }
++
++  .mindmap .mindmap-node {
++    position: relative;
++    width: 100%;
++    margin: 0 auto 1.75rem;
++  }
++
++  .mindmap .mindmap-node::after {
++    display: none;
++  }
++
++  .mindmap-center {
++    position: static;
++    transform: none;
++    margin-bottom: 1.5rem;
++  }
++}
++
++@media (max-width: 640px) {
++  .mindmap {
++    min-height: auto;
++  }
++
++  .mindmap .mindmap-node {
++    padding: 0 0.5rem;
++  }
++
++  .mindmap-card {
++    padding: 0.9rem 1rem;
++  }
++}
++
++.awards-grid .card {
++  border: 1px solid rgba(111, 66, 193, 0.12);
++}
++
++.awards-grid .card-body {
++  padding: 1rem 1.1rem;
++}
++
++.awards-grid p {
++  margin-bottom: 0.55rem;
++}
++
++.awards-grid small {
++  color: rgba(75, 85, 99, 0.75);
++}
++
++.timeline-card p {
++  margin-bottom: 0.75rem;
++}
++
++.timeline-card a {
++  color: var(--global-theme-color, #6f42c1);
++}
++
++@media (max-width: 768px) {
++  .timeline {
++    padding-left: 1.5rem;
++  }
++
++  .timeline::before {
++    left: 1rem;
++  }
++
++  .timeline-item,
++  .timeline-item.timeline-item-left,
++  .timeline-item.timeline-item-right {
++    float: none;
++    width: 100%;
++    text-align: left;
++    padding-left: 2.5rem;
++  }
++
++  .timeline-item::before {
++    left: 0.6rem;
++  }
++
++  .timeline-item.timeline-item-left::before,
++  .timeline-item.timeline-item-right::before {
++    left: 0.6rem;
++  }
++}
++
+ // TODO: redefine content layout.
+ 
+ 
