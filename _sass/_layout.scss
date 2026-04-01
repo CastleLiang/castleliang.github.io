@@ -342,20 +342,6 @@ body.sticky-bottom-footer {
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, color 0.22s ease;
 }
 
-.cfp-node::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 0.82rem;
-  height: 0.82rem;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  background: #ffffff;
-  border: 2px solid rgba(0, 91, 172, 0.38);
-  z-index: -1;
-}
-
 .cfp-node:hover,
 .cfp-node[aria-expanded="true"] {
   color: var(--hkust-blue);
@@ -822,10 +808,6 @@ body.sticky-bottom-footer {
 
   .cfp-node:hover {
     transform: translateY(-2px);
-  }
-
-  .cfp-node::before {
-    display: none;
   }
 
   .cfp-popover,
