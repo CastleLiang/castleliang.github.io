@@ -167,7 +167,7 @@
         description: "Special thanks to Prof. Dingqi Yang and Prof. Pengyang Wang for the invitation!"
       },
       "shonan meeting": {
-        tag: "Shonan Meeting",
+        tag: "Shonan Meeting 2025",
         title: "Advancing Mobility Data Science and Mobility AI",
         date: "Feburary 2024, Shonan Village",
         description: "Many thanks to the organizers, including Flora Salim, Andreas Zufle, Mahmoud Sakr, Kyoung-Sook Kim and Peer kroger"
