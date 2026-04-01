@@ -274,7 +274,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background: linear-gradient(90deg, rgba(0, 64, 128, 0.98), rgba(0, 91, 172, 0.96), rgba(0, 64, 128, 0.98));
+  background: #0f3d78;
   border-top: 1px solid rgba(200, 164, 93, 0.32);
   box-shadow: 0 -8px 24px rgba(15, 23, 42, 0.08);
   font-size: 0.75rem;
@@ -295,7 +295,7 @@ footer.fixed-bottom {
 footer.sticky-bottom {
   margin-top: 3rem;
   border-top: 1px solid rgba(200, 164, 93, 0.22);
-  background: linear-gradient(180deg, rgba(244, 248, 253, 0.82), rgba(232, 240, 249, 0.9));
+  background: #eef4fb;
   padding-top: 34px;
   padding-bottom: 34px;
   font-size: 0.9rem;
