@@ -22,6 +22,57 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
+.activity-flyout {
+  position: fixed;
+  top: 5.15rem;
+  right: 1.15rem;
+  z-index: 1030;
+  width: 12.5rem;
+  pointer-events: none;
+}
+
+.activity-flyout-inner {
+  padding: 0.78rem 0.8rem 0.82rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.activity-flyout-kicker {
+  margin-bottom: 0.6rem;
+  color: var(--hkust-blue-dark);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.activity-flyout-item {
+  padding: 0.38rem 0;
+  border-top: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.activity-flyout-item:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.activity-flyout-title {
+  color: rgba(15, 23, 42, 0.94);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.activity-flyout-meta {
+  margin-top: 0.1rem;
+  color: rgba(100, 116, 139, 0.92);
+  font-size: 0.76rem;
+  line-height: 1.45;
+}
+
 .container {
   max-width: $max-content-width;
 }
@@ -868,6 +919,17 @@ body.sticky-bottom-footer {
 }
 
 @media (max-width: 800px) {
+  .activity-flyout {
+    position: static;
+    width: auto;
+    margin: 0.9rem 1rem 0;
+    pointer-events: auto;
+  }
+
+  .activity-flyout-inner {
+    padding: 0.75rem 0.8rem;
+  }
+
   .cfp-timeline-shell {
     padding: 0.5rem 0 0;
   }
