@@ -12,6 +12,26 @@ nav_order: 8
     <h3>Keynote Talks</h3>
     <div class="talks-list">
       <article class="talk-entry">
+        <div class="talk-type">DFPTNA</div>
+        <div class="talk-main">
+          <h4 class="talk-title">Multimodal Data Fusion in Urban Computing</h4>
+          <p class="talk-authors"><span class="talk-self-name">Yuxuan Liang</span></p>
+          <p class="talk-meta">Workshop on Data Fusion and Privacy Techniques for Novel Applications at IEEE International Conference on Big Data and Smart Computing (BigComp 2026), Guangzhou, China, Feb. 2026.</p>
+          <p class="talk-links"><a href="https://sites.google.com/view/wdfptna/data-fusion-and-privacy-techniques-for-novel-applications">[Website]</a></p>
+        </div>
+      </article>
+
+      <article class="talk-entry">
+        <div class="talk-type">WDMD </div>
+        <div class="talk-main">
+          <h4 class="talk-title">When Spatio-Temporal Data Meet Large Language Models</h4>
+          <p class="talk-authors"><span class="talk-self-name">Yuxuan Liang</span></p>
+          <p class="talk-meta">Workshop on Dependability Modeling and Digitalization at The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, Naples, Italy, Jun. 2025.</p>
+          <p class="talk-links"><a href="https://wdmd-main.github.io/#/program">[Website]</a></p>
+        </div>
+      </article>
+
+      <article class="talk-entry">
         <div class="talk-type">DeepSpatial</div>
         <div class="talk-main">
           <h4 class="talk-title">Foundation Models and Large Language Models for Spatio-Temporal Data</h4>
