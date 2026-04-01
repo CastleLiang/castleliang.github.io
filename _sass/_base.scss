@@ -273,6 +273,24 @@ blockquote {
 
 
 // Footer
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-copy {
+  flex: 1 1 auto;
+}
+
+.footer-badge {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
 footer.fixed-bottom {
   background: #0f3d78;
   border-top: 1px solid rgba(200, 164, 93, 0.32);
@@ -289,6 +307,17 @@ footer.fixed-bottom {
       color: rgba(255, 255, 255, 1);
       text-decoration: none;
     }
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-content {
+    gap: 0.75rem;
+  }
+
+  .footer-badge {
+    width: 26px;
+    height: 26px;
   }
 }
 
