@@ -759,6 +759,13 @@ body.sticky-bottom-footer {
   line-height: 1.65;
 }
 
+.talk-self-name {
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
+}
+
 .talk-meta {
   margin-top: 0.2rem;
   color: rgba(71, 85, 105, 0.94);
