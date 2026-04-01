@@ -138,15 +138,16 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  border-bottom: 1px solid rgba(0, 91, 172, 0.28);
+  background: linear-gradient(180deg, rgba(0, 91, 172, 0.97), rgba(0, 78, 147, 0.96));
+  backdrop-filter: blur(10px);
+  opacity: 0.98;
 }
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
+  background: rgba(255, 255, 255, 0.99);
+  border: 1px solid rgba(0, 91, 172, 0.14);
   a:not(.active) {
-    color: var(--global-text-color);
+    color: rgba(24, 43, 68, 0.92);
   }
   a:hover {
     color: var(--global-hover-color);
@@ -156,10 +157,10 @@ blockquote {
   }
 }
 .dropdown-item {
-  color: var(--global-text-color);
+  color: rgba(24, 43, 68, 0.92);
     &:hover {
-      color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
+      color: var(--hkust-blue-dark);
+      background-color: rgba(0, 91, 172, 0.06);
     }
 }
 .navbar.navbar-light {
@@ -169,20 +170,20 @@ blockquote {
     }
   }
   .navbar-brand {
-    color: var(--global-text-color);
+    color: rgba(255, 255, 255, 0.96);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: rgba(255, 255, 255, 0.9);
     &:hover {
-      color: var(--global-hover-color);
+      color: rgba(255, 255, 255, 1);
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--hkust-gold);
       &:hover {
-        color: var(--global-hover-color);
+        color: rgba(255, 255, 255, 1);
       }
   }
   .navbar-brand.social {
@@ -191,12 +192,12 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: rgba(255, 255, 255, 0.95);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--hkust-gold);
         }
       }
     }
@@ -208,7 +209,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: rgba(255, 255, 255, 0.92);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
