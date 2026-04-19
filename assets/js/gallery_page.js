@@ -169,7 +169,7 @@
       "shonan meeting": {
         tag: "Shonan Meeting 2025",
         title: "Advancing Mobility Data Science and Mobility AI",
-        date: "Feburary 2024, Shonan Village",
+        date: "Feburary 2025, Shonan Village",
         description: "Many thanks to the organizers, including Flora Salim, Andreas Zufle, Mahmoud Sakr, Kyoung-Sook Kim and Peer kroger"
       },
       sstd25_travel: {
