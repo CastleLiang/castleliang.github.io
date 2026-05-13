@@ -11,8 +11,9 @@ nav_order: 4
 
 **Journal Services**
 - **Associate Editor**: Neurocomputing (IF=6.0)
+- **Guest Editor**: [Special Issue on ST Data](https://link.springer.com/journal/778/updates/27853170) @ VLDB Journal
 - **Reviewer**:
-  - General: PNAS, ACM Computing Surveys
+  - General: PNAS, ACM Computing Surveys, Scientific Reports
   - Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST, etc.
   - AI and Machine Learning: TPAMI, TNNLS, TASLP, Neurocomputing, TMLR, etc.
   - Interdiscipline: T-ITS, Transportation Research Part C, Applied Energy, Sensor Journal, Urban Informatics, Sustainable Cities and Society, CEUS, etc.
@@ -37,7 +38,7 @@ nav_order: 4
     - The International Conference on Artificial Intelligence of Things and Systems 2023 (AIoTSys'23)
 
 - **Program Committee**
-  - **Area Chair**: KDD'25/26 (ADS and AI4S track), NeurIPS'25, ICML'26, ICLR'26, ACL'26, MM'25/26 (outstanding AC!), ICASSP'25/26
+  - **Area Chair**: KDD'25/26 (ADS and AI4S track), NeurIPS'25/26, ICML'26, ICLR'26, ACL'26, MM'25/26 (outstanding AC!), ICASSP'25/26
   - **Senior PC Member**: AAAI'25/26 (main track and AISI track), IJCAI'25/26 (main track and AI4Social track), PAKDD'26
   - **PC (reviewer)**: KDD, NeurIPS, ICML, ICLR, CVPR, ICCV, WWW, IJCAI, AAAI, MM, SIGSPATIAL (outstanding PC!), ECML-PKDD, ICASSP, MLSP, AI4TS, MILETS, SPATIALDI, etc.
   - **Session chair**: AAAI'26, IJCAI'25, KDD'25, KDD'24, IJCAI'24, ICDM'23, KDD'23, AAAI'23, KDD'21

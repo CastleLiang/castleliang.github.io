@@ -57,6 +57,16 @@ nav_order: 8
     <h3>Tutorials</h3>
     <div class="talks-list">
       <article class="talk-entry">
+        <div class="talk-type">KDD 2026</div>
+        <div class="talk-main">
+          <h4 class="talk-title">Foundation Models for Time Series Analysis: A Tutorial</h4>
+          <p class="talk-authors"><span class="talk-self-name">Yuxuan Liang</span>, Haomin Wen, Yuqi Nie, Yushan Jiang, Ming Jin, Dongjin Song, Shirui Pan, and Qingsong Wen</p>
+          <p class="talk-meta">Tutorial at the 32th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining, Jeju, South Korea, Aug. 2026.</p>
+          <p class="talk-links"><a href="https://wenhaomin.github.io/FM4TS.github.io/">[Website]</a></p>
+        </div>
+      </article>
+
+      <article class="talk-entry">
         <div class="talk-type">AAAI 2026</div>
         <div class="talk-main">
           <h4 class="talk-title">Foundation Models for Time Series Analysis: A Tutorial</h4>
@@ -67,7 +77,7 @@ nav_order: 8
       </article>
 
       <article class="talk-entry">
-        <div class="talk-type">KDD 2026</div>
+        <div class="talk-type">KDD 2025</div>
         <div class="talk-main">
           <h4 class="talk-title">Foundation Models for Spatio-Temporal Data Science: A Tutorial and Survey</h4>
           <p class="talk-authors"><span class="talk-self-name">Yuxuan Liang</span>, Haomin Wen, Yutong Xia, Ming Jin, Bin Yang, Flora Salim, Qingsong Wen, Shirui Pan, and Gao Cong</p>
