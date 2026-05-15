@@ -18,7 +18,8 @@ nav_order: 4
 
 ##### Editorial Service of Journals
   - **Associate Editor** [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) (IF=6.0)
-  - **Guest Editor**, [Special Issue on Spatio-Temporal Data Management and Analytics @ VLDB Journal](https://link.springer.com/journal/778/updates/27853170) (CCF-A)
+  - **Guest Editor**, [VLDB Journal](https://link.springer.com/journal/778/updates/27853170) (CCF-A), Special Issue on Spatio-Temporal Data Management and Analytics
+  - **Guest Editor**, [Smart Cities](https://www.mdpi.com/journal/smartcities/special_issues/8685JISWGD) (JCR Q1), Special Issue on Spatiotemporal Intelligence in Smart Cities
   - Journal Reviewer:
     - General: PNAS, ACM Computing Surveys, Scientific Reports
     - Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST, etc.
@@ -40,14 +41,14 @@ nav_order: 4
   - Publicity Chair, [The International Conference on Artificial Intelligence of Things and Systems 2023](https://easychair.org/cfp/2023AIoTSys) (AIoTSys'23)
 
 ##### Area Chairs/ Session Chairs/ Senior Program Committee of Conferences
+  - **Area Chair**, [ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd.org/), Applied Data Science Track (KDD'25, KDD'26)
+  - **Area Chair**, [ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd.org/), AI for Science Track (KDD'26)
   - **Area Chair**, [Annual Conference on Neural Information Processing Systems](https://neurips.cc/) (NeurIPS'25, NeurIPS'26)
   - **Area Chair**, [The International Conference on Machine Learning](https://icml.cc/) (ICML'26)
   - **Area Chair**, [The International Conference on Learning Representations](https://iclr.cc/) (ICLR'26)
-  - **Area Chair**, [ACL Rolling Review](https://aclrollingreview.org/) (ARR Oct 2025, ARR March 2026, ARR May 2026)
-  - **Area Chair**, [ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd.org/), Applied Data Science Track (KDD'25, KDD'26)
-  - **Area Chair**, [ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd.org/), AI for Science Track (KDD'26)
-  - **Area Chair**, [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeeicassp.org/) (ICASSP'25, ICASSP'26)
   - **Area Chair**, [ACM Multimedia](https://www.acmmm.org/) (MM'25 (outstanding AC!), MM'26)
+  - **Area Chair**, [ACL Rolling Review](https://aclrollingreview.org/) (ARR Oct 2025, ARR March 2026, ARR May 2026)
+  - **Area Chair**, [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeeicassp.org/) (ICASSP'25, ICASSP'26)
   - Senior PC Member, [The Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/), Main Track (AAAI'25, AAAI'26)
   - Senior PC Member, [The Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/), AI for Social Impact Track (AAAI'26)
   - Senior PC Member, [The International Joint Conference on Artificial Intelligence](https://www.ijcai.org/), Main Track (IJCAI'25, IJCAI'26)
