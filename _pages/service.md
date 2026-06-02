@@ -36,6 +36,7 @@ nav_order: 4
   - Program Chair, [The Mining and Learning from Time Series Workshop (MiLeTS)](https://kdd-milets.github.io/milets2026/) @ KDD'26, KDD'25
   - Program Chair, [The International Workshop on Spatio-Temporal Data Mining from the Web (WebST)](https://webst2026.netlify.app/) @ WWW'26, WWW'25 
   - Program Chair, [The International Workshop on Spatio-Temporal Data Intelligence and Foundation Models](https://stintelligence.github.io/) @ CIKM'25
+  - Organizer, [Geospatial Data Representation Learning](https://carnelian-parmesan-a70.notion.site/Title-of-the-Workshop-Geospatial-Data-Representation-Learning-1b03522f3fbe804295e6c565cb635d14) @ GIScience'25
   - Publicity Chair, [The 6th Strategic Symposium on Social Computing and Social Intelligence of CAAI](https://www.hkust-gz.edu.cn/zh/2026/04/21/%E7%AC%AC%E5%85%AD%E5%B1%8A%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AD%A6%E4%BC%9A%E7%A4%BE%E4%BC%9A%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%A4%BE%E4%BC%9A%E6%99%BA%E8%83%BD%E4%BA%A4%E5%8F%89/?variant=zh-cn).
   - Publicity Chair, [The International Workshop on Urban Computing (Urbcomp)](http://urban-computing.com/urbcomp2023/) @ KDD'23
   - Publicity Chair, [The International Conference on Artificial Intelligence of Things and Systems 2023](https://easychair.org/cfp/2023AIoTSys) (AIoTSys'23)
