@@ -21,7 +21,7 @@ nav_order: 4
   - **Guest Editor**, [VLDB Journal](https://link.springer.com/journal/778/updates/27853170) (CCF-A), Special Issue on Spatio-Temporal Data Management and Analytics
   - **Guest Editor**, [Smart Cities](https://www.mdpi.com/journal/smartcities/special_issues/8685JISWGD) (JCR Q1), Special Issue on Spatiotemporal Intelligence in Smart Cities
   - Journal Reviewer:
-    - General: PNAS, ACM Computing Surveys, Scientific Reports
+    - General: PNAS, ACM Computing Surveys, Communications of the ACM, Scientific Reports
     - Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST, etc.
     - AI and Machine Learning: TPAMI, TNNLS, TASLP, Neurocomputing, TMLR, etc.
     - Interdiscipline: T-ITS, Transportation Research Part C, Applied Energy, Sensor Journal, Urban Informatics, Sustainable Cities and Society, CEUS, etc.
@@ -47,13 +47,14 @@ nav_order: 4
   - **Area Chair**, [Annual Conference on Neural Information Processing Systems](https://neurips.cc/) (NeurIPS'25, NeurIPS'26)
   - **Area Chair**, [The International Conference on Machine Learning](https://icml.cc/) (ICML'26)
   - **Area Chair**, [The International Conference on Learning Representations](https://iclr.cc/) (ICLR'26)
-  - **Area Chair**, [ACM Multimedia](https://www.acmmm.org/) (MM'25 (outstanding AC!), MM'26)
+  - **Area Chair**, [ACM Multimedia](https://www.acmmm.org/) (MM'25 (<span style="color: red;">outstanding AC!</span>), MM'26)
   - **Area Chair**, [ACL Rolling Review](https://aclrollingreview.org/) (ARR Oct 2025, ARR March 2026, ARR May 2026)
   - **Area Chair**, [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeeicassp.org/) (ICASSP'25, ICASSP'26)
   - Senior PC Member, [The Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/), Main Track (AAAI'25, AAAI'26)
   - Senior PC Member, [The Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/), AI for Social Impact Track (AAAI'26)
   - Senior PC Member, [The International Joint Conference on Artificial Intelligence](https://www.ijcai.org/), Main Track (IJCAI'25, IJCAI'26)
   - Senior PC Member, [The International Joint Conference on Artificial Intelligence](https://www.ijcai.org/), AI and Social Good Track (IJCAI'26)
+  - Senior PC Member, [The International ACM Conference on Knowledge and Information Management](https://www.cikmconference.org/), Short Paper Track (CIKM'26)
   - Senior PC Member, [The Pacific-Asia Conference on Knowledge Discovery and Data Mining](https://pakdd.org/) (PAKDD'26)
   - Session Chair ([AAAI'26](https://aaai.org/conference/aaai/), [IJCAI'25](https://2025.ijcai.org/), [KDD'25](https://kdd2025.kdd.org/), [KDD'24](https://kdd2024.kdd.org/), [IJCAI'24](https://ijcai24.org/), [ICDM'23](https://www.cloud-conf.net/icdm2023/), [KDD'23](https://kdd.org/kdd2023/), [AAAI'23](https://aaai-23.aaai.org/), [KDD'21](https://www.kdd.org/kdd2021/))
-  - Reviewer or PC Member ([KDD](https://kdd.org/), [NeurIPS](https://neurips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/), [CVPR](https://cvpr.thecvf.com/), [ICCV](https://iccv.thecvf.com/), [WWW](https://www.thewebconf.org/), [IJCAI](https://www.ijcai.org/), [AAAI](https://aaai.org/conference/aaai/), [MM](https://www.acmmm.org/), [SIGSPATIAL](https://sigspatial.org/) (outstanding PC!), [ECML-PKDD](https://ecmlpkdd.org/), [ICASSP](https://ieeeicassp.org/), [MLSP](https://signalprocessingsociety.org/community-involvement/machine-learning-signal-processing/), [AI4TS](https://ai4ts.github.io/ijcai2025), [MiLETS](https://kdd-milets.github.io/milets2026/), [SPATIALDI](https://easychair.org/cfp/SpatialDI2026), etc.)
+  - Reviewer or PC Member ([KDD](https://kdd.org/), [NeurIPS](https://neurips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/), [CVPR](https://cvpr.thecvf.com/), [ICCV](https://iccv.thecvf.com/), [WWW](https://www.thewebconf.org/), [IJCAI](https://www.ijcai.org/), [AAAI](https://aaai.org/conference/aaai/), [MM](https://www.acmmm.org/), [SIGSPATIAL](https://sigspatial.org/) (<span style="color: red;">outstanding PC!</span>), [CIKM](https://www.cikmconference.org/), [ECML-PKDD](https://ecmlpkdd.org/), [ICASSP](https://ieeeicassp.org/), [MLSP](https://signalprocessingsociety.org/community-involvement/machine-learning-signal-processing/), [AI4TS](https://ai4ts.github.io/ijcai2025), [MiLETS](https://kdd-milets.github.io/milets2026/), [SPATIALDI](https://easychair.org/cfp/SpatialDI2026), etc.)
