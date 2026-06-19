@@ -20,6 +20,7 @@ nav_order: 4
   - **Associate Editor** [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) (IF=6.0)
   - **Guest Editor**, [VLDB Journal](https://link.springer.com/journal/778/updates/27853170) (CCF-A), Special Issue on Spatio-Temporal Data Management and Analytics
   - **Guest Editor**, [Smart Cities](https://www.mdpi.com/journal/smartcities/special_issues/8685JISWGD) (JCR Q1), Special Issue on Spatiotemporal Intelligence in Smart Cities
+  - **Action Editor**，[Transactions on Machine Learning Research](https://jmlr.org/tmlr/)
   - Journal Reviewer:
     - General: PNAS, ACM Computing Surveys, Communications of the ACM, Scientific Reports
     - Data mining & Database: TKDE, VLDBJ, Information Fusion, TMC, IMWUT, TKDD, TIST, etc.
