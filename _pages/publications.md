@@ -13,7 +13,10 @@ He has published 120+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
 
 - **Spatio-Temporal (ST) Data Mining**: 
   - **LLM/FMs for Time Series and ST Data**: 
-  [UniTraj [arXiv]](https://arxiv.org/pdf/2411.03859), 
+  [UrbanFM [KDD'26]](https://arxiv.org/pdf/2602.20677),
+  [FactoST [NeurIPS'25]](https://proceedings.neurips.cc/paper_files/paper/2025/file/7fa2a1f2122a4dd76e6b9ac518cfce14-Paper-Conference.pdf),
+  [Time-VLM [ICML'25]](https://proceedings.mlr.press/v267/zhong25a/zhong25a.pdf),
+  [UniTraj [NeurIPS'25]](https://arxiv.org/pdf/2411.03859), 
   [Time-FFM [NeurIPS'24]](https://arxiv.org/pdf/2405.14252), 
   [FM4TS Survey [KDD'24]](https://arxiv.org/pdf/2403.14735.pdf), 
   [Position Paper [ICML'24a]](https://arxiv.org/pdf/2402.02713), 
@@ -56,7 +59,7 @@ He has published 120+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
   [AutoSTG [WWW'21]](http://panzheyi.cc/publication/pan2021autostg/paper.pdf), 
   [AutoST [KDD'21]](http://urban-computing.com/pdf/AutoST_kdd20_camera_ready.pdf)
   - Applications: 
-  [Nationwide Air Quality Inference [AAAI'25]](), 
+  [Nationwide Air Quality Inference [AAAI'25]](https://arxiv.org/pdf/2501.13141), 
   [Nationwide Air Quality Forecasting [AAAI'23]](https://arxiv.org/pdf/2211.15979.pdf), 
   [Resource Allocation [UBICOMP'21]](http://urban-computing.com/pdf/paper_UbiComp20-Ruan.pdf), 
   [ST Visualization [TVCG'21]](http://urban-computing.com/pdf/TVCG_viscas.pdf), 
@@ -80,12 +83,12 @@ He has published 120+ papers in prestigious journals (e.g., TPAMI, AI, TKDE, TMC
 
 - **Survey Paper**:
   - LLMs/FMs + ST data:
-    - [[KDD'25]](https://arxiv.org/pdf/2503.13502) **Foundation Models -> Spatio-Temporal Data Mining**
+    - [[KDD'25]](https://arxiv.org/pdf/2503.13502) **Foundation Models -> Spatio-Temporal Data Science**
     - [[KDD'24]](https://arxiv.org/pdf/2403.14735.pdf) **Foundation Models -> Time Series Analysis**
-    - [[arXiv]](https://arxiv.org/pdf/2310.10196) Large Models -> Time Series and Spatio-Temporal Data
+    - [[CSUR'26]](https://arxiv.org/pdf/2310.10196) Large Models -> Time Series and Spatio-Temporal Data
   - ST Data Mining & Urban Computing:
     - [[TKDE'23]](https://arxiv.org/pdf/2303.14483.pdf) **Spatio-Temporal Graph Neural Networks -> Urban Computing**
-    - [[arXiv]](https://arxiv.org/pdf/2403.14151) Deep Learning -> Trajectory Data Management and Mining
+    - [[TKDE'26]](https://arxiv.org/pdf/2403.14151) Deep Learning -> Trajectory Data Management and Mining
     - [[Information Fusion'24]](https://arxiv.org/pdf/2402.19348) Deep Learning -> Cross-Domain Data Fusion in Urban Computing
     - [[CSUR'25]](https://arxiv.org/pdf/2404.18886) Diffusion Models -> Time Series and Spatio-Temporal Data
     - [[TKDE'24]](https://arxiv.org/pdf/2309.01194) Service Route and Time Prediction in Instant Delivery
