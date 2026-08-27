@@ -8,4 +8,8 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+cv/
 
+# Research map (work in progress)
+_pages/research-map.md
+assets/js/research_map.js

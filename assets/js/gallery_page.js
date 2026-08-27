@@ -112,6 +112,12 @@
     }
 
     var metadataMap = {
+      kdd26_urbcomp: {
+        tag: "KDD-26 Workshop",
+        title: "The 15th International Workshop on Urban Computing",
+        date: "August 2026, Jeju",
+        description: "Special thanks to our keynote speakers Prof. Shuliang Wang!"
+      },
       aaai26_fm4ts: {
         tag: "AAAI-26 Tutorial",
         title: "Foundation Models for Time Series Analysis",

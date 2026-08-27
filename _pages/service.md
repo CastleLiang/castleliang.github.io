@@ -12,12 +12,13 @@ nav_order: 4
 ##### Service and Membership
   - **Vice Chair**, [IEEE CIS Task Force on AI for Time Series and Spatio-Temporal Data](https://cis.taskforce.ieee.org/ai4tst/)
   - [The Neural Networks Technical Committee (NNTC)](https://cis.ieee.org/activities/technical-activities/neural-networks-technical-committee), IEEE Computational Intelligence Society
-  - Executive Committee, ACM SIGSPATIAL China Chapter
-  - Executive Committee, CCF Ubiquitous Computing Committee
+  - Executive Committee Member, ACM SIGSPATIAL China Chapter
+  - Executive Committee Member, CCF Ubiquitous Computing Committee
   - Member, ACM/IEEE/AAAI/CCF/IEEE CIS
 
 ##### Editorial Service of Journals
-  - **Associate Editor** [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) (IF=6.0)
+  - **Associate Editor**, [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) (JCR Q1, IF=6.7)
+  - **Editorial Board Member**, [Smart Cities](https://www.mdpi.com/journal/smartcities/special_issues/8685JISWGD) (JCR Q1, IF=6.7)
   - **Guest Editor**, [VLDB Journal](https://link.springer.com/journal/778/updates/27853170) (CCF-A), Special Issue on Spatio-Temporal Data Management and Analytics
   - **Guest Editor**, [Smart Cities](https://www.mdpi.com/journal/smartcities/special_issues/8685JISWGD) (JCR Q1), Special Issue on Spatiotemporal Intelligence in Smart Cities
   - **Action Editor**，[Transactions on Machine Learning Research](https://jmlr.org/tmlr/)
@@ -43,19 +44,19 @@ nav_order: 4
   - Publicity Chair, [The International Conference on Artificial Intelligence of Things and Systems 2023](https://easychair.org/cfp/2023AIoTSys) (AIoTSys'23)
 
 ##### Area Chairs/ Session Chairs/ Senior Program Committee of Conferences
-  - **Area Chair**, [ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd.org/), Applied Data Science Track (KDD'25, KDD'26)
+  - **Area Chair**, [ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd.org/), Applied Data Science Track (KDD'26, KDD'25)
   - **Area Chair**, [ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd.org/), AI for Science Track (KDD'26)
-  - **Area Chair**, [Annual Conference on Neural Information Processing Systems](https://neurips.cc/) (NeurIPS'25, NeurIPS'26)
+  - **Area Chair**, [Annual Conference on Neural Information Processing Systems](https://neurips.cc/) (NeurIPS'26, NeurIPS'25)
   - **Area Chair**, [The International Conference on Machine Learning](https://icml.cc/) (ICML'26)
-  - **Area Chair**, [The International Conference on Learning Representations](https://iclr.cc/) (ICLR'26)
+  - **Area Chair**, [The International Conference on Learning Representations](https://iclr.cc/) (ICLR'27, ICLR'26)
   - **Area Chair**, [ACM Multimedia](https://www.acmmm.org/) (MM'25 (<span style="color: red;">outstanding AC!</span>), MM'26)
-  - **Area Chair**, [ACL Rolling Review](https://aclrollingreview.org/) (ARR Oct 2025, ARR March 2026, ARR May 2026)
-  - **Area Chair**, [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeeicassp.org/) (ICASSP'25, ICASSP'26)
-  - Senior PC Member, [The Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/), Main Track (AAAI'25, AAAI'26)
+  - **Area Chair**, [ACL Rolling Review](https://aclrollingreview.org/) (ARR May 2026, ARR March 2026, ARR Oct 2025)
+  - **Area Chair**, [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeeicassp.org/) (ICASSP'26, ICASSP'25)
+  - Senior PC Member, [The Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/), Main Track (AAAI'26, AAAI'25)
   - Senior PC Member, [The Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/), AI for Social Impact Track (AAAI'26)
-  - Senior PC Member, [The International Joint Conference on Artificial Intelligence](https://www.ijcai.org/), Main Track (IJCAI'25, IJCAI'26)
+  - Senior PC Member, [The International Joint Conference on Artificial Intelligence](https://www.ijcai.org/), Main Track (IJCAI'26, IJCAI'25)
   - Senior PC Member, [The International Joint Conference on Artificial Intelligence](https://www.ijcai.org/), AI and Social Good Track (IJCAI'26)
   - Senior PC Member, [The International ACM Conference on Knowledge and Information Management](https://www.cikmconference.org/), Short Paper Track (CIKM'26)
   - Senior PC Member, [The Pacific-Asia Conference on Knowledge Discovery and Data Mining](https://pakdd.org/) (PAKDD'26)
-  - Session Chair ([AAAI'26](https://aaai.org/conference/aaai/), [IJCAI'25](https://2025.ijcai.org/), [KDD'25](https://kdd2025.kdd.org/), [KDD'24](https://kdd2024.kdd.org/), [IJCAI'24](https://ijcai24.org/), [ICDM'23](https://www.cloud-conf.net/icdm2023/), [KDD'23](https://kdd.org/kdd2023/), [AAAI'23](https://aaai-23.aaai.org/), [KDD'21](https://www.kdd.org/kdd2021/))
-  - Reviewer or PC Member ([KDD](https://kdd.org/), [NeurIPS](https://neurips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/), [CVPR](https://cvpr.thecvf.com/), [ICCV](https://iccv.thecvf.com/), [WWW](https://www.thewebconf.org/), [IJCAI](https://www.ijcai.org/), [AAAI](https://aaai.org/conference/aaai/), [MM](https://www.acmmm.org/), [SIGSPATIAL](https://sigspatial.org/) (<span style="color: red;">outstanding PC!</span>), [CIKM](https://www.cikmconference.org/), [ECML-PKDD](https://ecmlpkdd.org/), [ICASSP](https://ieeeicassp.org/), [MLSP](https://signalprocessingsociety.org/community-involvement/machine-learning-signal-processing/), [AI4TS](https://ai4ts.github.io/ijcai2025), [MiLETS](https://kdd-milets.github.io/milets2026/), [SPATIALDI](https://easychair.org/cfp/SpatialDI2026), etc.)
+  - Session Chair ([KDD'26](https://kdd2026.kdd.org/), [AAAI'26](https://aaai.org/conference/aaai/), [IJCAI'25](https://2025.ijcai.org/), [KDD'25](https://kdd2025.kdd.org/), [KDD'24](https://kdd2024.kdd.org/), [IJCAI'24](https://ijcai24.org/), [ICDM'23](https://www.cloud-conf.net/icdm2023/), [KDD'23](https://kdd.org/kdd2023/), [AAAI'23](https://aaai-23.aaai.org/), [KDD'21](https://www.kdd.org/kdd2021/))
+  - Reviewer or PC Member ([KDD](https://kdd.org/), [NeurIPS](https://neurips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/), [CVPR](https://cvpr.thecvf.com/), [ICCV](https://iccv.thecvf.com/), [WWW](https://www.thewebconf.org/), [IJCAI](https://www.ijcai.org/), [AAAI](https://aaai.org/conference/aaai/), [MM](https://www.acmmm.org/), [SIGSPATIAL](https://sigspatial.org/) (<span style="color: red;">outstanding PC!</span>), [CIKM](https://www.cikmconference.org/), [WSDM](https://www.wsdm-conference.org/), [ECML-PKDD](https://ecmlpkdd.org/), [ICASSP](https://ieeeicassp.org/), [MLSP](https://signalprocessingsociety.org/community-involvement/machine-learning-signal-processing/), [AI4TS](https://ai4ts.github.io/ijcai2025), [MiLETS](https://kdd-milets.github.io/milets2026/), [SPATIALDI](https://easychair.org/cfp/SpatialDI2026), etc.)
