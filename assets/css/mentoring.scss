@@ -36,12 +36,13 @@
 
 .mentoring-person-card {
   position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   min-width: 0;
   min-height: 5.15rem;
   padding: 0.9rem 0.95rem;
-  overflow: hidden;
+  overflow: visible;
   border: 1px solid var(--hkust-border-soft);
   border-radius: 0.95rem;
   background: var(--global-card-bg-color);
@@ -58,7 +59,8 @@ a.mentoring-person-card {
   cursor: pointer;
 }
 
-.mentoring-person-linked:focus-visible {
+.mentoring-person-card:focus-visible,
+.mentoring-person-card.is-publications-open {
   border-color: var(--hkust-blue);
   outline: 2px solid rgba(10, 99, 190, 0.2);
   outline-offset: 2px;
@@ -116,9 +118,8 @@ a.mentoring-person-card {
 }
 
 .mentoring-person-card:hover {
-  transform: translateY(-2px);
   border-color: rgba(10, 99, 190, 0.26);
-  box-shadow: 0 14px 28px -24px rgba(11, 76, 144, 0.82);
+  box-shadow: 0 16px 30px -23px rgba(11, 76, 144, 0.9);
 }
 
 .mentoring-person-card.mentoring-person-alumni:hover {
@@ -149,6 +150,19 @@ a.mentoring-person-card {
   object-position: center;
 }
 
+.mentoring-avatar-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.mentoring-avatar-link:focus-visible {
+  outline: 2px solid rgba(10, 99, 190, 0.36);
+  outline-offset: 3px;
+}
+
 .mentoring-avatar-placeholder {
   color: var(--hkust-blue-dark);
   font-size: 0.92rem;
@@ -175,6 +189,33 @@ a.mentoring-person-card {
   font-size: 0.94rem;
   font-weight: 760;
   line-height: 1.3;
+}
+
+.mentoring-name-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.34rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.mentoring-name-link i {
+  color: var(--global-text-color-light);
+  font-size: 0.54rem;
+  opacity: 0.55;
+  transition: color 0.18s ease, opacity 0.18s ease;
+}
+
+.mentoring-name-link:hover,
+.mentoring-name-link:focus-visible {
+  color: var(--hkust-blue-dark);
+  text-decoration: none;
+}
+
+.mentoring-name-link:hover i,
+.mentoring-name-link:focus-visible i {
+  color: var(--hkust-blue);
+  opacity: 1;
 }
 
 .mentoring-person-copy p,
@@ -280,6 +321,268 @@ a.mentoring-person-card {
   font-size: 0.54rem;
 }
 
+.mentoring-publication-hint {
+  position: absolute;
+  right: 0.68rem;
+  bottom: 0.55rem;
+  display: inline-flex;
+  align-items: center;
+  color: var(--hkust-blue-dark);
+  font-size: 0.61rem;
+  font-weight: 780;
+  line-height: 1;
+  opacity: 0.62;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.mentoring-publication-hint i {
+  font-size: 0.57rem;
+}
+
+.mentoring-person-card:hover .mentoring-publication-hint,
+.mentoring-person-card:focus-within .mentoring-publication-hint,
+.mentoring-person-card.is-publications-open .mentoring-publication-hint {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.mentoring-person-alumni .mentoring-publication-hint {
+  color: #8b949f;
+}
+
+.mentoring-publications-popover {
+  position: fixed;
+  z-index: 9999;
+  width: min(25rem, calc(100vw - 1.5rem));
+  max-height: min(29rem, calc(100vh - 1.5rem));
+  overflow: hidden;
+  visibility: hidden;
+  border: 1px solid rgba(10, 99, 190, 0.2);
+  border-radius: 1rem;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 24px 58px -25px rgba(7, 45, 88, 0.52), 0 8px 20px -14px rgba(7, 45, 88, 0.28);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(7px) scale(0.985);
+  transform-origin: top center;
+  transition: opacity 0.16s ease, transform 0.16s ease, visibility 0.16s ease;
+}
+
+.mentoring-person-card.is-publications-open {
+  z-index: 20;
+}
+
+.mentoring-person-card.is-publications-open .mentoring-publications-popover {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.mentoring-publications-popover.is-above {
+  transform-origin: bottom center;
+}
+
+.mentoring-publications-popover.is-right {
+  transform: translateX(-7px) scale(0.985);
+  transform-origin: left center;
+}
+
+.mentoring-publications-popover.is-left {
+  transform: translateX(7px) scale(0.985);
+  transform-origin: right center;
+}
+
+.mentoring-person-card.is-publications-open .mentoring-publications-popover.is-right,
+.mentoring-person-card.is-publications-open .mentoring-publications-popover.is-left {
+  transform: translateX(0) scale(1);
+}
+
+.mentoring-publications-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.12rem 0.8rem;
+  padding: 0.88rem 1rem 0.8rem;
+  border-bottom: 1px solid var(--hkust-border-soft);
+  background: linear-gradient(135deg, rgba(228, 240, 252, 0.92), rgba(255, 255, 255, 0.72));
+}
+
+.mentoring-publications-header::before {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  left: 1rem;
+  height: 0.16rem;
+  border-radius: 0 0 999px 999px;
+  background: linear-gradient(90deg, var(--hkust-blue), var(--hkust-gold));
+  content: "";
+}
+
+.mentoring-publications-kicker {
+  grid-column: 1 / -1;
+  color: var(--hkust-blue-dark);
+  font-size: 0.62rem;
+  font-weight: 820;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mentoring-publications-header strong {
+  overflow: hidden;
+  color: var(--global-text-color);
+  font-size: 0.96rem;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mentoring-publications-list {
+  max-height: min(20.5rem, calc(100vh - 10.5rem));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-color: rgba(10, 99, 190, 0.24) transparent;
+  scrollbar-width: thin;
+}
+
+.mentoring-publication-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.28rem 0.7rem;
+  padding: 0.72rem 1rem 0.75rem;
+  border-bottom: 1px solid var(--hkust-border-soft);
+  color: inherit;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.mentoring-publication-item:hover,
+.mentoring-publication-item:focus-visible {
+  background: rgba(228, 240, 252, 0.48);
+  color: inherit;
+  text-decoration: none;
+}
+
+.mentoring-publication-meta {
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.38rem;
+  color: var(--global-text-color-light);
+  font-size: 0.61rem;
+  line-height: 1;
+}
+
+.mentoring-publication-meta b {
+  padding: 0.19rem 0.38rem;
+  border-radius: 999px;
+  background: var(--hkust-blue-soft);
+  color: var(--hkust-blue-dark);
+  font-weight: 820;
+}
+
+.mentoring-publication-title {
+  grid-column: 1;
+  color: var(--global-text-color);
+  font-size: 0.76rem;
+  font-weight: 720;
+  line-height: 1.38;
+}
+
+.mentoring-publication-item > i {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  align-self: center;
+  color: var(--hkust-blue);
+  font-size: 0.64rem;
+  opacity: 0.58;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.mentoring-publication-item:hover > i,
+.mentoring-publication-item:focus-visible > i {
+  opacity: 1;
+  transform: translateX(2px);
+}
+
+.mentoring-publications-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 0.66rem 1rem;
+  background: rgba(228, 240, 252, 0.28);
+  color: var(--hkust-blue-dark);
+  font-size: 0.68rem;
+  font-weight: 780;
+  text-decoration: none;
+}
+
+.mentoring-publications-all:hover,
+.mentoring-publications-all:focus-visible {
+  background: rgba(228, 240, 252, 0.62);
+  color: var(--hkust-blue);
+  text-decoration: none;
+}
+
+/* MPhil cards use a restrained warm-gold publication panel. */
+.mentoring-section-mphil .mentoring-publication-hint {
+  color: #8a651b;
+}
+
+.mentoring-section-mphil .mentoring-publications-popover {
+  border-color: rgba(181, 137, 48, 0.34);
+  box-shadow: 0 24px 58px -26px rgba(113, 79, 18, 0.46), 0 8px 20px -14px rgba(113, 79, 18, 0.24);
+}
+
+.mentoring-section-mphil .mentoring-publications-header {
+  border-bottom-color: rgba(181, 137, 48, 0.17);
+  background: linear-gradient(135deg, rgba(250, 244, 224, 0.96), rgba(255, 252, 243, 0.82));
+}
+
+.mentoring-section-mphil .mentoring-publications-header::before {
+  background: linear-gradient(90deg, #b1842d, var(--hkust-gold), #d9bc78);
+}
+
+.mentoring-section-mphil .mentoring-publications-kicker {
+  color: #765512;
+}
+
+.mentoring-section-mphil .mentoring-publications-list {
+  scrollbar-color: rgba(181, 137, 48, 0.3) transparent;
+}
+
+.mentoring-section-mphil .mentoring-publication-item {
+  border-bottom-color: rgba(181, 137, 48, 0.14);
+}
+
+.mentoring-section-mphil .mentoring-publication-item:hover,
+.mentoring-section-mphil .mentoring-publication-item:focus-visible {
+  background: rgba(250, 244, 224, 0.58);
+}
+
+.mentoring-section-mphil .mentoring-publication-meta b {
+  border: 1px solid rgba(181, 137, 48, 0.2);
+  background: var(--hkust-gold-soft);
+  color: #765512;
+}
+
+.mentoring-section-mphil .mentoring-publication-item > i {
+  color: #a6771d;
+}
+
+.mentoring-section-mphil .mentoring-publications-all {
+  background: rgba(250, 244, 224, 0.42);
+  color: #765512;
+}
+
+.mentoring-section-mphil .mentoring-publications-all:hover,
+.mentoring-section-mphil .mentoring-publications-all:focus-visible {
+  background: rgba(244, 230, 191, 0.68);
+  color: #60430d;
+}
+
 @media (max-width: 900px) {
   .mentoring-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -295,10 +598,26 @@ a.mentoring-person-card {
     margin-top: 1.75rem;
     padding-top: 1.55rem;
   }
+
+  .mentoring-publications-popover {
+    width: calc(100vw - 1rem);
+    max-height: calc(100vh - 1rem);
+    border-radius: 0.88rem;
+  }
+
+  .mentoring-publications-list {
+    max-height: calc(100vh - 10rem);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .mentoring-person-card {
+    transition: none;
+  }
+
+  .mentoring-publications-popover,
+  .mentoring-publication-item,
+  .mentoring-publication-hint {
     transition: none;
   }
 }

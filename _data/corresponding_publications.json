@@ -10,6 +10,24 @@
     "url": "https://arxiv.org/abs/2403.14151"
   },
   {
+    "year": 2026,
+    "title": "Toward Non-Parameterized Time Series Embedding for Efficient Forecasting: A Dynamical System Perspective",
+    "authors": "Jiaxi Hu, Bowen Zhang, Xiaoliang Luo, Ziyu Zhou, Lvchun Wang, Wei Yu, Qingsong Wen, Fugee Tsung, and Yuxuan Liang",
+    "author_list": [{"name":"Jiaxi Hu","role":"student"},{"name":"Bowen Zhang","role":"mentee"},{"name":"Xiaoliang Luo","role":"coauthor"},{"name":"Ziyu Zhou","role":"student"},{"name":"Lvchun Wang","role":"coauthor"},{"name":"Wei Yu","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Fugee Tsung","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ICASSP",
+    "type": "Conference",
+    "topic": "Time Series"
+  },
+  {
+    "year": 2026,
+    "title": "How to Train Your Mamba for Time Series Forecasting",
+    "authors": "Jiaxi Hu, Disen Lan, Ziyu Zhou, Gefeng Luo, Qingsong Wen, and Yuxuan Liang",
+    "author_list": [{"name":"Jiaxi Hu","role":"student"},{"name":"Disen Lan","role":"mentee"},{"name":"Ziyu Zhou","role":"student"},{"name":"Gefeng Luo","role":"student"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Time Series"
+  },
+  {
     "year": 2025,
     "title": "Deep learning for cross-domain data fusion in urban computing: Taxonomy, advances, and outlook",
     "authors": "Xingchen Zou, Yibo Yan, Xixuan Hao, Yuehong Hu, Haomin Wen, Erdong Liu, Junbo Zhang, Yong Li, Tianrui Li, Yu Zheng, and Yuxuan Liang",

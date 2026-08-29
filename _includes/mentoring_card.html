@@ -1,0 +1,98 @@
+{%- assign member = include.member -%}
+{%- assign card_kind = include.kind -%}
+{%- assign mentoring_publications = site.data.corresponding_publications | sort: "year" | reverse -%}
+{%- if card_kind == "current_student" or card_kind == "current_staff" -%}
+  {%- assign card_state = "current" -%}
+{%- else -%}
+  {%- assign card_state = "alumni" -%}
+{%- endif -%}
+
+{%- assign collaboration_count = 0 -%}
+{%- for pub in mentoring_publications -%}
+  {%- assign is_collaboration = false -%}
+  {%- for author in pub.author_list -%}
+    {%- if author.name == member.name -%}
+      {%- assign is_collaboration = true -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if is_collaboration -%}
+    {%- assign collaboration_count = collaboration_count | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<article
+  class="mentoring-person-card mentoring-person-{{ card_state }}{% if member.link %} mentoring-person-linked{% endif %}{% if collaboration_count > 0 %} mentoring-person-has-publications{% endif %}"
+  data-member-name="{{ member.name | escape }}"
+  data-publication-count="{{ collaboration_count }}"
+  {% if member.link %}data-profile-url="{{ member.link | escape }}"{% endif %}
+  {% if collaboration_count > 0 %}tabindex="0" aria-haspopup="dialog" aria-expanded="false"{% endif %}
+>
+  {% if member.link %}<a class="mentoring-avatar-link" href="{{ member.link }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ member.name }}'s profile">{% endif %}
+    {% if member.image %}
+      <img class="mentoring-avatar mentoring-avatar-photo" src="{{ member.image | relative_url }}" alt="Portrait of {{ member.name }}" loading="lazy" decoding="async">
+    {% else %}
+      <span class="mentoring-avatar mentoring-avatar-placeholder" role="img" aria-label="Portrait unavailable"><i class="fas fa-user" aria-hidden="true"></i></span>
+    {% endif %}
+  {% if member.link %}</a>{% endif %}
+
+  <div class="mentoring-person-copy">
+    <h3>
+      {% if member.link %}<a class="mentoring-name-link" href="{{ member.link }}" target="_blank" rel="noopener noreferrer">{{ member.name }}<i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% else %}{{ member.name }}{% endif %}
+    </h3>
+
+    {% if card_kind == "current_student" %}
+      <p>{{ member.research }}</p>
+      <span class="mentoring-staff-affiliation">From: {{ member.affiliation }}</span>
+    {% elsif card_kind == "alumni_student" %}
+      <span class="mentoring-placement" title="First placement" aria-label="First placement: {{ member.role }} at {{ member.organization }}"><i class="fas fa-briefcase" aria-hidden="true"></i>{{ member.role }} at {{ member.organization }}</span>
+    {% elsif card_kind == "current_staff" %}
+      <p>{{ member.research }}</p>
+      <span class="mentoring-staff-affiliation">From: {{ member.affiliation }}</span>
+      <span class="mentoring-person-meta">{{ member.position }}{% if member.period %} &middot; {{ member.period }}{% endif %}</span>
+    {% else %}
+      <p class="mentoring-alumni-role">{{ member.position }}</p>
+      <span class="mentoring-placement" title="First placement" aria-label="First placement: {{ member.destination | default: 'TBD' }}"><i class="fas fa-briefcase" aria-hidden="true"></i>{{ member.destination | default: "TBD" }}</span>
+    {% endif %}
+  </div>
+
+  {% if card_kind == "current_student" %}
+    <span class="mentoring-cohort" title="{{ member.cohort }} cohort" aria-label="{{ member.cohort }} cohort">{{ member.cohort }}</span>
+  {% elsif card_kind == "alumni_student" %}
+    <span class="mentoring-graduated"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Alumni</span>
+  {% elsif card_kind == "former_staff" %}
+    <span class="mentoring-graduated"><i class="fas fa-user-check" aria-hidden="true"></i> Former</span>
+  {% endif %}
+
+  {% if collaboration_count > 0 %}
+    <span class="mentoring-publication-hint" aria-hidden="true">
+      <i class="fas fa-book-open" title="Collaborative publications"></i>
+    </span>
+
+    <div class="mentoring-publications-popover" role="dialog" aria-label="Publications with {{ member.name }}" aria-hidden="true">
+      <div class="mentoring-publications-header">
+        <span class="mentoring-publications-kicker">Related Research</span>
+        <strong>{{ member.name }}</strong>
+      </div>
+      <div class="mentoring-publications-list">
+        {%- for pub in mentoring_publications -%}
+          {%- assign is_collaboration = false -%}
+          {%- for author in pub.author_list -%}
+            {%- if author.name == member.name -%}
+              {%- assign is_collaboration = true -%}
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if is_collaboration %}
+            <a class="mentoring-publication-item" href="{% if pub.url %}{{ pub.url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}"{% if pub.url %} target="_blank" rel="noopener noreferrer"{% endif %}>
+              <span class="mentoring-publication-meta"><b>{{ pub.venue }}</b><span>{{ pub.year }}</span></span>
+              <span class="mentoring-publication-title">{{ pub.title }}</span>
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          {%- endif -%}
+        {%- endfor %}
+      </div>
+      <a class="mentoring-publications-all" href="{{ '/publications/' | relative_url }}">View Selected Publications <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+  {% endif %}
+</article>

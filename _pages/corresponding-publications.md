@@ -17,15 +17,23 @@ nav_order: 3.5
     <span class="corresponding-pubs-legend-corresponding"><b aria-hidden="true">*</b> Corresponding author</span>
   </div>
 
+  <div class="corresponding-pubs-search" role="search">
+    <i class="fas fa-search" aria-hidden="true"></i>
+    <label class="sr-only" for="corresponding-pubs-search-input">Search publications</label>
+    <input id="corresponding-pubs-search-input" type="search" inputmode="search" autocomplete="off" placeholder="Search by paper title, author, venue, or year" aria-describedby="corresponding-pubs-search-help">
+    <button class="corresponding-pubs-search-clear" type="button" aria-label="Clear publication search" hidden><i class="fas fa-times" aria-hidden="true"></i></button>
+    <span id="corresponding-pubs-search-help" class="sr-only">Searches across publications from all years.</span>
+  </div>
+
   <div class="corresponding-pubs-toolbar">
     <div class="corresponding-pubs-years" role="tablist" aria-label="Select publication year">
-      <button class="corresponding-pubs-year is-active" type="button" role="tab" aria-selected="true" tabindex="0" data-year="2026">2026 <span>22</span></button>
+      <button class="corresponding-pubs-year is-active" type="button" role="tab" aria-selected="true" tabindex="0" data-year="2026">2026 <span>24</span></button>
       <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2025">2025 <span>21</span></button>
       <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2024">2024 <span>17</span></button>
       <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2023">2023 <span>9</span></button>
       <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2016-2022" data-label="2016&ndash;2022">2016&ndash;2022 <span>9</span></button>
     </div>
-    <p class="corresponding-pubs-status" aria-live="polite">Showing 22 publications from 2026</p>
+    <p class="corresponding-pubs-status" aria-live="polite">Showing 24 publications from 2026</p>
   </div>
 
   <div class="corresponding-pubs-list">
@@ -36,7 +44,7 @@ nav_order: 3.5
       {% assign venue_year = pub.venue | append: "-" | append: pub.year %}
       {% assign venue_display = site.data.venue_editions[venue_year] | default: venue_full %}
       {% if pub.venue_full %}{% assign venue_display = pub.venue_full %}{% endif %}
-      <article class="corresponding-pub-card" data-year="{{ display_group }}"{% unless display_group == 2026 %} hidden{% endunless %}>
+      <article class="corresponding-pub-card" data-year="{{ display_group }}" data-pub-year="{{ pub.year }}"{% unless display_group == 2026 %} hidden{% endunless %}>
         <div class="corresponding-pub-card-top">
           <span class="corresponding-pub-venue">{{ pub.venue }}</span>
           <span class="corresponding-pub-type">{{ pub.type }}</span>
@@ -83,6 +91,7 @@ nav_order: 3.5
       </article>
     {% endfor %}
   </div>
+  <p class="corresponding-pubs-empty" hidden>No publications match this search.</p>
 </section>
 
 <script defer src="{{ '/assets/js/corresponding_publications.js' | relative_url }}"></script>
