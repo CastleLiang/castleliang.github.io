@@ -1,7 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
   var cards = Array.prototype.slice.call(document.querySelectorAll(".mentoring-person-has-publications"));
+  var profileCards = Array.prototype.slice.call(document.querySelectorAll(".mentoring-person-card:not(.mentoring-person-has-publications)[data-profile-url]"));
   var openCard = null;
-  var closeTimer = null;
+
+  function openProfile(card) {
+    var url = card.getAttribute("data-profile-url");
+    if (!url) return;
+    var profileWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (profileWindow) profileWindow.opener = null;
+  }
+
+  profileCards.forEach(function (card) {
+    card.addEventListener("click", function (event) {
+      if (event.target.closest("a")) return;
+      openProfile(card);
+    });
+
+    card.addEventListener("keydown", function (event) {
+      if (event.target !== card || (event.key !== "Enter" && event.key !== " ")) return;
+      event.preventDefault();
+      openProfile(card);
+    });
+  });
 
   if (!cards.length) return;
 
@@ -71,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function openPublications(card) {
-    window.clearTimeout(closeTimer);
     if (openCard === card && card.classList.contains("is-publications-open")) {
       positionPopover(card);
       return;
@@ -88,38 +107,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  function scheduleClose(card) {
-    window.clearTimeout(closeTimer);
-    closeTimer = window.setTimeout(function () {
-      if (!card.matches(":hover") && !card.contains(document.activeElement)) closeCard(card);
-    }, 130);
-  }
-
   cards.forEach(function (card) {
-    card.addEventListener("mouseenter", function () {
-      openPublications(card);
-    });
-
-    card.addEventListener("mouseleave", function () {
-      scheduleClose(card);
-    });
-
-    card.addEventListener("focusin", function () {
-      openPublications(card);
-    });
-
-    card.addEventListener("focusout", function (event) {
-      if (!event.relatedTarget || !card.contains(event.relatedTarget)) scheduleClose(card);
-    });
-
     card.addEventListener("click", function (event) {
-      if (event.target.closest("a")) return;
+      if (event.target.closest(".mentoring-publications-popover")) return;
       if (card.classList.contains("is-publications-open")) closeCard(card);
       else openPublications(card);
     });
 
     card.addEventListener("keydown", function (event) {
-      if (event.target.closest("a")) return;
+      if (event.target !== card) return;
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
         if (card.classList.contains("is-publications-open")) closeCard(card);
@@ -129,6 +125,14 @@ document.addEventListener("DOMContentLoaded", function () {
         card.focus();
       }
     });
+
+    var closeButton = card.querySelector(".mentoring-publications-close");
+    if (closeButton) {
+      closeButton.addEventListener("click", function () {
+        closeCard(card);
+        card.focus();
+      });
+    }
   });
 
   document.addEventListener("pointerdown", function (event) {

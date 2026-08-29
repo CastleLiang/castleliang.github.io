@@ -59,6 +59,10 @@ a.mentoring-person-card {
   cursor: pointer;
 }
 
+.mentoring-person-has-publications {
+  cursor: pointer;
+}
+
 .mentoring-person-card:focus-visible,
 .mentoring-person-card.is-publications-open {
   border-color: var(--hkust-blue);
@@ -199,23 +203,10 @@ a.mentoring-person-card {
   text-decoration: none;
 }
 
-.mentoring-name-link i {
-  color: var(--global-text-color-light);
-  font-size: 0.54rem;
-  opacity: 0.55;
-  transition: color 0.18s ease, opacity 0.18s ease;
-}
-
 .mentoring-name-link:hover,
 .mentoring-name-link:focus-visible {
   color: var(--hkust-blue-dark);
   text-decoration: none;
-}
-
-.mentoring-name-link:hover i,
-.mentoring-name-link:focus-visible i {
-  color: var(--hkust-blue);
-  opacity: 1;
 }
 
 .mentoring-person-copy p,
@@ -366,6 +357,7 @@ a.mentoring-person-card {
   transform: translateY(7px) scale(0.985);
   transform-origin: top center;
   transition: opacity 0.16s ease, transform 0.16s ease, visibility 0.16s ease;
+  cursor: default;
 }
 
 .mentoring-person-card.is-publications-open {
@@ -403,7 +395,7 @@ a.mentoring-person-card {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 0.12rem 0.8rem;
-  padding: 0.88rem 1rem 0.8rem;
+  padding: 0.88rem 3rem 0.8rem 1rem;
   border-bottom: 1px solid var(--hkust-border-soft);
   background: linear-gradient(135deg, rgba(228, 240, 252, 0.92), rgba(255, 255, 255, 0.72));
 }
@@ -435,6 +427,33 @@ a.mentoring-person-card {
   line-height: 1.3;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.mentoring-publications-close {
+  position: absolute;
+  top: 0.68rem;
+  right: 0.72rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.72rem;
+  height: 1.72rem;
+  padding: 0;
+  border: 1px solid rgba(10, 99, 190, 0.14);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.68);
+  color: var(--hkust-blue-dark);
+  font-size: 0.62rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.mentoring-publications-close:hover,
+.mentoring-publications-close:focus-visible {
+  border-color: rgba(10, 99, 190, 0.32);
+  outline: none;
+  background: var(--global-card-bg-color);
+  color: var(--hkust-blue);
 }
 
 .mentoring-publications-list {
@@ -506,21 +525,50 @@ a.mentoring-person-card {
   transform: translateX(2px);
 }
 
-.mentoring-publications-all {
+.mentoring-publications-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--hkust-border-soft);
+}
+
+.mentoring-publications-actions > a:only-child {
+  grid-column: 1 / -1;
+}
+
+.mentoring-publications-all,
+.mentoring-profile-action {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.7rem;
   padding: 0.66rem 1rem;
-  background: rgba(228, 240, 252, 0.28);
   color: var(--hkust-blue-dark);
   font-size: 0.68rem;
   font-weight: 780;
   text-decoration: none;
 }
 
+.mentoring-profile-action {
+  justify-content: flex-start;
+  border-right: 1px solid var(--hkust-border-soft);
+  background: rgba(228, 240, 252, 0.44);
+}
+
+.mentoring-profile-action.is-disabled {
+  color: var(--global-text-color-light);
+  cursor: not-allowed;
+  opacity: 0.52;
+  user-select: none;
+}
+
+.mentoring-publications-all {
+  background: rgba(228, 240, 252, 0.22);
+}
+
 .mentoring-publications-all:hover,
-.mentoring-publications-all:focus-visible {
+.mentoring-publications-all:focus-visible,
+.mentoring-profile-action:hover,
+.mentoring-profile-action:focus-visible {
   background: rgba(228, 240, 252, 0.62);
   color: var(--hkust-blue);
   text-decoration: none;
@@ -549,6 +597,11 @@ a.mentoring-person-card {
   color: #765512;
 }
 
+.mentoring-section-mphil .mentoring-publications-close {
+  border-color: rgba(181, 137, 48, 0.22);
+  color: #765512;
+}
+
 .mentoring-section-mphil .mentoring-publications-list {
   scrollbar-color: rgba(181, 137, 48, 0.3) transparent;
 }
@@ -572,13 +625,20 @@ a.mentoring-person-card {
   color: #a6771d;
 }
 
-.mentoring-section-mphil .mentoring-publications-all {
+.mentoring-section-mphil .mentoring-publications-all,
+.mentoring-section-mphil .mentoring-profile-action {
   background: rgba(250, 244, 224, 0.42);
   color: #765512;
 }
 
+.mentoring-section-mphil .mentoring-profile-action {
+  border-right-color: rgba(181, 137, 48, 0.16);
+}
+
 .mentoring-section-mphil .mentoring-publications-all:hover,
-.mentoring-section-mphil .mentoring-publications-all:focus-visible {
+.mentoring-section-mphil .mentoring-publications-all:focus-visible,
+.mentoring-section-mphil .mentoring-profile-action:hover,
+.mentoring-section-mphil .mentoring-profile-action:focus-visible {
   background: rgba(244, 230, 191, 0.68);
   color: #60430d;
 }
@@ -607,6 +667,19 @@ a.mentoring-person-card {
 
   .mentoring-publications-list {
     max-height: calc(100vh - 10rem);
+  }
+
+  .mentoring-publications-actions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .mentoring-publications-actions > a {
+    grid-column: 1;
+  }
+
+  .mentoring-profile-action {
+    border-right: 0;
+    border-bottom: 1px solid var(--hkust-border-soft);
   }
 }
 

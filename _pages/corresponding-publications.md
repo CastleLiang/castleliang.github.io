@@ -28,7 +28,7 @@ nav_order: 3.5
   <div class="corresponding-pubs-toolbar">
     <div class="corresponding-pubs-years" role="tablist" aria-label="Select publication year">
       <button class="corresponding-pubs-year is-active" type="button" role="tab" aria-selected="true" tabindex="0" data-year="2026">2026 <span>24</span></button>
-      <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2025">2025 <span>21</span></button>
+      <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2025">2025 <span>22</span></button>
       <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2024">2024 <span>17</span></button>
       <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2023">2023 <span>9</span></button>
       <button class="corresponding-pubs-year" type="button" role="tab" aria-selected="false" tabindex="-1" data-year="2016-2022" data-label="2016&ndash;2022">2016&ndash;2022 <span>9</span></button>

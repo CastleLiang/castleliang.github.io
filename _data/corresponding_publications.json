@@ -38,6 +38,17 @@
     "url": "https://www.sciencedirect.com/science/article/pii/S1566253524003841"
   },
   {
+    "year": 2025,
+    "title": "Unlocking the Power of LSTM for Long Term Time Series Forecasting",
+    "corresponding_authors": ["Peng Sun"],
+    "authors": "Yaxuan Kong, Zepu Wang, Yuqi Nie, Tian Zhou, Stefan Zohren, Yuxuan Liang, Peng Sun, and Qingsong Wen",
+    "author_list": [{"name":"Yaxuan Kong","role":"coauthor"},{"name":"Zepu Wang","role":"mentee"},{"name":"Yuqi Nie","role":"coauthor"},{"name":"Tian Zhou","role":"coauthor"},{"name":"Stefan Zohren","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Peng Sun","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33303"
+  },
+  {
     "year": 2024,
     "title": "On regularization for explaining graph neural networks: An information theory perspective",
     "corresponding_authors": ["Kun Wang"],
