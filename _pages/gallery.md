@@ -4,7 +4,7 @@ permalink: /gallery/
 title: Gallery
 description: Selected academic activity photos.
 nav: true
-nav_order: 9
+nav_order: 7
 enable_gallery_page: true
 ---
 

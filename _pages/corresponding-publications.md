@@ -5,7 +5,7 @@ title: Selected Publications
 nav_title: Publications
 description: Only list publications as the corresponding author or first author.
 nav: true
-nav_order: 3.5
+nav_order: 3
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/corresponding-publications.css' | relative_url }}">

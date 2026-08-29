@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks
 description: Selected keynote talks and tutorials.
 nav: true
-nav_order: 8
+nav_order: 6
 ---
 
 <div class="talks-page">

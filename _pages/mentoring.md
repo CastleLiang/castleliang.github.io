@@ -4,7 +4,7 @@ permalink: /mentoring/
 title: Team
 description: We are CityMind Lab. Our target is shaping the future of AI and foundation models for urban spatio-temporal data. I am honored to work alongside these talented students and colleagues!
 nav: true
-nav_order: 3.7
+nav_order: 2
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/mentoring.css' | relative_url }}">
