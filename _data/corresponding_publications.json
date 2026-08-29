@@ -1,0 +1,1070 @@
+[
+  {
+    "year": 2026,
+    "title": "Trajectory Data Management and Mining: A Survey from Deep Learning to the LLM Era",
+    "authors": "Wei Chen, Yuanshao Zhu, Yanchuan Chang, Kang Luo, Haomin Wen, Lei Li, Yanwei Yu, Qingsong Wen, Chao Chen, Kai Zheng, Yunjun Gao, Yu Zheng, Xiaofang Zhou, and Yuxuan Liang",
+    "author_list": [{"name":"Wei Chen","role":"student"},{"name":"Yuanshao Zhu","role":"mentee"},{"name":"Yanchuan Chang","role":"coauthor"},{"name":"Kang Luo","role":"coauthor"},{"name":"Haomin Wen","role":"mentee"},{"name":"Lei Li","role":"coauthor"},{"name":"Yanwei Yu","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Chao Chen","role":"coauthor"},{"name":"Kai Zheng","role":"coauthor"},{"name":"Yunjun Gao","role":"coauthor"},{"name":"Yu Zheng","role":"coauthor"},{"name":"Xiaofang Zhou","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "TKDE",
+    "type": "Journal",
+    "topic": "Trajectory Mining",
+    "url": "https://arxiv.org/abs/2403.14151"
+  },
+  {
+    "year": 2025,
+    "title": "Deep learning for cross-domain data fusion in urban computing: Taxonomy, advances, and outlook",
+    "authors": "Xingchen Zou, Yibo Yan, Xixuan Hao, Yuehong Hu, Haomin Wen, Erdong Liu, Junbo Zhang, Yong Li, Tianrui Li, Yu Zheng, and Yuxuan Liang",
+    "author_list": [{"name":"Xingchen Zou","role":"student"},{"name":"Yibo Yan","role":"student"},{"name":"Xixuan Hao","role":"student"},{"name":"Yuehong Hu","role":"student"},{"name":"Haomin Wen","role":"mentee"},{"name":"Erdong Liu","role":"student"},{"name":"Junbo Zhang","role":"coauthor"},{"name":"Yong Li","role":"coauthor"},{"name":"Tianrui Li","role":"coauthor"},{"name":"Yu Zheng","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "Information Fusion",
+    "type": "Journal",
+    "topic": "Urban Computing",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1566253524003841"
+  },
+  {
+    "year": 2024,
+    "title": "On regularization for explaining graph neural networks: An information theory perspective",
+    "corresponding_authors": ["Kun Wang"],
+    "authors": "Junfeng Fang, Guibin Zhang, Kun Wang, Wenjie Du, Yifan Duan, Yuankai Wu, Roger Zimmermann, Xiaowen Chu, and Yuxuan Liang",
+    "author_list": [{"name":"Junfeng Fang","role":"coauthor"},{"name":"Guibin Zhang","role":"mentee"},{"name":"Kun Wang","role":"coauthor"},{"name":"Wenjie Du","role":"coauthor"},{"name":"Yifan Duan","role":"coauthor"},{"name":"Yuankai Wu","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"},{"name":"Xiaowen Chu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "TKDE",
+    "type": "Journal",
+    "topic": "Graph Learning",
+    "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=On%20regularization%20for%20explaining%20graph%20neural%20networks%3A%20An%20information%20theory%20perspective"
+  },
+  {
+    "year": 2024,
+    "title": "Modeling Spatio-temporal Dynamical Systems with Neural Discrete Learning and Levels-of-Experts",
+    "corresponding_authors": ["Yang Wang"],
+    "authors": "Kun Wang, Hao Wu, Guibin Zhang, Junfeng Fang, Yuxuan Liang, Yuankai Wu, Roger Zimmermann, and Yang Wang",
+    "author_list": [{"name":"Kun Wang","role":"coauthor"},{"name":"Hao Wu","role":"coauthor"},{"name":"Guibin Zhang","role":"mentee"},{"name":"Junfeng Fang","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Yuankai Wu","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"},{"name":"Yang Wang","role":"coauthor"}],
+    "venue": "TKDE",
+    "type": "Journal",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=Modeling%20Spatio-temporal%20Dynamical%20Systems%20with%20Neural%20Discrete%20Learning%20and%20Levels-of-Experts"
+  },
+  {
+    "year": 2023,
+    "title": "Brave the Wind and the Waves: Discovering Robust and Generalizable Graph Lottery Tickets",
+    "corresponding_authors": ["Yang Wang"],
+    "authors": "Kun Wang, Yuxuan Liang, Xinglin Li, Guohao Li, Bernard Ghanem, Roger Zimmermann, Zhengyang Zhou, Huahui Yi, Yudong Zhang, and Yang Wang",
+    "author_list": [{"name":"Kun Wang","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Xinglin Li","role":"coauthor"},{"name":"Guohao Li","role":"coauthor"},{"name":"Bernard Ghanem","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"},{"name":"Zhengyang Zhou","role":"coauthor"},{"name":"Huahui Yi","role":"coauthor"},{"name":"Yudong Zhang","role":"coauthor"},{"name":"Yang Wang","role":"coauthor"}],
+    "venue": "TPAMI",
+    "type": "Journal",
+    "topic": "Graph Learning",
+    "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=Brave%20the%20Wind%20and%20the%20Waves%3A%20Discovering%20Robust%20and%20Generalizable%20Graph%20Lottery%20Tickets"
+  },
+  {
+    "year": 2023,
+    "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
+    "authors": "Guangyin Jin, Yuxuan Liang, Yuchen Fang, Jincai Huang, Junbo Zhang, and Yu Zheng",
+    "author_list": [{"name":"Guangyin Jin","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Yuchen Fang","role":"coauthor"},{"name":"Jincai Huang","role":"coauthor"},{"name":"Junbo Zhang","role":"coauthor"},{"name":"Yu Zheng","role":"coauthor"}],
+    "venue": "TKDE",
+    "type": "Journal",
+    "topic": "Graph Learning",
+    "url": "https://www.zhangjunbo.org/publication/23-tkde-stgnn_survey/"
+  },
+  {
+    "year": 2023,
+    "title": "Decoupling Long- and Short-Term Patterns in Spatiotemporal Inference",
+    "authors": "Junfeng Hu, Yuxuan Liang, Zhencheng Fan, Yifang Yin, Ying Zhang, and Roger Zimmermann",
+    "author_list": [{"name":"Junfeng Hu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Zhencheng Fan","role":"coauthor"},{"name":"Yifang Yin","role":"coauthor"},{"name":"Ying Zhang","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "TNNLS",
+    "type": "Journal",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=Decoupling%20Long-and%20Short-Term%20Patterns%20in%20Spatiotemporal%20Inference"
+  },
+  {
+    "year": 2025,
+    "title": "Foundation Models for Spatio-Temporal Data Science: A Tutorial and Survey",
+    "authorship": "First author",
+    "authors": "Yuxuan Liang, Haomin Wen, Yutong Xia, Ming Jin, Bin Yang, Flora Salim, Qingsong Wen, Shirui Pan, and Gao Cong",
+    "author_list": [{"name":"Yuxuan Liang","role":"self"},{"name":"Haomin Wen","role":"mentee"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Ming Jin","role":"coauthor"},{"name":"Bin Yang","role":"coauthor"},{"name":"Flora Salim","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Shirui Pan","role":"coauthor"},{"name":"Gao Cong","role":"coauthor"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Foundation Models",
+    "url": "https://arxiv.org/abs/2503.13502"
+  },
+  {
+    "year": 2024,
+    "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
+    "authorship": "First author",
+    "authors": "Yuxuan Liang, Haomin Wen, Yuqi Nie, Yushan Jiang, Ming Jin, Dongjin Song, Shirui Pan, and Qingsong Wen",
+    "author_list": [{"name":"Yuxuan Liang","role":"self"},{"name":"Haomin Wen","role":"mentee"},{"name":"Yuqi Nie","role":"coauthor"},{"name":"Yushan Jiang","role":"coauthor"},{"name":"Ming Jin","role":"coauthor"},{"name":"Dongjin Song","role":"coauthor"},{"name":"Shirui Pan","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://arxiv.org/abs/2403.14735"
+  },
+  {
+    "year": 2023,
+    "title": "AirFormer: Predicting Nationwide Air Quality in China with Transformers",
+    "authorship": "First author",
+    "authors": "Yuxuan Liang, Yutong Xia, Songyu Ke, Yiwei Wang, Qingsong Wen, Junbo Zhang, Yu Zheng, and Roger Zimmermann",
+    "author_list": [{"name":"Yuxuan Liang","role":"self"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Songyu Ke","role":"coauthor"},{"name":"Yiwei Wang","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Junbo Zhang","role":"coauthor"},{"name":"Yu Zheng","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "AI for Science",
+    "url": "https://arxiv.org/abs/2211.15979"
+  },
+  {
+    "year": 2026,
+    "title": "GDformer: Going Beyond Subsequence Isolation for Multivariate Time Series Anomaly Detection",
+    "authors": "Qingxiang Liu, Xiaoliang Luo, Chenghao Liu, Sheng Sun, Di Yao, Lvchun Wang, Wei Yu, and Yuxuan Liang",
+    "author_list": [{"name":"Qingxiang Liu","role":"mentee"},{"name":"Xiaoliang Luo","role":"coauthor"},{"name":"Chenghao Liu","role":"coauthor"},{"name":"Sheng Sun","role":"coauthor"},{"name":"Di Yao","role":"coauthor"},{"name":"Lvchun Wang","role":"coauthor"},{"name":"Wei Yu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "CIKM",
+    "type": "Conference",
+    "topic": "Time Series"
+  },
+  {
+    "year": 2026,
+    "title": "A Game-Theoretic Spatio-Temporal Reinforcement Learning Framework for Collaborative Public Resource Allocation",
+    "authors": "Songxin Lei, Qiongyan Wang, Yanchen Zhu, Hanyu Yao, Sijie Ruan, Weilin Ruan, Yuyu Luo, Huaming Wu, and Yuxuan Liang",
+    "author_list": [{"name":"Songxin Lei","role":"student"},{"name":"Qiongyan Wang","role":"student"},{"name":"Yanchen Zhu","role":"student"},{"name":"Hanyu Yao","role":"coauthor"},{"name":"Sijie Ruan","role":"coauthor"},{"name":"Weilin Ruan","role":"student"},{"name":"Yuyu Luo","role":"coauthor"},{"name":"Huaming Wu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "CIKM",
+    "type": "Conference",
+    "topic": "Urban Computing"
+  },
+  {
+    "year": 2026,
+    "title": "Multi-Order Wavelet Derivative Transform for Multivariate Time Series Forecasting",
+    "authors": "Ziyu Zhou, Jiaxi Hu, Qingsong Wen, James Kwok, and Yuxuan Liang",
+    "author_list": [{"name":"Ziyu Zhou","role":"student"},{"name":"Jiaxi Hu","role":"student"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"James Kwok","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "CIKM",
+    "type": "Conference",
+    "topic": "Time Series"
+  },
+  {
+    "year": 2026,
+    "title": "CoST: Semantic-Aware Urban Understanding via Spatial-Temporal Alignment",
+    "authors": "Yutian Jiang, Jiabo Liu, Xixuan Hao, and Yuxuan Liang",
+    "author_list": [{"name":"Yutian Jiang","role":"student"},{"name":"Jiabo Liu","role":"student"},{"name":"Xixuan Hao","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "CIKM",
+    "type": "Conference",
+    "topic": "Urban Computing"
+  },
+  {
+    "year": 2026,
+    "title": "GadMIL: Granularity-Aware Association Discovery for Multi-Instance Time Series Classification",
+    "corresponding_authors": ["Yuxuan Liang", "Fugee Tsung"],
+    "authors": "Lingzheng Zhang, Boyang Li, Lifeng Shen, Yuxuan Liang, and Fugee Tsung",
+    "author_list": [{"name":"Lingzheng Zhang","role":"student"},{"name":"Boyang Li","role":"coauthor"},{"name":"Lifeng Shen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Fugee Tsung","role":"coauthor"}],
+    "venue": "CIKM",
+    "type": "Conference",
+    "topic": "Time Series"
+  },
+  {
+    "year": 2026,
+    "title": "ViST: Harnessing Vision Transformation and Reconstruction for Multi-modal Spatio-temporal Forecasting",
+    "authors": "Weilin Ruan, Siru Zhong, Haomin Wen, Songxin Lei, Yongzheng Liu, Xingchen Zou, and Yuxuan Liang",
+    "author_list": [{"name":"Weilin Ruan","role":"student"},{"name":"Siru Zhong","role":"student"},{"name":"Haomin Wen","role":"mentee"},{"name":"Songxin Lei","role":"student"},{"name":"Yongzheng Liu","role":"student"},{"name":"Xingchen Zou","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ACM MM",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning"
+  },
+  {
+    "year": 2026,
+    "title": "Reinforcement Learning for UAV-based Participatory Sensing in Dynamic Environments",
+    "corresponding_authors": ["Xin Ouyang"],
+    "authors": "Xin Ouyang, Songxin Lei, Xusen Guo, Yutian Jiang, Sijie Ruan, and Yuxuan Liang",
+    "author_list": [{"name":"Xin Ouyang","role":"student"},{"name":"Songxin Lei","role":"student"},{"name":"Xusen Guo","role":"student"},{"name":"Yutian Jiang","role":"student"},{"name":"Sijie Ruan","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "SIGSPATIAL",
+    "type": "Conference",
+    "topic": "Urban Computing"
+  },
+  {
+    "year": 2026,
+    "title": "Perceive to Hypothesize, Verify to Ground: an Agentic Reasoning Framework for Open-World Geo-Localization",
+    "authors": "Yutian Jiang, Ruijie Li, Sisuo Lyu, Xixuan Hao, Qingxiang Liu, Yongzi Yu, and Yuxuan Liang",
+    "author_list": [{"name":"Yutian Jiang","role":"student"},{"name":"Ruijie Li","role":"student"},{"name":"Sisuo Lyu","role":"student"},{"name":"Xixuan Hao","role":"student"},{"name":"Qingxiang Liu","role":"mentee"},{"name":"Yongzi Yu","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "EMNLP",
+    "type": "Main Conference",
+    "topic": "Large Language Models"
+  },
+  {
+    "year": 2026,
+    "title": "Rationale-Grounded In-Context Learning for Time Series Reasoning with Multimodal Large Language Models",
+    "authors": "Qingxiang Liu, Zhiqing Cui, Xiaoliang Luo, Yuqian Wu, Zhuoyang Jiang, Huaiyu Wan, Sheng Sun, Lvchun Wang, Wei Yu, and Yuxuan Liang",
+    "author_list": [{"name":"Qingxiang Liu","role":"mentee"},{"name":"Zhiqing Cui","role":"mentee"},{"name":"Xiaoliang Luo","role":"coauthor"},{"name":"Yuqian Wu","role":"student"},{"name":"Zhuoyang Jiang","role":"mentee"},{"name":"Huaiyu Wan","role":"coauthor"},{"name":"Sheng Sun","role":"coauthor"},{"name":"Lvchun Wang","role":"coauthor"},{"name":"Wei Yu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "EMNLP",
+    "venue_full": "Findings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    "type": "Findings",
+    "topic": "Time Series"
+  },
+  {
+    "year": 2026,
+    "title": "Back to Basics: Let Conversational Agents Remember with Just Retrieval and Generation",
+    "authors": "Yuqian Wu, Wei Chen, Zhengjun Huang, Junle Chen, Qingxiang Liu, Kai Wang, Xiaofang Zhou, and Yuxuan Liang",
+    "author_list": [{"name":"Yuqian Wu","role":"student"},{"name":"Wei Chen","role":"student"},{"name":"Zhengjun Huang","role":"coauthor"},{"name":"Junle Chen","role":"coauthor"},{"name":"Qingxiang Liu","role":"mentee"},{"name":"Kai Wang","role":"coauthor"},{"name":"Xiaofang Zhou","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "COLM",
+    "type": "Conference",
+    "topic": "Large Language Models"
+  },
+  {
+    "year": 2026,
+    "title": "DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting",
+    "corresponding_authors": ["Qingsong Wen"],
+    "authors": "Siru Zhong, Yiqiu Liu, Zhiqing Cui, Zezhi Shao, Fei Wang, Qingsong Wen, and Yuxuan Liang",
+    "author_list": [{"name":"Siru Zhong","role":"student"},{"name":"Yiqiu Liu","role":"student"},{"name":"Zhiqing Cui","role":"student"},{"name":"Zezhi Shao","role":"coauthor"},{"name":"Fei Wang","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ICML",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://arxiv.org/abs/2601.21726"
+  },
+  {
+    "year": 2026,
+    "title": "TS-Memory: Plug-and-Play Memory for Time Series Foundation Models",
+    "presentation": "Oral",
+    "corresponding_authors": ["Raymond Chi-Wing Wong"],
+    "authors": "Sisuo Lyu, Siru Zhong, Tiegang Chen, Weilin Ruan, Qingxiang Liu, Taiqiang Lv, Qingsong Wen, Raymond Chi-Wing Wong, and Yuxuan Liang",
+    "author_list": [{"name":"Sisuo Lyu","role":"student"},{"name":"Siru Zhong","role":"student"},{"name":"Tiegang Chen","role":"coauthor"},{"name":"Weilin Ruan","role":"student"},{"name":"Qingxiang Liu","role":"mentee"},{"name":"Taiqiang Lv","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Raymond Chi-Wing Wong","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://arxiv.org/abs/2602.11550"
+  },
+  {
+    "year": 2026,
+    "title": "Multi-Agent Collaborative Reasoning with Tool-Augmented Evidence for Urban Region Profiling",
+    "presentation": "Oral",
+    "authors": "Xixuan Hao, Yutian Jiang, Jiabo Liu, Yihang Yang, Guangyin Jin, Song Gao, and Yuxuan Liang",
+    "author_list": [{"name":"Xixuan Hao","role":"student"},{"name":"Yutian Jiang","role":"student"},{"name":"Jiabo Liu","role":"student"},{"name":"Yihang Yang","role":"coauthor"},{"name":"Guangyin Jin","role":"coauthor"},{"name":"Song Gao","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://arxiv.org/abs/2607.13558"
+  },
+  {
+    "year": 2026,
+    "title": "Hierarchical Reinforcement Learning for Cooperative Air-Ground Delivery in Urban System",
+    "corresponding_authors": ["Sijie Ruan"],
+    "authors": "Songxin Lei, Chunming Ma, Haomin Wen, Yexin Li, Lizhenghe Chen, Qianyu Yang, Fugee Tsung, Lei Chen, Sijie Ruan, and Yuxuan Liang",
+    "author_list": [{"name":"Songxin Lei","role":"coauthor"},{"name":"Chunming Ma","role":"coauthor"},{"name":"Haomin Wen","role":"mentee"},{"name":"Yexin Li","role":"coauthor"},{"name":"Lizhenghe Chen","role":"coauthor"},{"name":"Qianyu Yang","role":"coauthor"},{"name":"Fugee Tsung","role":"coauthor"},{"name":"Lei Chen","role":"coauthor"},{"name":"Sijie Ruan","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://arxiv.org/abs/2602.12913"
+  },
+  {
+    "year": 2026,
+    "title": "Test-Time Learning of Causal Structure from Interventional Data",
+    "corresponding_authors": ["Rui Ding"],
+    "authors": "Wei Chen, Rui Ding, Bojun Huang, Yang Zhang, Qiang Fu, Yuxuan Liang, Han Shi, and Dongmei Zhang",
+    "author_list": [{"name":"Wei Chen","role":"student"},{"name":"Rui Ding","role":"coauthor"},{"name":"Bojun Huang","role":"coauthor"},{"name":"Yang Zhang","role":"coauthor"},{"name":"Qiang Fu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Han Shi","role":"coauthor"},{"name":"Dongmei Zhang","role":"coauthor"}],
+    "venue": "ICML",
+    "type": "Conference",
+    "topic": "Machine Learning",
+    "url": "https://arxiv.org/abs/2602.19131"
+  },
+  {
+    "year": 2026,
+    "title": "Traffic-R1: Reinforced LLMs Bring Human-Like Reasoning to Traffic Signal Control Systems",
+    "authors": "Xingchen Zou, Yuhao Yang, Zheng Chen, Xixuan Hao, Yiqi Chen, Chao Huang, and Yuxuan Liang",
+    "author_list": [{"name":"Xingchen Zou","role":"student"},{"name":"Yuhao Yang","role":"coauthor"},{"name":"Zheng Chen","role":"coauthor"},{"name":"Xixuan Hao","role":"student"},{"name":"Yiqi Chen","role":"coauthor"},{"name":"Chao Huang","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ACL",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://aclanthology.org/2026.acl-long.995/"
+  },
+  {
+    "year": 2026,
+    "title": "ACCFormer: Predicting Analog Circuit Performance Metrics via Topology-Aware Transformers",
+    "corresponding_authors": ["Bin Li"],
+    "authors": "Bowen Liao, Yutong Feng, Jianhua Lin, Zhaohui Wu, Yuxuan Liang, and Bin Li",
+    "author_list": [{"name":"Bowen Liao","role":"coauthor"},{"name":"Yutong Feng","role":"student"},{"name":"Jianhua Lin","role":"coauthor"},{"name":"Zhaohui Wu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Bin Li","role":"coauthor"}],
+    "venue": "IJCAI",
+    "type": "Conference",
+    "topic": "AI for Science",
+    "url": "https://2026.ijcai.org/accepted-papers/"
+  },
+  {
+    "year": 2026,
+    "title": "AgentSense: LLMs Empower Generalizable and Explainable Web-Based Participatory Urban Sensing",
+    "authors": "Xusen Guo, Mingxing Peng, Xixuan Hao, Xingchen Zou, Qiongyan Wang, Sijie Ruan, and Yuxuan Liang",
+    "author_list": [{"name":"Xusen Guo","role":"student"},{"name":"Mingxing Peng","role":"coauthor"},{"name":"Xixuan Hao","role":"student"},{"name":"Xingchen Zou","role":"student"},{"name":"Qiongyan Wang","role":"student"},{"name":"Sijie Ruan","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "WWW",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://dl.acm.org/action/doSearch?AllField=AgentSense%3A%20LLMs%20Empower%20Generalizable%20and%20Explainable%20Web-Based%20Participatory%20Urban%20Sensing"
+  },
+  {
+    "year": 2026,
+    "title": "OccamVTS: Distilling Vision Models to 1% Parameters for Time Series Forecasting",
+    "authors": "Sisuo Lyu, Siru Zhong, Weilin Ruan, Qingxiang Liu, Qingsong Wen, Hui Xiong, and Yuxuan Liang",
+    "author_list": [{"name":"Sisuo Lyu","role":"student"},{"name":"Siru Zhong","role":"student"},{"name":"Weilin Ruan","role":"student"},{"name":"Qingxiang Liu","role":"mentee"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Hui Xiong","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://ojs.aaai.org/index.php/AAAI/search?query=OccamVTS%3A%20Distilling%20Vision%20Models%20to%201%5C%25%20Parameters%20for%20Time%20Series%20Forecasting"
+  },
+  {
+    "year": 2026,
+    "title": "Revitalizing Canonical Pre-Alignment for Irregular Multivariate Time Series Forecasting",
+    "corresponding_authors": ["James Kwok"],
+    "authors": "Ziyu Zhou, Yiming Huang, Yanyun Wang, Yuankai Wu, James Kwok, and Yuxuan Liang",
+    "author_list": [{"name":"Ziyu Zhou","role":"student"},{"name":"Yiming Huang","role":"coauthor"},{"name":"Yanyun Wang","role":"coauthor"},{"name":"Yuankai Wu","role":"coauthor"},{"name":"James Kwok","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://ojs.aaai.org/index.php/AAAI/search?query=Revitalizing%20Canonical%20Pre-Alignment%20for%20Irregular%20Multivariate%20Time%20Series%20Forecasting"
+  },
+  {
+    "year": 2026,
+    "title": "A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction",
+    "authors": "Weilin Ruan, Xilin Dang, Ziyu Zhou, Sisuo Lyu, and Yuxuan Liang",
+    "author_list": [{"name":"Weilin Ruan","role":"student"},{"name":"Xilin Dang","role":"coauthor"},{"name":"Ziyu Zhou","role":"student"},{"name":"Sisuo Lyu","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://ojs.aaai.org/index.php/AAAI/search?query=A%20Retrieval%20Augmented%20Spatio-Temporal%20Framework%20for%20Traffic%20Prediction"
+  },
+  {
+    "year": 2025,
+    "title": "Learning to Factorize Spatio-Temporal Foundation Models",
+    "presentation": "Spotlight",
+    "corresponding_authors": ["Hao Xu"],
+    "authors": "Siru Zhong, Junjie Qiu, Yangyu Wu, Xingchen Zou, Zhongwen Rao, Bin Yang, Chenjuan Guo, Hao Xu, and Yuxuan Liang",
+    "author_list": [{"name":"Siru Zhong","role":"student"},{"name":"Junjie Qiu","role":"student"},{"name":"Yangyu Wu","role":"student"},{"name":"Xingchen Zou","role":"student"},{"name":"Zhongwen Rao","role":"coauthor"},{"name":"Bin Yang","role":"coauthor"},{"name":"Chenjuan Guo","role":"coauthor"},{"name":"Hao Xu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://openreview.net/search?q=Learning%20to%20Factorize%20Spatio-Temporal%20Foundation%20Models"
+  },
+  {
+    "year": 2025,
+    "title": "UniTraj: Learning a Universal Trajectory Foundation Model from Billion-Scale Worldwide Traces",
+    "corresponding_authors": ["James Jianqiao Yu", "Xiangyu Zhao"],
+    "authors": "Yuanshao Zhu, James Jianqiao Yu, Xiangyu Zhao, Xun Zhou, Liang Han, Xuetao Wei, and Yuxuan Liang",
+    "author_list": [{"name":"Yuanshao Zhu","role":"mentee"},{"name":"James Jianqiao Yu","role":"coauthor"},{"name":"Xiangyu Zhao","role":"coauthor"},{"name":"Xun Zhou","role":"coauthor"},{"name":"Liang Han","role":"coauthor"},{"name":"Xuetao Wei","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Trajectory Mining",
+    "url": "https://openreview.net/search?q=UniTraj%3A%20Learning%20a%20Universal%20Trajectory%20Foundation%20Model%20from%20Billion-Scale%20Worldwide%20Traces"
+  },
+  {
+    "year": 2025,
+    "title": "FlowNet: Modeling Dynamic Spatio-Temporal Systems via Flow Propagation",
+    "authors": "Yutong Feng, Xu Liu, Yutong Xia, and Yuxuan Liang",
+    "author_list": [{"name":"Yutong Feng","role":"student"},{"name":"Xu Liu","role":"coauthor"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://openreview.net/search?q=FlowNet%3A%20Modeling%20Dynamic%20Spatio-Temporal%20Systems%20via%20Flow%20Propagation"
+  },
+  {
+    "year": 2025,
+    "title": "Improving Bilinear RNN with Closed-loop Control",
+    "presentation": "Spotlight",
+    "corresponding_authors": ["Weigao Sun"],
+    "authors": "Jiaxi Hu, Yongqi Pan, Jusen Du, Disen Lan, Xiaqiang Tang, Qingsong Wen, Yuxuan Liang, and Weigao Sun",
+    "author_list": [{"name":"Jiaxi Hu","role":"student"},{"name":"Yongqi Pan","role":"mentee"},{"name":"Jusen Du","role":"coauthor"},{"name":"Disen Lan","role":"coauthor"},{"name":"Xiaqiang Tang","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Weigao Sun","role":"coauthor"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Machine Learning",
+    "url": "https://openreview.net/search?q=Improving%20Bilinear%20RNN%20with%20Closed-loop%20Control"
+  },
+  {
+    "year": 2025,
+    "title": "Learning with Calibration: Exploring Test-Time Computing of Spatio-Temporal Forecasting",
+    "presentation": "Spotlight",
+    "authors": "Wei Chen and Yuxuan Liang",
+    "author_list": [{"name":"Wei Chen","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://openreview.net/search?q=Learning%20with%20Calibration%3A%20Exploring%20Test-Time%20Computing%20of%20Spatio-Temporal%20Forecasting"
+  },
+  {
+    "year": 2025,
+    "title": "Fine-Grained Urban Heat Island Effect Forecasting: A Context-Aware Thermodynamic Modeling Framework",
+    "authors": "Xingchen Zou, Weilin Ruan, Siru Zhong, Yuehong Hu, and Yuxuan Liang",
+    "author_list": [{"name":"Xingchen Zou","role":"student"},{"name":"Weilin Ruan","role":"student"},{"name":"Siru Zhong","role":"student"},{"name":"Yuehong Hu","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://dl.acm.org/action/doSearch?AllField=Fine-Grained%20Urban%20Heat%20Island%20Effect%20Forecasting%3A%20A%20Context-Aware%20Thermodynamic%20Modeling%20Framework"
+  },
+  {
+    "year": 2025,
+    "title": "Learning Generalized and Flexible Trajectory Models from Omni-Semantic Supervision",
+    "corresponding_authors": ["James Jianqiao Yu", "Xiangyu Zhao"],
+    "authors": "Yuanshao Zhu, James Jianqiao Yu, Xiangyu Zhao, Xiao Han, Qidong Liu, Xuetao Wei, and Yuxuan Liang",
+    "author_list": [{"name":"Yuanshao Zhu","role":"mentee"},{"name":"James Jianqiao Yu","role":"coauthor"},{"name":"Xiangyu Zhao","role":"coauthor"},{"name":"Xiao Han","role":"coauthor"},{"name":"Qidong Liu","role":"coauthor"},{"name":"Xuetao Wei","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Trajectory Mining",
+    "url": "https://dl.acm.org/action/doSearch?AllField=Learning%20Generalized%20and%20Flexible%20Trajectory%20Models%20from%20Omni-Semantic%20Supervision"
+  },
+  {
+    "year": 2025,
+    "title": "DynST: Dynamic Sparse Training for Resource-Constrained Spatio-Temporal Forecasting",
+    "corresponding_authors": ["Kun Wang"],
+    "authors": "Hao Wu, Haomin Wen, Guibin Zhang, Yutong Xia, Yuxuan Liang, Yu Zheng, Qingsong Wen, and Kun Wang",
+    "author_list": [{"name":"Hao Wu","role":"coauthor"},{"name":"Haomin Wen","role":"mentee"},{"name":"Guibin Zhang","role":"coauthor"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Yu Zheng","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Kun Wang","role":"coauthor"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://dl.acm.org/action/doSearch?AllField=DynST%3A%20Dynamic%20Sparse%20Training%20for%20Resource-Constrained%20Spatio-Temporal%20Forecasting"
+  },
+  {
+    "year": 2025,
+    "title": "Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting",
+    "authors": "Weilin Ruan, Wenzhuo Wang, Siru Zhong, Wei Chen, Li Liu, and Yuxuan Liang",
+    "author_list": [{"name":"Weilin Ruan","role":"student"},{"name":"Wenzhuo Wang","role":"coauthor"},{"name":"Siru Zhong","role":"student"},{"name":"Wei Chen","role":"student"},{"name":"Li Liu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "TITS",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=Cross%20Space%20and%20Time%3A%20A%20Spatio-Temporal%20Unitized%20Model%20for%20Traffic%20Flow%20Forecasting"
+  },
+  {
+    "year": 2025,
+    "title": "Space-aware Socioeconomic Indicator Inference with Heterogeneous Graphs",
+    "authors": "Xingchen Zou, Jiani Huang, Xixuan Hao, Yuhao Yang, Haomin Wen, Yibo Yan, Chao Huang, Chao Chen, and Yuxuan Liang",
+    "author_list": [{"name":"Xingchen Zou","role":"student"},{"name":"Jiani Huang","role":"coauthor"},{"name":"Xixuan Hao","role":"student"},{"name":"Yuhao Yang","role":"coauthor"},{"name":"Haomin Wen","role":"mentee"},{"name":"Yibo Yan","role":"student"},{"name":"Chao Huang","role":"coauthor"},{"name":"Chao Chen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "SIGSPATIAL",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://dl.acm.org/action/doSearch?AllField=Space-aware%20Socioeconomic%20Indicator%20Inference%20with%20Heterogeneous%20Graphs"
+  },
+  {
+    "year": 2025,
+    "title": "ST-LoRA: Low-rank Adaptation for Spatio-temporal Forecasting",
+    "authors": "Weilin Ruan, Wei Chen, Xilin Dang, Jianxiang Zhou, Weichuang Li, Xu Liu, and Yuxuan Liang",
+    "author_list": [{"name":"Weilin Ruan","role":"student"},{"name":"Wei Chen","role":"student"},{"name":"Xilin Dang","role":"coauthor"},{"name":"Jianxiang Zhou","role":"student"},{"name":"Weichuang Li","role":"student"},{"name":"Xu Liu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ECML-PKDD",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://link.springer.com/search?query=ST-LoRA%3A%20Low-rank%20Adaptation%20for%20Spatio-temporal%20Forecasting"
+  },
+  {
+    "year": 2025,
+    "title": "Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting",
+    "authors": "Siru Zhong, Weilin Ruan, Ming Jin, Huan Li, Qingsong Wen, and Yuxuan Liang",
+    "author_list": [{"name":"Siru Zhong","role":"student"},{"name":"Weilin Ruan","role":"student"},{"name":"Ming Jin","role":"coauthor"},{"name":"Huan Li","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ICML",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://proceedings.mlr.press/v267/"
+  },
+  {
+    "year": 2025,
+    "title": "Nature Makes No Leaps: Building Continuous Location Embeddings with Satellite Imagery from the Web",
+    "authors": "Xixuan Hao, Wei Chen, Xingchen Zou, and Yuxuan Liang",
+    "author_list": [{"name":"Xixuan Hao","role":"student"},{"name":"Wei Chen","role":"student"},{"name":"Xingchen Zou","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "WWW",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://dl.acm.org/action/doSearch?AllField=Nature%20Makes%20No%20Leaps%3A%20Building%20Continuous%20Location%20Embeddings%20with%20Satellite%20Imagery%20from%20the%20Web"
+  },
+  {
+    "year": 2025,
+    "title": "Reinforcement Learning for Hybrid Charging Stations Planning and Operation Considering Fixed and Mobile Chargers",
+    "authors": "Yanchen Zhu, Honghui Zou, Yuyu Luo, Yuankai Wu, and Yuxuan Liang",
+    "author_list": [{"name":"Yanchen Zhu","role":"student"},{"name":"Honghui Zou","role":"coauthor"},{"name":"Yuyu Luo","role":"coauthor"},{"name":"Yuankai Wu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "IJCAI",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://www.ijcai.org/proceedings/2025"
+  },
+  {
+    "year": 2025,
+    "title": "Expand and Compress: Exploring Tuning Principles for Continual Spatio-Temporal Graph Forecasting",
+    "authors": "Wei Chen and Yuxuan Liang",
+    "author_list": [{"name":"Wei Chen","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ICLR",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://openreview.net/search?q=Expand%20and%20Compress%3A%20Exploring%20Tuning%20Principles%20for%20Continual%20Spatio-Temporal%20Graph%20Forecasting"
+  },
+  {
+    "year": 2025,
+    "title": "Towards Neural Scaling Laws for Time Series Foundation Models",
+    "corresponding_authors": ["Ming Jin"],
+    "authors": "Qingren Yao, Chao-Han Huck Yang, Renhe Jiang, Yuxuan Liang, Ming Jin, and Shirui Pan",
+    "author_list": [{"name":"Qingren Yao","role":"coauthor"},{"name":"Chao-Han Huck Yang","role":"coauthor"},{"name":"Renhe Jiang","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Ming Jin","role":"coauthor"},{"name":"Shirui Pan","role":"coauthor"}],
+    "venue": "ICLR",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://openreview.net/search?q=Towards%20Neural%20Scaling%20Laws%20for%20Time%20Series%20Foundation%20Models"
+  },
+  {
+    "year": 2025,
+    "title": "AirRadar: Inferring Nationwide Air Quality in China with Deep Neural Networks",
+    "authors": "Qiongyan Wang, Yutong Xia, Siru Zhong, Weichuang Li, Yuankai Wu, Shifen Cheng, Junbo Zhang, Yu Zheng, and Yuxuan Liang",
+    "author_list": [{"name":"Qiongyan Wang","role":"student"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Siru Zhong","role":"student"},{"name":"Weichuang Li","role":"student"},{"name":"Yuankai Wu","role":"coauthor"},{"name":"Shifen Cheng","role":"coauthor"},{"name":"Junbo Zhang","role":"coauthor"},{"name":"Yu Zheng","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://ojs.aaai.org/index.php/AAAI/search?query=AirRadar%3A%20Inferring%20Nationwide%20Air%20Quality%20in%20China%20with%20Deep%20Neural%20Networks"
+  },
+  {
+    "year": 2025,
+    "title": "UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Foundation Model for Urban Indicator Prediction",
+    "authors": "Xixuan Hao, Wei Chen, Yibo Yan, Siru Zhong, Kun Wang, Qingsong Wen, and Yuxuan Liang",
+    "author_list": [{"name":"Xixuan Hao","role":"student"},{"name":"Wei Chen","role":"student"},{"name":"Yibo Yan","role":"mentee"},{"name":"Siru Zhong","role":"student"},{"name":"Kun Wang","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://ojs.aaai.org/index.php/AAAI/search?query=UrbanVLP%3A%20A%20Multi-Granularity%20Vision-Language%20Pre-Trained%20Foundation%20Model%20for%20Urban%20Indicator%20Prediction"
+  },
+  {
+    "year": 2025,
+    "title": "Through the Dual-Prism: A Spectral Perspective on Graph Data Augmentation for Graph Classification",
+    "corresponding_authors": ["Xinchao Wang"],
+    "authors": "Yutong Xia, Runpeng Yu, Yuxuan Liang, Xavier Bresson, Xinchao Wang, and Roger Zimmermann",
+    "author_list": [{"name":"Yutong Xia","role":"coauthor"},{"name":"Runpeng Yu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Xavier Bresson","role":"coauthor"},{"name":"Xinchao Wang","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "AAAI",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://ojs.aaai.org/index.php/AAAI/search?query=Through%20the%20Dual-Prism%3A%20A%20Spectral%20Perspective%20on%20Graph%20Data%20Augmentation%20for%20Graph%20Classification"
+  },
+  {
+    "year": 2024,
+    "title": "Time-FFM: Towards LM-Empowered Federated Foundation Model for Time Series Forecasting",
+    "authors": "Qingxiang Liu, Xu Liu, Chenghao Liu, Qingsong Wen, and Yuxuan Liang",
+    "author_list": [{"name":"Qingxiang Liu","role":"mentee"},{"name":"Xu Liu","role":"coauthor"},{"name":"Chenghao Liu","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://openreview.net/search?q=Time-FFM%3A%20Towards%20LM-Empowered%20Federated%20Foundation%20Model%20for%20Time%20Series%20Forecasting"
+  },
+  {
+    "year": 2024,
+    "title": "Attractor Memory for Long-Term Time Series Forecasting: A Chaos Perspective",
+    "authors": "Jiaxi Hu, Yuehong Hu, Wei Chen, Ming Jin, Shirui Pan, Qingsong Wen, and Yuxuan Liang",
+    "author_list": [{"name":"Jiaxi Hu","role":"student"},{"name":"Yuehong Hu","role":"student"},{"name":"Wei Chen","role":"student"},{"name":"Ming Jin","role":"coauthor"},{"name":"Shirui Pan","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://openreview.net/search?q=Attractor%20Memory%20for%20Long-Term%20Time%20Series%20Forecasting%3A%20A%20Chaos%20Perspective"
+  },
+  {
+    "year": 2024,
+    "title": "Terra: A Multimodal Spatio-Temporal Dataset Spanning the Earth",
+    "authors": "Wei Chen, Xixuan Hao, Yuankai Wu, and Yuxuan Liang",
+    "author_list": [{"name":"Wei Chen","role":"student"},{"name":"Xixuan Hao","role":"student"},{"name":"Yuankai Wu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://openreview.net/search?q=Terra%3A%20A%20Multimodal%20Spatio-Temporal%20Dataset%20Spanning%20the%20Earth"
+  },
+  {
+    "year": 2024,
+    "title": "UrbanCross: Enhancing Satellite Image-Text Retrieval with Cross-Domain Adaptation",
+    "authors": "Siru Zhong, Xixuan Hao, Yibo Yan, Ying Zhang, Yangqiu Song, and Yuxuan Liang",
+    "author_list": [{"name":"Siru Zhong","role":"student"},{"name":"Xixuan Hao","role":"student"},{"name":"Yibo Yan","role":"student"},{"name":"Ying Zhang","role":"coauthor"},{"name":"Yangqiu Song","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ACM MM",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://dl.acm.org/action/doSearch?AllField=UrbanCross%3A%20Enhancing%20Satellite%20Image-Text%20Retrieval%20with%20Cross-Domain%20Adaptation"
+  },
+  {
+    "year": 2024,
+    "title": "Reinventing Node-Centric Traffic Forecasting for Improved Accuracy and Efficiency",
+    "authors": "Xu Liu, Yuxuan Liang, Chao Huang, Hengchang Hu, Yushi Cao, Bryan Hooi, and Roger Zimmermann",
+    "author_list": [{"name":"Xu Liu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Chao Huang","role":"coauthor"},{"name":"Hengchang Hu","role":"coauthor"},{"name":"Yushi Cao","role":"coauthor"},{"name":"Bryan Hooi","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "ECML-PKDD",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://link.springer.com/search?query=Reinventing%20Node-Centric%20Traffic%20Forecasting%20for%20Improved%20Accuracy%20and%20Efficiency"
+  },
+  {
+    "year": 2024,
+    "title": "Towards Unifying Diffusion Models for Probabilistic Spatio-Temporal Graph Learning",
+    "authors": "Junfeng Hu, Xu Liu, Zhencheng Fan, Yuxuan Liang and Roger Zimmermann",
+    "author_list": [{"name":"Junfeng Hu","role":"coauthor"},{"name":"Xu Liu","role":"coauthor"},{"name":"Zhencheng Fan","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "SIGSPATIAL",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://dl.acm.org/action/doSearch?AllField=Towards%20Unifying%20Diffusion%20Models%20for%20Probabilistic%20Spatio-Temporal%20Graph%20Learning"
+  },
+  {
+    "year": 2024,
+    "title": "Controltraj: Controllable trajectory generation with topology-constrained diffusion model",
+    "corresponding_authors": ["James Jianqiao Yu", "Xiangyu Zhao"],
+    "authors": "Yuanshao Zhu, James Jianqiao Yu, Xiangyu Zhao, Qidong Liu, Yongchao Ye, Wei Chen, Zijian Zhang, Xuetao Wei, and Yuxuan Liang",
+    "author_list": [{"name":"Yuanshao Zhu","role":"mentee"},{"name":"James Jianqiao Yu","role":"coauthor"},{"name":"Xiangyu Zhao","role":"coauthor"},{"name":"Qidong Liu","role":"coauthor"},{"name":"Yongchao Ye","role":"coauthor"},{"name":"Wei Chen","role":"student"},{"name":"Zijian Zhang","role":"coauthor"},{"name":"Xuetao Wei","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Trajectory Mining",
+    "url": "https://dl.acm.org/action/doSearch?AllField=Controltraj%3A%20Controllable%20trajectory%20generation%20with%20topology-constrained%20diffusion%20model"
+  },
+  {
+    "year": 2024,
+    "title": "The Snowflake Hypothesis: Training and Powering GNN with One Node One Receptive field",
+    "corresponding_authors": ["Yang Wang"],
+    "authors": "Kun Wang, Guohao Li, Shilong Wang, Guibin Zhang, Kai Wang, Yang You, Xiaojiang Peng, Yuxuan Liang, and Yang Wang",
+    "author_list": [{"name":"Kun Wang","role":"coauthor"},{"name":"Guohao Li","role":"coauthor"},{"name":"Shilong Wang","role":"coauthor"},{"name":"Guibin Zhang","role":"mentee"},{"name":"Kai Wang","role":"coauthor"},{"name":"Yang You","role":"coauthor"},{"name":"Xiaojiang Peng","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Yang Wang","role":"coauthor"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://dl.acm.org/action/doSearch?AllField=The%20Snowflake%20Hypothesis%3A%20Training%20and%20Powering%20GNN%20with%20One%20Node%20One%20Receptive%20field"
+  },
+  {
+    "year": 2024,
+    "title": "Position: What Can Large Language Models Tell Us about Time Series Analysis",
+    "corresponding_authors": ["Shirui Pan", "Qingsong Wen"],
+    "authors": "Ming Jin, Yifan Zhang, Wei Chen, Kexin Zhang, Yuxuan Liang, Bin Yang, Jindong Wang, Shirui Pan, and Qingsong Wen",
+    "author_list": [{"name":"Ming Jin","role":"coauthor"},{"name":"Yifan Zhang","role":"coauthor"},{"name":"Wei Chen","role":"student"},{"name":"Kexin Zhang","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Bin Yang","role":"coauthor"},{"name":"Jindong Wang","role":"coauthor"},{"name":"Shirui Pan","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"}],
+    "venue": "ICML",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://proceedings.mlr.press/v235/"
+  },
+  {
+    "year": 2024,
+    "title": "Spatio-Temporal Field Neural Networks for Air Quality Inference",
+    "authors": "Yutong Feng, Qiongyan Wang, Yutong Xia, Junlin Huang, Siru Zhong, and Yuxuan Liang",
+    "author_list": [{"name":"Yutong Feng","role":"student"},{"name":"Qiongyan Wang","role":"student"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Junlin Huang","role":"coauthor"},{"name":"Siru Zhong","role":"student"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "IJCAI",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://www.ijcai.org/proceedings/2024"
+  },
+  {
+    "year": 2024,
+    "title": "Towards Robust Trajectory Representations: Isolating Environmental Confounders with Causal Learning",
+    "authors": "Kang Luo, Yuanshao Zhu, Wei Chen, Kun Wang, Zhengyang Zhou, Sijie Ruan, and Yuxuan Liang",
+    "author_list": [{"name":"Kang Luo","role":"coauthor"},{"name":"Yuanshao Zhu","role":"mentee"},{"name":"Wei Chen","role":"student"},{"name":"Kun Wang","role":"coauthor"},{"name":"Zhengyang Zhou","role":"coauthor"},{"name":"Sijie Ruan","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "IJCAI",
+    "type": "Conference",
+    "topic": "Trajectory Mining",
+    "url": "https://www.ijcai.org/proceedings/2024"
+  },
+  {
+    "year": 2024,
+    "title": "UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting",
+    "authors": "Xu Liu, Junfeng Hu, Yuan Li, Shizhe Diao, Yuxuan Liang, Bryan Hooi, and Roger Zimmermann",
+    "author_list": [{"name":"Xu Liu","role":"coauthor"},{"name":"Junfeng Hu","role":"coauthor"},{"name":"Yuan Li","role":"coauthor"},{"name":"Shizhe Diao","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Bryan Hooi","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "WWW",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://dl.acm.org/action/doSearch?AllField=UniTime%3A%20A%20Language-Empowered%20Unified%20Model%20for%20Cross-Domain%20Time%20Series%20Forecasting"
+  },
+  {
+    "year": 2024,
+    "title": "NuwaDynamics: Discovering and Updating in Causal Spatio-Temporal Modeling",
+    "presentation": "Spotlight",
+    "corresponding_authors": ["Yang Wang"],
+    "authors": "Kun Wang, Hao Wu, Yifan Duan, Guibin Zhang, Kai Wang, Xiaojiang Peng, Yu Zheng, Yuxuan Liang, and Yang Wang",
+    "author_list": [{"name":"Kun Wang","role":"coauthor"},{"name":"Hao Wu","role":"coauthor"},{"name":"Yifan Duan","role":"coauthor"},{"name":"Guibin Zhang","role":"mentee"},{"name":"Kai Wang","role":"coauthor"},{"name":"Xiaojiang Peng","role":"coauthor"},{"name":"Yu Zheng","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Yang Wang","role":"coauthor"}],
+    "venue": "ICLR",
+    "type": "Conference",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://openreview.net/forum?id=sLdVl0q68X"
+  },
+  {
+    "year": 2024,
+    "title": "Graph Lottery Ticket Automated",
+    "corresponding_authors": ["Jin Zeng"],
+    "authors": "Guibin Zhang, Kun Wang, Wei Huang, Yanwei Yue, Yang Wang, Roger Zimmermann, Aojun Zhou, Dawei Cheng, Jin Zeng, and Yuxuan Liang",
+    "author_list": [{"name":"Guibin Zhang","role":"mentee"},{"name":"Kun Wang","role":"coauthor"},{"name":"Wei Huang","role":"coauthor"},{"name":"Yanwei Yue","role":"coauthor"},{"name":"Yang Wang","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"},{"name":"Aojun Zhou","role":"coauthor"},{"name":"Dawei Cheng","role":"coauthor"},{"name":"Jin Zeng","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "ICLR",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://openreview.net/forum?id=nmBjBZoySX"
+  },
+  {
+    "year": 2023,
+    "title": "Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment",
+    "authors": "Yutong Xia, Yuxuan Liang, Haomin Wen, Xu Liu, Kun Wang, Zhengyang Zhou, and Roger Zimmermann",
+    "author_list": [{"name":"Yutong Xia","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Haomin Wen","role":"mentee"},{"name":"Xu Liu","role":"coauthor"},{"name":"Kun Wang","role":"coauthor"},{"name":"Zhengyang Zhou","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://openreview.net/forum?id=17Zkztjlgt"
+  },
+  {
+    "year": 2023,
+    "title": "LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting",
+    "authors": "Xu Liu, Yutong Xia, Yuxuan Liang, Junfeng Hu, Yiwei Wang, Lei Bai, Chao Huang, Zhenguang Liu, Bryan Hooi, and Roger Zimmermann",
+    "author_list": [{"name":"Xu Liu","role":"coauthor"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Junfeng Hu","role":"coauthor"},{"name":"Yiwei Wang","role":"coauthor"},{"name":"Lei Bai","role":"coauthor"},{"name":"Chao Huang","role":"coauthor"},{"name":"Zhenguang Liu","role":"coauthor"},{"name":"Bryan Hooi","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "NeurIPS",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://openreview.net/forum?id=loOw3oyhFW"
+  },
+  {
+    "year": 2023,
+    "title": "DiffSTG: Probabilistic Spatio-Temporal Graph Forecasting with Denoising Diffusion Models",
+    "authors": "Haomin Wen, Youfang Lin, Yutong Xia, Huaiyu Wan, Qingsong Wen, Roger Zimmermann, and Yuxuan Liang",
+    "author_list": [{"name":"Haomin Wen","role":"mentee"},{"name":"Youfang Lin","role":"coauthor"},{"name":"Yutong Xia","role":"coauthor"},{"name":"Huaiyu Wan","role":"coauthor"},{"name":"Qingsong Wen","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"}],
+    "venue": "SIGSPATIAL",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://dl.acm.org/action/doSearch?AllField=DiffSTG%3A%20Probabilistic%20Spatio-Temporal%20Graph%20Forecasting%20with%20Denoising%20Diffusion%20Models"
+  },
+  {
+    "year": 2023,
+    "title": "Graph Neural Processes for Spatio-Temporal Extrapolation",
+    "authors": "Junfeng Hu, Yuxuan Liang, Zhencheng Fan, Hongyang Chen, Yu Zheng and Roger Zimmermann",
+    "author_list": [{"name":"Junfeng Hu","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Zhencheng Fan","role":"coauthor"},{"name":"Hongyang Chen","role":"coauthor"},{"name":"Yu Zheng","role":"coauthor"},{"name":"Roger Zimmermann","role":"coauthor"}],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://dl.acm.org/action/doSearch?AllField=Graph%20Neural%20Processes%20for%20Spatio-Temporal%20Extrapolation"
+  },
+  {
+    "year": 2023,
+    "title": "Searching Lottery Tickets in Graph Neural Networks: A Dual Perspective",
+    "authors": "Kun Wang, Yuxuan Liang, Pengkun Wang, Xu Wang, Pengfei Gu, Junfeng Fang and Yang Wang",
+    "author_list": [{"name":"Kun Wang","role":"coauthor"},{"name":"Yuxuan Liang","role":"self"},{"name":"Pengkun Wang","role":"coauthor"},{"name":"Xu Wang","role":"coauthor"},{"name":"Pengfei Gu","role":"coauthor"},{"name":"Junfeng Fang","role":"coauthor"},{"name":"Yang Wang","role":"coauthor"}],
+    "venue": "ICLR",
+    "type": "Conference",
+    "topic": "Graph Learning",
+    "url": "https://openreview.net/forum?id=Dvs-a3aymPe"
+  },
+  {
+    "year": 2022,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "Mixed-order Relation-aware Recurrent Neural Networks for Spatio-Temporal Forecasting",
+    "authors": "Yuxuan Liang, Kun Ouyang, Yiwei Wang, Zheyi Pan, Yifang Yin, Hongyang Chen, Junbo Zhang, Yu Zheng, David S. Rosenblum, and Roger Zimmermann",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Kun Ouyang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yiwei Wang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Zheyi Pan",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yifang Yin",
+        "role": "coauthor"
+      },
+      {
+        "name": "Hongyang Chen",
+        "role": "coauthor"
+      },
+      {
+        "name": "Junbo Zhang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yu Zheng",
+        "role": "coauthor"
+      },
+      {
+        "name": "David S. Rosenblum",
+        "role": "coauthor"
+      },
+      {
+        "name": "Roger Zimmermann",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "TKDE",
+    "type": "Journal",
+    "topic": "Spatio-Temporal Learning",
+    "url": "https://doi.org/10.1109/TKDE.2022.3222373"
+  },
+  {
+    "year": 2022,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "DualFormer: Local-Global Stratified Transformer for Efficient Video Recognition",
+    "presentation": "Oral",
+    "authors": "Yuxuan Liang, Pan Zhou, Roger Zimmermann, and Shuicheng Yan",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Pan Zhou",
+        "role": "coauthor"
+      },
+      {
+        "name": "Roger Zimmermann",
+        "role": "coauthor"
+      },
+      {
+        "name": "Shuicheng Yan",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "ECCV",
+    "type": "Conference",
+    "topic": "Machine Learning",
+    "url": "https://smusg.elsevierpure.com/en/publications/dualformer-local-global-stratified-transformer-forefficient-video/"
+  },
+  {
+    "year": 2022,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "TrajFormer: Efficient Trajectory Classification with Transformers",
+    "authors": "Yuxuan Liang, Kun Ouyang, Yiwei Wang, Xu Liu, Hongyang Chen, Junbo Zhang, Yu Zheng, and Roger Zimmermann",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Kun Ouyang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yiwei Wang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Xu Liu",
+        "role": "coauthor"
+      },
+      {
+        "name": "Hongyang Chen",
+        "role": "coauthor"
+      },
+      {
+        "name": "Junbo Zhang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yu Zheng",
+        "role": "coauthor"
+      },
+      {
+        "name": "Roger Zimmermann",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "CIKM",
+    "type": "Conference",
+    "topic": "Trajectory Mining",
+    "url": "https://doi.org/10.1145/3511808.3557481"
+  },
+  {
+    "year": 2021,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "Modeling Trajectories with Neural Ordinary Differential Equations",
+    "authors": "Yuxuan Liang, Kun Ouyang, Hanshu Yan, Yiwei Wang, Zekun Tong, and Roger Zimmermann",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Kun Ouyang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Hanshu Yan",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yiwei Wang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Zekun Tong",
+        "role": "coauthor"
+      },
+      {
+        "name": "Roger Zimmermann",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "IJCAI",
+    "type": "Conference",
+    "topic": "Trajectory Mining",
+    "url": "https://www.ijcai.org/proceedings/2021/207"
+  },
+  {
+    "year": 2021,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "Fine-Grained Urban Flow Prediction",
+    "authors": "Yuxuan Liang, Kun Ouyang, Junkai Sun, Yiwei Wang, Junbo Zhang, Yu Zheng, David Rosenblum, and Roger Zimmermann",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Kun Ouyang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Junkai Sun",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yiwei Wang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Junbo Zhang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yu Zheng",
+        "role": "coauthor"
+      },
+      {
+        "name": "David Rosenblum",
+        "role": "coauthor"
+      },
+      {
+        "name": "Roger Zimmermann",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "WWW",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://doi.org/10.1145/3442381.3449792"
+  },
+  {
+    "year": 2020,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "Revisiting Convolutional Neural Networks for Citywide Crowd Flow Analytics",
+    "authors": "Yuxuan Liang, Kun Ouyang, Yiwei Wang, Ye Liu, Junbo Zhang, Yu Zheng, and David S. Rosenblum",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Kun Ouyang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yiwei Wang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Ye Liu",
+        "role": "coauthor"
+      },
+      {
+        "name": "Junbo Zhang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yu Zheng",
+        "role": "coauthor"
+      },
+      {
+        "name": "David S. Rosenblum",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "ECML-PKDD",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://doi.org/10.1007/978-3-030-67658-2_33"
+  },
+  {
+    "year": 2019,
+    "group": "2016-2022",
+    "authorship": "Co-first author",
+    "title": "UrbanFM: Inferring Fine-Grained Urban Flows",
+    "presentation": "Oral",
+    "authors": "Yuxuan Liang, Kun Ouyang, Lin Jing, Sijie Ruan, Ye Liu, Junbo Zhang, David S. Rosenblum, and Yu Zheng",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Kun Ouyang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Lin Jing",
+        "role": "coauthor"
+      },
+      {
+        "name": "Sijie Ruan",
+        "role": "coauthor"
+      },
+      {
+        "name": "Ye Liu",
+        "role": "coauthor"
+      },
+      {
+        "name": "Junbo Zhang",
+        "role": "coauthor"
+      },
+      {
+        "name": "David S. Rosenblum",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yu Zheng",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "KDD",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://www.kdd.org/kdd2019/accepted-papers/view/urbanfm-inferring-fine-grained-urban-flows"
+  },
+  {
+    "year": 2018,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "GeoMAN: Multi-level Attention Networks for Geo-sensory Time Series Prediction",
+    "authors": "Yuxuan Liang, Songyu Ke, Junbo Zhang, Xiuwen Yi, and Yu Zheng",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Songyu Ke",
+        "role": "coauthor"
+      },
+      {
+        "name": "Junbo Zhang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Xiuwen Yi",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yu Zheng",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "IJCAI",
+    "type": "Conference",
+    "topic": "Time Series",
+    "url": "https://www.ijcai.org/proceedings/2018/476"
+  },
+  {
+    "year": 2017,
+    "group": "2016-2022",
+    "authorship": "First author",
+    "title": "Inferring Traffic Cascading Patterns",
+    "authors": "Yuxuan Liang, Zhongyuan Jiang, and Yu Zheng",
+    "author_list": [
+      {
+        "name": "Yuxuan Liang",
+        "role": "self"
+      },
+      {
+        "name": "Zhongyuan Jiang",
+        "role": "coauthor"
+      },
+      {
+        "name": "Yu Zheng",
+        "role": "coauthor"
+      }
+    ],
+    "venue": "SIGSPATIAL",
+    "type": "Conference",
+    "topic": "Urban Computing",
+    "url": "https://www.microsoft.com/en-us/research/publication/inferring-traffic-cascading-patterns/"
+  }
+]

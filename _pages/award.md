@@ -23,15 +23,15 @@ nav_order: 5
   </div>
 
   <div class="awards-timeline">
-    {% assign timeline_titles = "Outstanding Area Chair at ACM Multimedia 2025|Best Paper Award at IEEE WCSP 2025|Silver Medal at International Exhibition of Inventions Geneva|Outstanding Program Committee, ACM SIGSPATIAL 2023|Dean's Graduate Research Excellence Award, National University of Singapore|SDSC Dissertation Research Fellowship|Outstanding Winners of The Interdisciplinary Contest in Modeling|China Computer Federation Outstanding Student|Student Travel Grants at AAAI-23, SIGSPATIAL-22, CIKM-22, AAAI-20, and KDD-19" | split: "|" %}
-    {% assign timeline_years = "2025|2025|2024|2023|2022|2021|2015|2015|2019-2023" | split: "|" %}
-    {% assign timeline_descs = "Service recognition for outstanding area chair contribution.|Best paper recognition for research excellence at IEEE WCSP 2025.|International invention exhibition honor.|Community service recognition.|Graduate research distinction at NUS.|Awarded to 1 out of 10 most innovative and impactful PhD students focusing on data science in Singapore.|Top 0.1% distinction in interdisciplinary modeling competition.|Selected with only 1 to 4 annual quotas in top-tier China-based universities.|Conference travel support across major AI and data mining venues." | split: "|" %}
+    {% assign timeline_titles = "1st Place at the ACM MM 2026 Grand Challenge|Outstanding Area Chair at ACM Multimedia 2025|Best Paper Award at IEEE WCSP 2025|Silver Medal at International Exhibition of Inventions Geneva|Outstanding Program Committee, ACM SIGSPATIAL 2023|Dean's Graduate Research Excellence Award, National University of Singapore|SDSC Dissertation Research Fellowship|Outstanding Winners of The Interdisciplinary Contest in Modeling|China Computer Federation Outstanding Student|Student Travel Grants at AAAI-23, SIGSPATIAL-22, CIKM-22, AAAI-20, and KDD-19" | split: "|" %}
+    {% assign timeline_years = "2026|2025|2025|2024|2023|2022|2021|2015|2015|2019-2023" | split: "|" %}
+    {% assign timeline_descs = "Our team won 1st Place among 293 registered teams in the Single-Image Multi-Angle Image Synthesis challenge.|Service recognition for outstanding area chair contribution.|Best paper recognition for research excellence at IEEE WCSP 2025.|International invention exhibition honor.|Community service recognition.|Graduate research distinction at NUS.|Awarded to 1 out of 10 most innovative and impactful PhD students focusing on data science in Singapore.|Top 0.1% distinction in interdisciplinary modeling competition.|Selected with only 1 to 4 annual quotas in top-tier China-based universities.|Conference travel support across major AI and data mining venues." | split: "|" %}
 
     {% for title in timeline_titles %}
       {% assign idx = forloop.index0 %}
       {% assign item_downcase = title | downcase %}
       {% assign timeline_highlight = false %}
-      {% if item_downcase contains "award" or item_downcase contains "best paper" or item_downcase contains "rising star" or item_downcase contains "patent" %}
+      {% if item_downcase contains "award" or item_downcase contains "best paper" or item_downcase contains "rising star" or item_downcase contains "patent" or item_downcase contains "1st place" %}
         {% assign timeline_highlight = true %}
       {% endif %}
       <article class="award-timeline-item{% if timeline_highlight %} award-timeline-highlight{% endif %}">
@@ -39,7 +39,9 @@ nav_order: 5
         <div class="award-timeline-year">{{ timeline_years[idx] }}</div>
         <div class="award-timeline-content">
           <div class="award-timeline-title">
-            {% if title contains "Dean's Graduate Research Excellence Award" %}
+            {% if title contains "ACM MM 2026 Grand Challenge" %}
+              <a href="https://2026.acmmm.org/site/grand-challenges.html"><strong>1st Place</strong> at the ACM MM 2026 Grand Challenge</a>
+            {% elsif title contains "Dean's Graduate Research Excellence Award" %}
               <strong>Dean's Graduate Research Excellence Award</strong>, National University of Singapore
             {% elsif title contains "SDSC Dissertation Research Fellowship" %}
               <strong>SDSC Dissertation Research Fellowship</strong>, Singapore Data Science Consortium
